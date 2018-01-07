@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<Url type="text/html" method="get" template="https://anime.syui.cf/search/?q={searchTerms}"/>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image height="16" width="16" type="image/x-icon">/favicon.ico</Image>
+	<Image height="64" width="64" type="image/png">/favicon.png</Image>
+	<ShortName>anime.syui.cf</ShortName>
+	<Description>search</Description>
+</OpenSearchDescription>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Heroku on アニメ海外反応</title>
+    <link>https://anime.syui.cf/tags/heroku/index.xml</link>
+    <description>Recent content in Heroku on アニメ海外反応</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [term](https://gitlab.com/syui/hugo-theme-term).</copyright>
+    <atom:link href="https://anime.syui.cf/tags/heroku/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Webアプリ入門</title>
+      <link>https://anime.syui.cf/2016-10-26-web-app</link>
+      <pubDate>Wed, 26 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://anime.syui.cf/2016-10-26-web-app</guid>
+      <description>&lt;p&gt;Webアプリ入門です。基本的にはPaaSで動かします。Botの作り方なども紹介します。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+
+&lt;p&gt;Webアプリとは基本的にはWebからリクエストを受けて何らかの処理を実行するアプリのことです。&lt;/p&gt;
+
+&lt;h3 id=&#34;方針について&#34;&gt;方針について&lt;/h3&gt;
+
+&lt;p&gt;当記事の方針の一つは、著者が後々利用しやすいように作っていく方針です。&lt;/p&gt;
+
+&lt;p&gt;一部、表現等に正確ではないものも含まれると思いますが、この記事では正確さよりも分かりやすさを重視します。もし正確な情報が欲しければ、公式ドキュメントなど参照してください。&lt;/p&gt;
+
+&lt;h3 id=&#34;著者のレベル&#34;&gt;著者のレベル&lt;/h3&gt;
+
+&lt;p&gt;著者はコンピュータは全くの初心者です。一緒に勉強していきましょう。&lt;/p&gt;
+
+&lt;h2 id=&#34;heroku&#34;&gt;Heroku&lt;/h2&gt;
+
+&lt;h3 id=&#34;hubot&#34;&gt;hubot&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://hubot.github.com/&#34;&gt;hubot&lt;/a&gt;というものがあります。&lt;a href=&#34;https://github.com/slackhq/hubot-slack&#34;&gt;hubot-slack&lt;/a&gt;では&lt;a href=&#34;https://slack.com&#34;&gt;Slack&lt;/a&gt;で動作するBotを作成することができます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ npm i -g hubot hubot-slack yo generator-hubot coffee-script
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# yoでhubotを作成
+$ mkdir hellobot
+$ cd hellobot
+$ sudo yo hubot
+
+# mail addressの削除など
+$ vim package.json
+
+# -Sは--save
+$ npm i hubot-slack -S
+$ ls ./node_modules/hubot-slack
+$ vim Procfile
+web: bin/hubot --adapter slack
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;hubot&lt;/code&gt;を動かしてみます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ ./bin/hubot
+hellobot &amp;gt; hellobot ping
+hellobot &amp;gt; PONG
+hellobot &amp;gt; exit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;次に&lt;a href=&#34;https://www.heroku.com/&#34;&gt;Heroku&lt;/a&gt;にホストします。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# herokuにAppを作成
+$ heroku login
+$ heroku create appname
+# appnameはherokuのApp名{https://appname.heroku.com}になる、既に登録されていたら使えない
+
+# Freeでアドオンのredistogoを追加
+# クレジットカードの登録が必要になります
+$ heroku addons:add redistogo:nano
+
+# FreeではH6/H24の時間休ませなければならず、かつM30呼ばれなければ、Sleepしてしまうので、連続で動かすための設定
+# schedulerアドオンの追加
+$ heroku addons:create scheduler:standard
+# schedulerをブラウザで設定
+$ BROWSER=&amp;quot;&amp;quot;
+$ heroku addons:open scheduler
+# curl ${HUBOT_HEROKU_KEEPALIVE_URL}heroku/keepalive
+# 23:00
+
+# keepaliveをインストール
+$ npm i hubot-heroku-keepalive -S
+$ vim ./external-scripts.json
+[ &amp;quot;hubot-heroku-keepalive&amp;quot; ]
+# keepaliveの設定
+# https://devcenter.heroku.com/articles/scheduler
+$ heroku config:add HUBOT_HEROKU_WAKEUP_TIME=8:00
+$ heroku config:add HUBOT_HEROKU_SLEEP_TIME=24:00
+$ heroku config:add TZ=&#39;Asia/Tokyo&#39;
+$ heroku config:set HUBOT_HEROKU_KEEPALIVE_URL=$(heroku apps:info -s | grep web-url | cut -d= -f2)
+# process-schedulerアドオンの追加
+# https://devcenter.heroku.com/articles/process-scheduler
+# これで行けるとは思うけど試してない
+$ heroku addons:add process-scheduler:nano
+$ heroku addons:open process-scheduler
+# 範囲指定して0を入力するのですが、&amp;quot;1:00-6:00&amp;quot;で良いと思います。0の時間を寝かせます
+
+# スケールを最小限にする
+$ heroku ps:scale web=1
+
+# とりあえずherokuにdeploy
+$ git init
+$ git commit -m &amp;quot;first deploy&amp;quot;
+$ git push heroku master
+
+$ curl -sL https://appname.heroku.com/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ある程度の設定ができましたが、私は、&lt;code&gt;GitHub(Source Code) -&amp;gt; Wercker(Deploy) -&amp;gt; Heroku(App) -&amp;gt; Slack(Bot)&lt;/code&gt;という形でデプロイすることにします。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;wercker.yml&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;box: wercker/nodejs
+build:
+  steps:
+    - script:
+         name: build
+         code: |
+                 ls -a
+
+deploy:
+  steps:
+    - heroku-deploy:
+         key: $HEROKU_KEY
+         user: $HEROKU_USER
+         app-name: $HEROKU_APP_NAME
+  after-steps:
+    - wantedly/pretty-slack-notify:
+         webhook_url: $SLACK_WEBHOOK_URL
+         channel: general
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;次に、hubotの基本的な拡張方法は&lt;code&gt;scripts/&lt;/code&gt;にスクリプトを置くことで実現します。例えば、&lt;code&gt;HELLO&lt;/code&gt;とつぶやかれたら&lt;code&gt;world&lt;/code&gt;と返す内容は以下の通りになります。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;scripts/hello.coffee&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;module.exports = (robot) -&amp;gt;
+  robot.respond /HELLO$/i, (msg) -&amp;gt;
+    msg.send &amp;quot;world&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ ./bin/hubot
+hellobot &amp;gt; hellobot hello
+hellobot &amp;gt; world
+hellobot &amp;gt; exit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;新しいアプリをインストールして使います。例えば、RSSを流すなら以下のようになります。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# https://github.com/shokai/hubot-rss-reader
+$ npm i hubot-rss-reader -S
+$ vim external-script.json
+[ &amp;quot;hubot-rss-reader&amp;quot; ]
+$ ./bin/hubot
+hellobot &amp;gt; hellobot rss list
+hellobot &amp;gt; hellobot rss add https://qiita.com/tags/docker/feed.atom
+hellobot &amp;gt; exit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Twitter検索とかはHerokuに環境変数を追加することで使用可能です。アクセストークンは&lt;a href=&#34;https://apps.twitter.com/&#34;&gt;こちら&lt;/a&gt;から。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# https://github.com/estiens/hubot-twitter-mention-v2
+$ npm i hubot-twitter-search -S
+$ vim external-scripts.json
+[ &amp;quot;hubot-twitter-search&amp;quot; ]
+
+# テスト用
+$ export HUBOT_TWITTER_CONSUMER_KEY=&#39;Your–consumer-key-here&#39;
+$ export HUBOT_TWITTER_CONSUMER_SECRET=&#39;Your-consumer-secret-here&#39;
+$ export HUBOT_TWITTER_ACCESS_TOKEN_KEY=&#39;Your-access-token-here&#39;
+$ export HUBOT_TWITTER_ACCESS_TOKEN_SECRET=&#39;Your-access-token-secret-here&#39;
+$ export HUBOT_TWITTER_MENTION_QUERY=&#39;検索キーワード&#39;
+$ export HUBOT_TWITTER_MENTION_ROOM=&#39;general&#39;
+$ ./bin/hubot
+
+# Heroku用
+$ heroku config:add HUBOT_TWITTER_CONSUMER_KEY=&#39;Your–consumer-key-here&#39;
+$ heroku config:add HUBOT_TWITTER_CONSUMER_SECRET=&#39;Your-consumer-secret-here&#39;
+$ heroku config:add HUBOT_TWITTER_ACCESS_TOKEN_KEY=&#39;Your-access-token-here&#39;
+$ heroku config:add HUBOT_TWITTER_ACCESS_TOKEN_SECRET=&#39;Your-access-token-secret-here&#39;
+$ heroku config:add HUBOT_TWITTER_MENTION_QUERY=&#39;検索キーワード&#39;
+$ heroku config:add HUBOT_TWITTER_MENTION_ROOM=&#39;general&#39;
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

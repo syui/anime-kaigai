@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Psp on アニメ海外反応</title>
+    <link>https://anime.syui.cf/tags/psp/index.xml</link>
+    <description>Recent content in Psp on アニメ海外反応</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [term](https://gitlab.com/syui/hugo-theme-term).</copyright>
+    <atom:link href="https://anime.syui.cf/tags/psp/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>PSP・PSVITA/HACK</title>
+      <link>https://anime.syui.cf/2016-10-25-game-emulator</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://anime.syui.cf/2016-10-25-game-emulator</guid>
+      <description>&lt;p&gt;主にゲーム機である&lt;code&gt;PSP&lt;/code&gt;, &lt;code&gt;PS Vita&lt;/code&gt;のCFW導入方法やアプリの紹介です。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+
+&lt;p&gt;世の中には様々なゲーム機エミュレータがあります。その多くは、WindowsやAndroidで動きますが、中にはPS Vitaや3DSなどで動くエミュレータなどもあります。&lt;/p&gt;
+
+&lt;p&gt;エミュレータというのは例えば、Wiiだったり、PS2だったりするゲーム機のソフトをそれ以外で起動するための再現アプリです。&lt;/p&gt;
+
+&lt;p&gt;私は、PSP, PS Vita(以降Vita)ユーザーなのでCFW(カスタムファームウェア)というAndroidでいうところのカスタムROMのようなものを導入して、公式ストア以外で配信されているアプリをインストールして使います。&lt;/p&gt;
+
+&lt;p&gt;主に具体的な手順のみを簡潔に解説します。それぞれの用法はPSP Hack従来の慣習に基づくものとします。&lt;/p&gt;
+
+&lt;p&gt;基本的な情報は以下のサイトを参考にしてください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wololo.net/&#34;&gt;http://wololo.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;なぜ携帯ゲーム機なのか&#34;&gt;なぜ携帯ゲーム機なのか&lt;/h3&gt;
+
+&lt;p&gt;私は携帯ゲーム機がとても好きで、ゲームはほとんど携帯ゲーム機でプレイしてきた人間です。また、エミュレータを動かすにも携帯ゲーム機は適していると個人的にはそう思っています。&lt;/p&gt;
+
+&lt;p&gt;しかし、携帯ゲーム機はスペックが低いのでパソコンのようにどのエミュレータでも動作するわけではありません。また、対応の問題もあります。基本的にはユーザー数が多い機種のほうが対応は早く、アプリが豊富です。&lt;/p&gt;
+
+&lt;h3 id=&#34;方針について&#34;&gt;方針について&lt;/h3&gt;
+
+&lt;p&gt;当記事の方針の一つは、著者が後々利用しやすいように作っていく方針です。&lt;/p&gt;
+
+&lt;p&gt;一部、表現等に正確ではないものも含まれると思いますが、この記事では正確さよりも分かりやすさを重視します。もし正確な情報が欲しければ、公式ドキュメントなど参照してください。&lt;/p&gt;
+
+&lt;h3 id=&#34;著者のレベル&#34;&gt;著者のレベル&lt;/h3&gt;
+
+&lt;p&gt;著者はPSPからゲームを始めて、ゲームを通してコンピュータの様々な用法を学んできました。例えば、音楽ファイル、映像ファイルの変換やコピー、DVDリッピングからROMの起動に至るまで、ごくごく初歩的なことですね。&lt;/p&gt;
+
+&lt;p&gt;というのも私は当時、自分のパソコンを持っていなかったので、音楽や映画などは自宅共用のパソコンからPSPに転送して再生するしかなかったからです。&lt;/p&gt;
+
+&lt;p&gt;つまり、PSPは幼い頃の私の良き友でした。&lt;/p&gt;
+
+&lt;p&gt;私はPSPで音楽を聞き、PSPでゲームをプレイし、どこに行くにもPSPを持って出ました。とてもお気に入りの端末でした。&lt;/p&gt;
+
+&lt;p&gt;今現在、既に半世紀前のゲーム機ということになっているPSPは既に忘れ去された過去の機種です。私のPSPも引き出しの奥でホコリを被っている状態です。&lt;/p&gt;
+
+&lt;p&gt;したがって、当時どうやっていたかなど忘れていることは多々ありますが、私はそこそこ長くPSPと付き合ってきました。&lt;/p&gt;
+
+&lt;h2 id=&#34;psp&#34;&gt;PSP&lt;/h2&gt;
+
+&lt;p&gt;私は&lt;code&gt;PSP-3000&lt;/code&gt;を持っていますので、それを対象に解説していきますが、本体のバージョンによっても基盤によってもハック内容は異なってくる可能性があります。&lt;/p&gt;
+
+&lt;p&gt;そして、PSP-3000は対策基盤です。CFWを永続させる方法が長らくありませんでしたが、今現在は&lt;a href=&#34;http://infinity.lolhax.org/index.php&#34;&gt;6.61 Infinity&lt;/a&gt;という仕組みがありますので、これを使うと再起動したときにもCFWが維持されます。&lt;/p&gt;
+
+&lt;p&gt;参考&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wololo.net/2016/02/14/release-davee-releases-project-infinity-6-61-permanent-patch-for-me-pro-cfws/&#34;&gt;http://wololo.net/2016/02/14/release-davee-releases-project-infinity-6-61-permanent-patch-for-me-pro-cfws/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;cfw-6-61&#34;&gt;CFW 6.61&lt;/h3&gt;
+
+&lt;p&gt;前提として本体を&lt;code&gt;FW 6.61&lt;/code&gt;にアップデートします。アップデート方法は公式ページを見てください。具体的には&lt;code&gt;ms0:/PSP/GAME/UPDATE/EBOOT.PBP&lt;/code&gt;です。この中の&lt;code&gt;EBOOT.PBP&lt;/code&gt;は後に使うのでコピーしてリネームしておきます。具体的には&lt;code&gt;661.PBP&lt;/code&gt;にします。公式UPDATEはOFWという略式にもなります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.sendspace.com/file/qfmevo&#34;&gt;OFW 6.61&lt;/a&gt; PSP-3000&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.sendspace.com/file/6xrv0j&#34;&gt;OFW 6.61&lt;/a&gt; go&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jp.playstation.com/psp/update/ud_04.html&#34;&gt;公式ページ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;まずは&lt;a href=&#34;http://wololo.net/downloads/index.php/download/8329&#34;&gt;CFW 6.61 LME&lt;/a&gt;または、&lt;a href=&#34;https://www.sendspace.com/file/8t3hh2&#34;&gt;CFW 6.61 PRO&lt;/a&gt;を導入して、有効にします。セレクトでメニューを表示できるようになります。リカバリモードからしか有効に設定できない項目もあります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/psp/psp_cfw_05.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ここでは&lt;code&gt;PRO&lt;/code&gt;を採用しますし、推奨します。&lt;/p&gt;
+
+&lt;p&gt;具体的な手順はファイルをダウンロードし、解凍します。そして、&lt;code&gt;661FastRecovery/, 661PROUPDATE/&lt;/code&gt;をメモリスティックの&lt;code&gt;PSP/GAME&lt;/code&gt;にコピーします。PSPでは&lt;code&gt;EBOOT.PBP&lt;/code&gt;が実行ファイルです。これはフォルダに入れて&lt;code&gt;ms0:/PSP/GAME&lt;/code&gt;に入れることでアプリを実行できるようになります。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ cp ./661_PRO-C2_14-02-2015/PSP/GAME/{661FastRecovery,661PROUPDATE} ms0:/PSP/GAME
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;そして、PSPで&lt;code&gt;661PRO UPDATE&lt;/code&gt;を実行し、&lt;code&gt;L&lt;/code&gt;+&lt;code&gt;X&lt;/code&gt;を押して導入します。導入後は再起動しますが、本体確認のバージョンが&lt;code&gt;PRO&lt;/code&gt;に変わっています。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/psp/psp_cfw_03.bmp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;6-61-infinity&#34;&gt;6.61 Infinity&lt;/h3&gt;
+
+&lt;p&gt;その上で&lt;a href=&#34;http://infinity.lolhax.org/index.php&#34;&gt;6.61 Infinity&lt;/a&gt;を導入し、&lt;code&gt;Builder -&amp;gt; Flasher -&amp;gt;  CFW 6.61 PROの起動 -&amp;gt; Configration&lt;/code&gt;の順に実行していきます。&lt;/p&gt;
+
+&lt;p&gt;これによって当該CFWが永続します。再起動しても無効になりません。&lt;/p&gt;
+
+&lt;p&gt;具体的な手順は以下のとおりです。ダウロードしたファイルを解凍しメモリースティックにコピーします。また、&lt;a href=&#34;https://www.sendspace.com/file/mjdwsy&#34;&gt;OFW 6.31&lt;/a&gt;, &lt;a href=&#34;https://www.sendspace.com/file/qfmevo&#34;&gt;OFW 6.61&lt;/a&gt;をダウンロードし、&lt;code&gt;EBOOT.PBP&lt;/code&gt;をそれぞれ&lt;code&gt;631.PBP, 661.PBP&lt;/code&gt;にリネームします。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ mv STAGE config-0.39/
+$ cp {631.PBP,661.PBP} config-0.39/MAKER/
+$ cd config-0.39
+$ tree .
+.
+├── FLASHER
+│   └── EBOOT.PBP
+├── MAKER
+│   ├── 631.PBP
+│   ├── 661.PBP
+│   └── EBOOT.PBP
+└── STAGE
+    ├── EBOOT.PBP
+    ├── infinity_kinstaller.prx
+    ├── libconfig.prx
+    ├── parallaxleft.tga
+    ├── parallaxright.tga
+    └── symbol.pgf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;PSPを起動して&lt;code&gt;Builder&lt;/code&gt;を実行します。これによって&lt;code&gt;631.PBP, 661.PBP&lt;/code&gt;がCFW元となるファイルを作ります。作成された&lt;code&gt;ms0:/PSP/GAME/MAKER/DATA.MFC&lt;/code&gt;を&lt;code&gt;ms0:/PSP/GAME/FLASHER&lt;/code&gt;にコピーします。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/psp/psp_cfw_01.bmp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;次に、&lt;code&gt;Flasher&lt;/code&gt;を起動します。これによってPSP本体に&lt;code&gt;6.61 ∞&lt;/code&gt;を書き込みます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/psp/psp_cfw_06.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;最後に、CFW 6.61 PROを導入してシステム設定より確認できる状態にしてから&lt;code&gt;Configration&lt;/code&gt;を実行します。十字キーの左を押して&lt;code&gt;PRO&lt;/code&gt;を&lt;code&gt;X&lt;/code&gt;で決定しチェックがついたら再起動します。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/psp/psp_cfw_02.bmp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/psp/psp_cfw_04.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみに、CFWを無効にしたい場合はチェックを外して再起動すればいいです。現在、USB接続がバグっている感じなので、USB接続したい場合、一旦CFWを無効にしなければなりません。&lt;/p&gt;
+
+&lt;p&gt;私のところではリカバリモードに移行できないバグがあるようです。これがLMEのものなのか、Infinityによるものなのかはわかりません。PROはリカバリモードは有効です。&lt;/p&gt;
+
+&lt;p&gt;USB接続するとLME/PRO+Infinityではフリーズします。したがって、電源長押で回復する必要があります。気をつけなければならないのは&lt;code&gt;6.61∞&lt;/code&gt;からLME/PROを導入する時にUSB接続していると導入できません。接続しないようにしてください。&lt;/p&gt;
+
+&lt;h3 id=&#34;emulator&#34;&gt;Emulator&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/psp/psp-660-pro-c3-gba-emu.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wololo.net/emulators-for-the-psp-ps-vita-the-ultimate-download-list/&#34;&gt;http://wololo.net/emulators-for-the-psp-ps-vita-the-ultimate-download-list/&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Text&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://wololo.net/downloads/index.php/download/1235&#34;&gt;DSonPSP&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Nintendo DS (NDS)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://wololo.net/downloads/index.php/download/878&#34;&gt;gPSP&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Gameboy Advance (GBA)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://wololo.net/downloads/index.php/download/931&#34;&gt;DaedalusX64&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Nintendo 64 (N64)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://wololo.net/downloads/index.php/download/874&#34;&gt;emulator&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Gameboy, PCEngine, Wonderswan, Sega Master System, Sega Game Gear, and Nes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;app&#34;&gt;App&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Text&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.geocities.jp/mediumgauge/&#34;&gt;PSP Filer&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ファイラー、ダウンロードは一番上&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://wololo.net/downloads/index.php/download/7918&#34;&gt;ISO TOOL&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;UMDをISOに変換します&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://wololo.net/downloads/index.php/download/933&#34;&gt;Despertar del Cementerio&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Universal unbricking/downgrading tool for PSPs compatible with the pandora batteries&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://wololo.net/downloads/index.php/download/1395&#34;&gt;Geometry Wars Portable&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A Clone of a famous arcade game. Instant action and awesome music&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://wololo.net/talk/viewtopic.php?f=2&amp;amp;t=36156&#34;&gt;Game and Watch Fantasies&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Game and Watch Fantasies&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;plugin&#34;&gt;Plugin&lt;/h3&gt;
+
+&lt;p&gt;プラグインの導入方法は、&lt;code&gt;ms0:/seplugins/&lt;/code&gt;にプラグイン本体である&lt;code&gt;.prx&lt;/code&gt;をコピーし、設定ファイルを書くことで有効になります。設定ファイルは役割ごとに決められており、&lt;code&gt;ms0:/seplugins/{pops.txt,game.txt}&lt;/code&gt;などにロードする&lt;code&gt;.prx&lt;/code&gt;を指定します。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ms0:seplugins/pops.txt&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;ms0:/seplugins/popsloader/popsloader.prx 1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Text&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://code.google.com/archive/p/popsloader/downloads&#34;&gt;POPSLoader&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;PSPでPS1を起動するソフトはFWバージョンによって変わってきます。そのためのプラグイン。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;vita&#34;&gt;Vita&lt;/h2&gt;
+
+&lt;h3 id=&#34;3-60-hen&#34;&gt;3.60 HEN&lt;/h3&gt;
+
+&lt;p&gt;FW 3.60のみ対応です。FW 3.60以下の場合はFW 3.60にアップデート後にブラウザ(Vita)で以下のページからアクセスし、INSTALLをタッチするだけでExploitが実行され、ホームにバブルができます。それを実行すればシステムが3.60 HENになります。ただし、再起動すればHENは無効になり、再度インストールが必要です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://henkaku.xyz&#34;&gt;https://henkaku.xyz&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/psp/psvita_henkaku_03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;VistaShellは非常に便利なファイルマネージャーのようなものです。&lt;code&gt;SELECT&lt;/code&gt;を押すとFTPサーバーを起動できファイルをやり取りできます。&lt;/p&gt;
+
+&lt;p&gt;転送するファイルはアプリ本体である&lt;code&gt;.vpk&lt;/code&gt;です。これをVitaShellで実行すればアプリをインストールできる仕組みです。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ lftp 192.169.x.x:$PORT
+&amp;gt; cd ux:0/temp
+&amp;gt; put ./app.vpk .
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;VimShellのアップデートはmolecularShellを使って行います。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/TheOfficialFloW/VitaShell/releases&#34;&gt;https://github.com/TheOfficialFloW/VitaShell/releases&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Text&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/TheOfficialFloW/VitaShell/releases&#34;&gt;VitaShell&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vitaのファイルマネージャー&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://bitbucket.org/TheOfficialFloW/vitamin/downloads&#34;&gt;Vitamin&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vita Romの吸い出し、バックアップが行えるアプリ&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/ZombieWizzard/vita-activator/releases/&#34;&gt;vita-activator&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;PSNにバージョン偽装してアクセスするための設定アプリ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wololo.net/emulators-for-the-ps-vita/&#34;&gt;http://wololo.net/emulators-for-the-ps-vita/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;usb転送&#34;&gt;USB転送&lt;/h3&gt;
+
+&lt;p&gt;大きいファイルの転送はFTPでは時間がかかります。ビデオファイルにリネーム偽装してからQCMAで転送したらいけます。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;1.Install QCMA - &lt;a href=&#34;https://codestation.github.io/qcma/&#34;&gt;https://codestation.github.io/qcma/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2.Setup a video folder location under settings.&lt;/p&gt;
+
+&lt;p&gt;3.Copy yourgame.vpk into your video folder.&lt;/p&gt;
+
+&lt;p&gt;4.Rename file type from .vpk to .mp4&lt;/p&gt;
+
+&lt;p&gt;5.Open video app on vita and transfer yourgame.mp4 from your PC to your Vita&lt;/p&gt;
+
+&lt;p&gt;6.Open Vitashell go to uxo:/video/xx/yourgame.mp4, press triangle, and rename yourgame.mp4 back to yourgame.vpk then install. Viola!&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

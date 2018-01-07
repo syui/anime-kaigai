@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Studio One on アニメ海外反応</title>
+    <link>https://anime.syui.cf/tags/studio-one/index.xml</link>
+    <description>Recent content in Studio One on アニメ海外反応</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [term](https://gitlab.com/syui/hugo-theme-term).</copyright>
+    <atom:link href="https://anime.syui.cf/tags/studio-one/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>VOCALOID入門</title>
+      <link>https://anime.syui.cf/2016-09-29-vocaloid</link>
+      <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://anime.syui.cf/2016-09-29-vocaloid</guid>
+      <description>&lt;p&gt;作曲経験ゼロ、楽譜も読めない状態からボカロ(ボーカロイドの略)のオリジナル曲を作成するまでの手順を紹介します。その上で、クオリティを上げるためのテクニックなどをまとめます。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+
+&lt;p&gt;この記事は筆者 syui による、VOCALOID 作曲に関する Tips をまとめたものになります。&lt;/p&gt;
+
+&lt;p&gt;私の環境は Windows 10 と Mac を使用し、DTM(デスクトップ・ミュージック) に Studuio One を使います。また、ボーカロイド音源(音声ライブラリ)は&lt;code&gt;初音ミク&lt;/code&gt;を使用します。&lt;/p&gt;
+
+&lt;p&gt;これは、&lt;a href=&#34;http://www.crypton.co.jp/mp/pages/prod/vocaloid/mikuv3.jsp&#34;&gt;初音ミク V3&lt;/a&gt;パッケージに付属した構成です。現在の最新環境は&lt;a href=&#34;http://www.crypton.co.jp/mp/pages/prod/vocaloid/mikuv4x.jsp&#34;&gt;初音ミク V4X&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;h3 id=&#34;方針について&#34;&gt;方針について&lt;/h3&gt;
+
+&lt;p&gt;当記事の方針の一つは、著者が後々利用しやすいように作っていく方針です。&lt;/p&gt;
+
+&lt;p&gt;一部、表現等に正確ではないものも含まれると思いますが、この記事では正確さよりも分かりやすさを重視します。もし正確な情報が欲しければ、&lt;a href=&#34;http://piaprostudio.com/?page_id=28&#34;&gt;公式ページ&lt;/a&gt;を参照してください。&lt;/p&gt;
+
+&lt;p&gt;なお、内容が充実してきたら別ページにも保存するかもしれません。&lt;/p&gt;
+
+&lt;h3 id=&#34;著者のレベル&#34;&gt;著者のレベル&lt;/h3&gt;
+
+&lt;p&gt;著者は作曲については全くの初心者です。先程も言いましたが、音楽経験はゼロで楽譜の読み方もよく分かりません。したがって、普段音楽に接する機会というのは、自分がよく聴くボカロ曲やゲームのBGMのみです。一緒に音楽作りについて学んでいきましょう。&lt;/p&gt;
+
+&lt;h3 id=&#34;パソコンで作曲するのに必要なもの&#34;&gt;パソコンで作曲するのに必要なもの&lt;/h3&gt;
+
+&lt;p&gt;パソコンで作曲するための総合アプリを DAW と言います。そして、パソコンで作曲することを DTM と言います。&lt;/p&gt;
+
+&lt;p&gt;DAW には様々なアプリがありますが、有名なのは&lt;code&gt;Cubase&lt;/code&gt;や&lt;code&gt;Studuio One&lt;/code&gt;です。&lt;/p&gt;
+
+&lt;p&gt;このようなアプリは様々な楽器の音を一定のタイミングで奏でることが出来ます。これによって BGM(バックグラウンド・ミュージック) を作成することが出来ます。&lt;/p&gt;
+
+&lt;p&gt;次に人の声を出す事ができるボーカル音源、ここではボーカロイド音源が必要になります。&lt;/p&gt;
+
+&lt;p&gt;そして、DAW で作った BGM とボーカロイドで作った声(歌)を合わせて一つの曲ができます。&lt;/p&gt;
+
+&lt;p&gt;したがって、パソコンで作曲するために必要なものは DTM とボーカロイド音源ということになります。&lt;/p&gt;
+
+&lt;p&gt;現在の DAW にはボーカロイド音源と合わせるための機能が付いている事が多いです。私が使っている&lt;code&gt;Studuio One&lt;/code&gt;もプラグインを使って BGM とボーカロイドと合わせることができます。また、ボーカロイドエディタ機能も付いていることから、一つの DAW でボカロ作曲のすべての作業が完成します。&lt;/p&gt;
+
+&lt;p&gt;この話がわかりにくければ、とりあえずボカロ作曲のために用意されたパッケージを一つ購入すれば良いと思います。&lt;/p&gt;
+
+&lt;h3 id=&#34;どうしても無料で作曲したい人は&#34;&gt;どうしても無料で作曲したい人は&lt;/h3&gt;
+
+&lt;p&gt;DAWに&lt;code&gt;Studuio One Free&lt;/code&gt;を使い既存のMIDIを読み込みます。それを編集した後は、ボカロエディタに&lt;code&gt;UTAU&lt;/code&gt;を使い、音声ライブラリにはフリーの&lt;code&gt;桃音モモ&lt;/code&gt;などを使用して歌を作ります。最後に作成したBGMと歌を&lt;code&gt;Audacity&lt;/code&gt;というアプリを使って合成すれば曲が完成します。&lt;/p&gt;
+
+&lt;p&gt;しかし、難易度は有料のDAWを使った場合と比べ遥かに難しいです。また、UTAUで正確な日本語を出すには高度なテクニックを要します。&lt;/p&gt;
+
+&lt;p&gt;それでも無料での作曲ができないわけではありません。&lt;/p&gt;
+
+&lt;p&gt;まずは、既存の曲のBGM(MIDI)とUTAUファイルを探してきて、作曲の手順を確認することから始めましょう。この記事でもサンプルファイルを配布しています。&lt;/p&gt;
+
+&lt;h3 id=&#34;ボーカロイドとは&#34;&gt;ボーカロイドとは&lt;/h3&gt;
+
+&lt;p&gt;ボーカロイド(VOCALOID)とは、人の音声から収録し、それをエディタで編集して自由に発音をさせることができる技術または、音源、設定されている擬似的キャラクターのことを指します。&lt;/p&gt;
+
+&lt;p&gt;このような音声ライブラリには、通常キャラクターが設定されており、それが歌手としての役割を果たします。&lt;/p&gt;
+
+&lt;p&gt;ボーカロイドのキャラクターには、初音ミクや鏡音リンなどが有名です。どちらもクリプトン社です。他にも多数のボーカロイドが存在しています。&lt;/p&gt;
+
+&lt;h2 id=&#34;ボーカロイド作曲入門&#34;&gt;ボーカロイド作曲入門&lt;/h2&gt;
+
+&lt;h3 id=&#34;手順の確認&#34;&gt;手順の確認&lt;/h3&gt;
+
+&lt;p&gt;まずはじめに全体の流れを簡潔に見ていきたいと思います。更に、実践を兼ねて手順通りに進めば1つの曲ができあがるようになっています。わからない部分があれば、下記でより具体的な説明を行いますので、そちらで補完してください。&lt;/p&gt;
+
+&lt;p&gt;なお、作曲は個々がそれぞれのやり方で取り組んでいることが普通です。したがって、これは一例に過ぎないということは理解しておいてください。正解はありませんが、正解があるとすれば、それは自分に合うやり方かどうかです。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;title&lt;/th&gt;
+&lt;th&gt;url&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;リポジトリ&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/syui/vocaloid&#34;&gt;https://github.com/syui/vocaloid&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ソース&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/syui/vocaloid/blob/master/t&#34;&gt;https://github.com/syui/vocaloid/blob/master/t&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ダウンロード&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/syui/vocaloid/releases/tag/0.1&#34;&gt;https://github.com/syui/vocaloid/releases/tag/0.1&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;1 . Studuio Oneを起動して、BGMのWAVを読み込む&lt;/p&gt;
+
+&lt;p&gt;読み込む&lt;code&gt;.wav&lt;/code&gt;ファイルはGitリポジトリからクローンするかGitHubリリースからダウンロードしてください。これをメイン画面とします。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;bgm.wav&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ git clone https://github.com/syui/vocaloid
+$ cd !$:t
+$ git checkout test
+$ ls bgm.wav
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ curl -OL https://github.com/syui/vocaloid/archive/0.1.zip
+$ aunpack !$:t
+$ cd vocaloid-0.1/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;注意点ですが、トラックを作成した上で読み込まなければなりません。そうでないとアプリが落ちます。&lt;/p&gt;
+
+&lt;p&gt;2 . ボカロエディタからMIDI、つまり&lt;code&gt;.mid&lt;/code&gt;ファイルを読み込む&lt;/p&gt;
+
+&lt;p&gt;これをサブ画面とします。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;t.mid&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;注意点ですが、ボカロとBGMのテンポを合わせましょう。&lt;/p&gt;
+
+&lt;p&gt;3 . ボカロエディタで歌詞を入力する&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;t.txt&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;基本的にはコピーして貼り付ければOKです。&lt;/p&gt;
+
+&lt;p&gt;4 . 再生してみて、問題がなければメイン画面から曲をエクスポートする&lt;/p&gt;
+
+&lt;p&gt;注意点ですが、ボリュームが赤で表示されるとクリッピングが発生している状態です。この場合、エクスポートが上手くいきません(ファイルを削除するか聞かれる)。したがって、各々のトラックボリュームを調整し、赤色で警告されないようにしましょう。&lt;/p&gt;
+
+&lt;h3 id=&#34;utau作曲の手順&#34;&gt;UTAU作曲の手順&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;UTAU&lt;/code&gt;での作曲手順も紹介します。まずはじめに全体の流れを簡潔に見ていきたいと思います。更に、実践を兼ねて手順通りに進めば1つの曲ができあがるようになっています。わからない部分があれば、下記でより具体的な説明を行いますので、そちらで補完してください。&lt;/p&gt;
+
+&lt;p&gt;全体の流れとしては、&lt;a href=&#34;http://utau2008.xrea.jp/&#34;&gt;UTAU&lt;/a&gt;を起動後、好きな音声ライブラリを読み込みます。フリーの音声ライブラリ(音源)には例えば、&lt;a href=&#34;http://momonemomo.com/&#34;&gt;桃音モモ&lt;/a&gt;、&lt;a href=&#34;http://www.canon-voice.com/&#34;&gt;波音リツ&lt;/a&gt;などがあります。その後、&lt;a href=&#34;http://z-server.game.coocan.jp/utau/utautop.html#autoren&#34;&gt;連続音一括設定&lt;/a&gt;を使って設定を行い、歌詞を入れていきます。全範囲を選択して一気に入力することもできます。最後に、BGMとUTAUで作った歌を&lt;a href=&#34;http://audacity.sourceforge.net/?lang=ja&#34;&gt;Audacity&lt;/a&gt;を使って合成します。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;特徴&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://momonemomo.com/&#34;&gt;桃音モモ&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;www.nyan.cat/&#34;&gt;NyanCat&lt;/a&gt;のBGMとして使われたことで有名。個人的には一番使いやすいと思っています。&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://renri-voice.com/renri.html&#34;&gt;闇音レンリ&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;UTAU最新の音源の中では非常に聞きやすい声を出すと思います。&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.canon-voice.com/&#34;&gt;波音リツ&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;最も有名なUTAU音源の一つです。定番なのでよく見かけます。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;作曲のためのアプリ&#34;&gt;作曲のためのアプリ&lt;/h3&gt;
+
+&lt;p&gt;私の場合、作曲の元となるBGMの作成はiPhoneを使って行います。したがって、iOSアプリが多いです。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;用途&lt;/th&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.mi7.co.jp/products/presonus/studioone/&#34;&gt;Studuio One&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;DTMとして総合作曲アプリ&lt;/td&gt;
+&lt;td&gt;Windows,Mac&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://japan.steinberg.net/jp/products/cubase/start.html&#34;&gt;Cubase&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;DTM&lt;/td&gt;
+&lt;td&gt;Windows,Mac&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/chordana-trackformer/id1054301386&#34;&gt;Chordana Trackformer&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;音楽知識不要で作曲できるアプリ、HDMI形式で出力できる&lt;/td&gt;
+&lt;td&gt;iOS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/chord-tracker/id975438908?mt=8&#34;&gt;Chord Tracker&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;耳コピなどに便利なアプリ&lt;/td&gt;
+&lt;td&gt;iOS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/beatwave/id363718254?mt=8&#34;&gt;Beatwave&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ミュージック作成アプリ&lt;/td&gt;
+&lt;td&gt;iOS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://itunes.apple.com/jp/app/vocaloid-first/id647806795?mt=8&#34;&gt;Vocaloid first&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;これだけでボカロ曲を作れる&lt;/td&gt;
+&lt;td&gt;iOS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/music-memos/id1036437162?mt=8&#34;&gt;Music Memos&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;録音アプリ&lt;/td&gt;
+&lt;td&gt;iOS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.patatap.com/&#34;&gt;Patatap&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;キーボードで作曲&lt;/td&gt;
+&lt;td&gt;Browser&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://ackiesound.ifdef.jp/&#34;&gt;WaveTone&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;メロディ解析アプリ&lt;/td&gt;
+&lt;td&gt;Windows&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://audacity.sourceforge.net/?lang=ja&#34;&gt;Audacity&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;音楽合成アプリ&lt;/td&gt;
+&lt;td&gt;Windows&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

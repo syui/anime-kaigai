@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on アニメ海外反応</title>
+    <link>https://anime.syui.cf/tags/android/index.xml</link>
+    <description>Recent content in Android on アニメ海外反応</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [term](https://gitlab.com/syui/hugo-theme-term).</copyright>
+    <atom:link href="https://anime.syui.cf/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Android Root</title>
+      <link>https://anime.syui.cf/2016-10-12-android</link>
+      <pubDate>Wed, 12 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://anime.syui.cf/2016-10-12-android</guid>
+      <description>&lt;p&gt;Android 関連の情報をまとめます。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+
+&lt;p&gt;私は&lt;code&gt;Nexus7(2012)&lt;/code&gt;という端末ではじめて&lt;code&gt;Android&lt;/code&gt;を触りました。&lt;/p&gt;
+
+&lt;p&gt;当時からRoot化してカスタマイズしていました。&lt;/p&gt;
+
+&lt;p&gt;後に開発関連の情報が必要になり、自分でアプリを作ったり、野良アプリを改良したりしていました。&lt;/p&gt;
+
+&lt;p&gt;この記事ではその時に役に立った知識をまとめようと思います。&lt;/p&gt;
+
+&lt;h3 id=&#34;方針について&#34;&gt;方針について&lt;/h3&gt;
+
+&lt;p&gt;当記事の方針の一つは、著者が後々利用しやすいように作っていく方針です。&lt;/p&gt;
+
+&lt;p&gt;一部、表現等に正確ではないものも含まれると思いますが、この記事では正確さよりも分かりやすさを重視します。もし正確な情報が欲しければ、公式ドキュメントを参照してください。&lt;/p&gt;
+
+&lt;p&gt;なお、内容が充実してきたら別ページにも保存するかもしれません。&lt;/p&gt;
+
+&lt;h3 id=&#34;著者のレベルと環境&#34;&gt;著者のレベルと環境&lt;/h3&gt;
+
+&lt;p&gt;著者はAndroidについては全くの初心者です。Nexus7(2013)とAndroid6.Xを使用しています。&lt;/p&gt;
+
+&lt;h2 id=&#34;androidをroot化のための基本情報&#34;&gt;AndroidをRoot化のための基本情報&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;Android&lt;/code&gt;をRoot化するには、まずAndroidのシステムがどうなっているかを知らなければなりません。&lt;/p&gt;
+
+&lt;p&gt;AndroidはGoogleが開発しているモバイルOS(スマートフォンなどに搭載されているOSのこと)で、&lt;code&gt;Linux&lt;/code&gt;(Linux Kernel)を元に開発されています。コマンドからもカーネルバージョンを確認することができます。&lt;/p&gt;
+
+&lt;p&gt;Androidは出荷段階でユーザー権限が制限されます。このユーザーの概念はLinuxのそれと同じです。基本的には&lt;code&gt;root&lt;/code&gt;ユーザーはあらゆるシステムの変更が可能になります。&lt;/p&gt;
+
+&lt;p&gt;ここで、ハッキングツール&amp;hellip;と言ったら微妙ですが(なぜなら自分の端末にrootユーザーでログインするだけなので)、そういったものを使用することで、簡単にルート・ログインが可能になります。ただし、この際はAndroidバージョンや端末コードによって使用するものが異なりますので注意しなければなりません。&lt;/p&gt;
+
+&lt;p&gt;このようなツールは通常、ログイン後に権限管理アプリ、Linuxで言うところの&lt;code&gt;sudo&lt;/code&gt;のようなものをインストールするようになっています。&lt;/p&gt;
+
+&lt;p&gt;このようなアプリによってユーザーは&lt;code&gt;root&lt;/code&gt;権限を管理することができるようになります。&lt;/p&gt;
+
+&lt;p&gt;最も有名なアプリは、&lt;a href=&#34;https://chainfire.eu/&#34;&gt;ChainFire&lt;/a&gt;氏が開発している&lt;a href=&#34;https://play.google.com/store/apps/details?id=eu.chainfire.supersu&#34;&gt;SuperSU&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;p&gt;Rootログインから&lt;code&gt;SuperSU&lt;/code&gt;のインストールまでのすべての作業を自動化するツールは&lt;a href=&#34;https://autoroot.chainfire.eu/&#34;&gt;CF-Auto-Root&lt;/a&gt;と言います。それぞれの端末にあったものを選択して&lt;code&gt;sideload&lt;/code&gt;インストールします。インストールには様々な方法がありますが、最も一般的なのはRecovery Image(Mode)を使ったインストールで、このようなリカバリ・イメージで最も有名なのは&lt;a href=&#34;https://twrp.me/&#34;&gt;TWRP&lt;/a&gt;と言います。これは本体に&lt;code&gt;flash&lt;/code&gt;(焼く)してもいいし、そのまま&lt;code&gt;boot&lt;/code&gt;(読み込む)して使ってもいいです。多くの人はいつでもリカバリモードとして起動できるように本体に&lt;code&gt;flash&lt;/code&gt;します。&lt;/p&gt;
+
+&lt;p&gt;確かに、Androidではデフォルトのリカバリ・イメージ(モード)は存在します。これは、例えば、Google Nexusのファクトリーイメージにて公開されています。しかし、デフォルトのリカバリモードは非常に使いにくいのです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developers.google.com/android/nexus/images&#34;&gt;https://developers.google.com/android/nexus/images&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;公式のリカバリモードはダウンロードしたファイルを解凍して、その中にある&lt;code&gt;recovery.img&lt;/code&gt;がそれに当たります。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ fastboot boot recovery.img
+$ fastboot flash recovery recovery.img
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;しかし、前提として、このようなことをするには&lt;code&gt;adb&lt;/code&gt;コマンドをパソコンにインストールし、パソコンとAndroidをUSBで接続することによってコマンドを実行しなければなりません。USB接続の設定は開発者オプションを参照してください。&lt;/p&gt;
+
+&lt;p&gt;したがって、まずは&lt;code&gt;adb&lt;/code&gt;コマンドをパソコンで使えるようにしましょう。基本的には&lt;code&gt;Android SDK Platform Tools&lt;/code&gt;をインスールすればいいです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.android.com/studio/index.html&#34;&gt;https://developer.android.com/studio/index.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# Arch Linux
+$ yaourt -S android-tools
+or
+$ yaourt -S android-sdk-platform-tools
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# mac
+$ ~/Applications/android-sdk-macosx/tools/android
+$ which adb
+~/Applications/android-sdk-macosx/platform-tools/adb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;基本コマンド&#34;&gt;基本コマンド&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# 接続
+$ adb shell
+
+# 再起動
+$ adb reboot system
+# リカバリモード
+$ adb reboot recovery
+# ブートローダー
+$ adb reboot bootloader
+
+# アップロード
+$ adb push xxx.zip /sdcard/Download
+
+# ダウンロード
+$ adb pull /sdcard/Download/xxx.zip .
+
+# インストール
+$ adb sideload xxx.zip
+$ adb install xxx.apk
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;応用コマンド&#34;&gt;応用コマンド&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ adb shell am start -a android.intent.action.VIEW
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.android.com/studio/command-line/shell.html&#34;&gt;https://developer.android.com/studio/command-line/shell.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;androidのアップデート&#34;&gt;Androidのアップデート&lt;/h3&gt;
+
+&lt;p&gt;Androidをアップデートするには、公式の&lt;code&gt;Factory Image&lt;/code&gt;をダウンロードして、以下のコマンドを実行します。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# アップデート
+$ ./flash-base.sh
+
+# 初期
+$ ./flash-all.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;内容はスクリプトを見てください。&lt;/p&gt;
+
+&lt;p&gt;ただし、Androidに詳しい人は個別に実行するのがベストです。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ fastboot erase system
+$ fastboot flash system system.img
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;androidのroot化&#34;&gt;AndroidのRoot化&lt;/h3&gt;
+
+&lt;p&gt;一般的なAndroidのRoot化手順を紹介します。採用するものは&lt;code&gt;TWRP&lt;/code&gt;+&lt;code&gt;SuperSU&lt;/code&gt;+&lt;code&gt;Xposed&lt;/code&gt;です。&lt;/p&gt;
+
+&lt;p&gt;それぞれの役割は以下のとおりです。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Content&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;TWRP&lt;/td&gt;
+&lt;td&gt;リカバリモード&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;SuperSU&lt;/td&gt;
+&lt;td&gt;suバイナリと権限管理アプリ&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Xposed&lt;/td&gt;
+&lt;td&gt;カスタムアプリマネージャー&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ adb reboot bootloader
+$ fastboot flash recovery twrp.img
+$ adb reboot recovery
+$ adb sideload SuperSU.zip 
+$ adb reboot system
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;Xposed&lt;/code&gt;をインストールするには、&lt;code&gt;Xposed Installer&lt;/code&gt;を使うのが便利です。しかし、本来的にはコマンドからもインストールするものです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://repo.xposed.info/module/de.robv.android.xposed.installer&#34;&gt;http://repo.xposed.info/module/de.robv.android.xposed.installer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;端末のCPUによってインストールするものが異なります。わからない場合は以下のページを参考に調べてみてください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.xposedframework.net/xposed-framework-lollipop-armv7-armv64/&#34;&gt;http://www.xposedframework.net/xposed-framework-lollipop-armv7-armv64/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;root化検知の回避&#34;&gt;Root化検知の回避&lt;/h3&gt;
+
+&lt;p&gt;最近ではGoogleが提供する&lt;code&gt;SafetyNet API&lt;/code&gt;によってRoot化が検知されるようになっています。&lt;/p&gt;
+
+&lt;p&gt;これを回避するには、&lt;code&gt;suhide&lt;/code&gt;や&lt;code&gt;Magisk&lt;/code&gt;, &lt;code&gt;ANRC&lt;/code&gt;などがあります。&lt;/p&gt;
+
+&lt;p&gt;ここでは、&lt;code&gt;suhide&lt;/code&gt;のインストール方法と使い方を紹介します。&lt;code&gt;suhide&lt;/code&gt;は対象アプリのUIDを追加することで有効になります。具体的には、当該アプリを起動したときのみ、Rootを隠します。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ adb reboot recovery
+$ adb sideload suhide.zip
+$ adb reboot system
+
+$ adb shell
+&amp;gt; su
+&amp;gt; /su/suhide/list
+&amp;gt; ls -lnd /data/data/com.niantic.pokemongo
+(UID)
+&amp;gt; /su/suhide/add (UID)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;オススメアプリ&#34;&gt;オススメアプリ&lt;/h3&gt;
+
+&lt;p&gt;ここで、私が使っているおすすめアプリやXposed Module, Rootアプリなどを紹介します。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Content&lt;/th&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.overlook.android.fing&#34;&gt;Fing&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ネットワーク検索&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.amazon.kindle&#34;&gt;Amazon Kindle&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;電子書籍&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.medibang.android.paint.tablet&#34;&gt;MediBang Paint&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;イラスト&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=org.videolan.vlc&#34;&gt;VLC&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;メディアプレイヤー&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.rookiestudio.perfectviewer&#34;&gt;Perfect Viewer&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;電子書籍&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.estrongs.android.pop&#34;&gt;ESファイルマネージャー&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ファイルマネージャー&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.Slack&#34;&gt;Slack&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;SNSクライアント&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.twitter.android&#34;&gt;Twitter&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;SNSクライアント&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=im.gitter.gitter&#34;&gt;Gitter&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;SNSクライアント&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.android.chrome&#34;&gt;Google翻訳&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;翻訳&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&#34;&gt;ZArchiver&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ファイル操作&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=net.metaquotes.metatrader5&#34;&gt;MetaTrader5&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;チャートアプリ&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.reddit.frontpage&#34;&gt;Reddit&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;掲示板クライアント&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.soundcloud.android&#34;&gt;SoundCloud&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;音楽アプリ&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&#34;&gt;Google認証システム&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;二段階認証&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.niksoftware.snapseed&#34;&gt;Snapseed&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;画像編集&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=org.mozilla.firefox&#34;&gt;Firefox&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ブラウザ&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard&#34;&gt;Hacker&amp;rsquo;s Keyboard&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;キーボード&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=org.rojekti.clipper&#34;&gt;Clipper&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;クリップボード&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.dropbox.android&#34;&gt;Dropbox&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ファイル共有&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.apkmirror.com/apk/niantic-inc/pokemon-go/&#34;&gt;Pokemon Go&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ゲーム&lt;/td&gt;
+&lt;td&gt;APK Mirror&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=tw.mobileapp.qrcode.banner&#34;&gt;QRコードスキャナ&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;QRコード&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.avast.android.mobilesecurity&#34;&gt;アバストモバイルセキュリティ&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;セキュリティ&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.scottyab.safetynet.sample&#34;&gt;SafetyNet Helper&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;SafetyNetチェック&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=eu.thedarken.rootvalidator&#34;&gt;Root Validator&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Rootチェック&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://f-droid.org/repository/browse/?fdid=org.adaway&#34;&gt;AdAway&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;広告排除&lt;/td&gt;
+&lt;td&gt;F-Droid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=org.torproject.android&#34;&gt;Orbot&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;VPN+Tor接続&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=dev.ukanth.ufirewall&#34;&gt;AFWall+&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ファイアウォール&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=jackpal.androidterm&#34;&gt;Android Terminal Emulator&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ターミナル&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=stericson.busybox&#34;&gt;BusyBox&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;コマンドパッケージ&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.grarak.kerneladiutor&#34;&gt;Kernel Adiutor&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;カスタマイズ&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://forum.xda-developers.com/showthread.php?t=2524485&#34;&gt;SELinux Mode Changer&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;カスタマイズ&lt;/td&gt;
+&lt;td&gt;XDA&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=eu.chainfire.stickmount&#34;&gt;Stick Mount&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;USBメモリ&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.loserskater.suhidegui&#34;&gt;suhide GUI&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Root偽装&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&#34;&gt;Tasker&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;自動化&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=eu.chainfire.supersu&#34;&gt;SuperSU&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;su権限管理&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.x0.strai.frepkey&#34;&gt;FRep&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;タッチ自動化&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://forum.xda-developers.com/showthread.php?t=3034811&#34;&gt;Xposed Installer&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Xposed管理&lt;/td&gt;
+&lt;td&gt;XDA&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://repo.xposed.info/module/com.ceco.marshmallow.gravitybox&#34;&gt;GravityBox&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;カスタマイズ&lt;/td&gt;
+&lt;td&gt;Xposed&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.oasisfeng.greenify&#34;&gt;Greenify&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;バックグラウンド制限&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://repo.xposed.info/module/com.icecream.snorlax&#34;&gt;Snorlax&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Pokemon Goで個体値などを表示&lt;/td&gt;
+&lt;td&gt;Xposed&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://repo.xposed.info/module/de.chuparch0pper.android.xposed.pogoiv&#34;&gt;PoGoIV&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Pokemon Goでステータスやジムのユーザー情報を表示&lt;/td&gt;
+&lt;td&gt;Xposed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;気になっているアプリ&#34;&gt;気になっているアプリ&lt;/h3&gt;
+
+&lt;p&gt;あたりたくさんのアプリをインストールする主義ではないのでインストールしたことはないけど、気になっているアプリを紹介します。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Content&lt;/th&gt;
+&lt;th&gt;Store&lt;/th&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://termux.com/&#34;&gt;Termux&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ターミナルアプリ&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;td&gt;root&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.powl1.sockstat&#34;&gt;SockStat&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;通信監視&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;td&gt;root&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.eolwral.osmonitor&#34;&gt;OS Monitor&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;通信監視&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;td&gt;root&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.paget96.lspeed&#34;&gt;L Speed&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;調整&lt;/td&gt;
+&lt;td&gt;Google Play&lt;/td&gt;
+&lt;td&gt;root&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;使わないアプリ-システム&#34;&gt;使わないアプリ・システム&lt;/h3&gt;
+
+&lt;p&gt;使わないアプリやシステムはアンインストールするか停止させましょう。&lt;/p&gt;
+
+&lt;h3 id=&#34;端末が対応していないアプリ&#34;&gt;端末が対応していないアプリ&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.apkmirror.com/&#34;&gt;APK Mirror&lt;/a&gt;からダウンロードしてインストールします。&lt;/p&gt;
+
+&lt;h3 id=&#34;busyboxの使い方とlinuxの起動&#34;&gt;BusyBoxの使い方とLinuxの起動&lt;/h3&gt;
+
+&lt;p&gt;BusyBoxというのはアーキテクト系の端末でよく利用されるコマンドパッケージです。アプリから簡単にインストールできるようになっており、デフォルトでは、&lt;code&gt;/system/xbin&lt;/code&gt;にインストールされます。これをパスに追加することで、各種コマンドを使えるようになります。&lt;/p&gt;
+
+&lt;p&gt;コマンドを実行するには、&lt;code&gt;Android Terminal Emulator&lt;/code&gt;などのターミナルアプリが便利です。もちろん、パソコンと繋いで&lt;code&gt;adb shell&lt;/code&gt;などから実行しても良いです。&lt;/p&gt;
+
+&lt;p&gt;次に、Gentoo LinuxをAndroid上で動かすことで、BusyBoxの機能を見ていきたいと思います。&lt;/p&gt;
+
+&lt;p&gt;まず、パソコンでもなんでも良いのでGentooイメージを作成します。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://distfiles.gentoo.org/releases/arm/autobuilds/current-stage3-armv7a/&#34;&gt;http://distfiles.gentoo.org/releases/arm/autobuilds/current-stage3-armv7a/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://distfiles.gentoo.org/snapshots/portage-latest.tar.bz2&#34;&gt;http://distfiles.gentoo.org/snapshots/portage-latest.tar.bz2&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ dd if=/dev/zero of=gentoo.img bs=1M count=0 seek=3072
+$ mkfs.ext2 -F gentoo.img
+$ mkdir tmp
+$ mount -o loop gentoo.img tmp/
+$ cd tmp
+$ tar xvf ../stage3-armv7a-*.tar.bz2
+$ cd usr
+$ tar xvf ../../portage-latest.tar.bz2
+$ mkdir tmp/dev/pts
+$ mkdir tmp/sdcard
+$ umount tmp/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;そして、それをAndroidに転送します。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ adb shell mkdir -p /sdcard/gentoo
+$ adb push ./gentoo.img /sdcard/gentoo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;boot.sh&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;export bbox=`which busybox`
+export imgfile=/sdcard/gentoo/gentoo.img
+export mnt=/data/local/mnt
+mkdir -p $mnt
+$bbox mknod /dev/block/loop255 b 7 255
+$bbox losetup /dev/block/loop255 $imgfile
+$bbox mount -t ext2 /dev/block/loop255 $mnt
+$bbox mount -t devpts devpts $mnt/dev/pts
+$bbox mount -t proc proc $mnt/proc
+$bbox mount -t sysfs sysfs $mnt/sys
+$bbox mount -o bind /sdcard $mnt/sdcard
+$bbox sysctl -w net.ipv4.ip_forward=1
+$bbox chroot $mnt /usr/bin/env -i HOME=/root USER=root PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/sbin TERM=linux /bin/bash -l
+$bbox umount $mnt/sdcard
+$bbox umount $mnt/dev/pts
+$bbox umount $mnt/proc
+$bbox umount $mnt/sys
+$bbox umount $mnt
+$bbox losetup -d /dev/block/loop255 &amp;amp;&amp;gt; /dev/null
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ adb push boot.sh /sdcard/gentoo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Androidから先ほど作成したスクリプトを実行します。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ cd /sdcard/gentoo
+$ which busybox
+/system/xbin/busybox
+$ chmod 777 boot.sh
+$ ./boot.sh
+
+# ここからGentoo Linuxに入ります
+$ echo &amp;quot;nameserver 8.8.8.8&amp;quot; &amp;gt; /etc/resolv.conf
+$ echo &amp;quot;nameserver 8.8.4.4&amp;quot; &amp;gt;&amp;gt; /etc/resolv.conf
+$ echo &amp;quot;127.0.0.1 localhost&amp;quot; &amp;gt; /etc/hosts
+$ echo &amp;quot;FEATURES=\&amp;quot;-userfetch\&amp;quot;&amp;quot; &amp;gt;&amp;gt; /etc/make.conf
+$ grep -v rootfs /proc/mounts &amp;gt; /etc/mtab
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://hamelot.io/android/run-gentoo-on-android-via-chroot/&#34;&gt;http://hamelot.io/android/run-gentoo-on-android-via-chroot/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;基本設定&#34;&gt;基本設定&lt;/h3&gt;
+
+&lt;h4 id=&#34;開発者オプションを有効にする&#34;&gt;開発者オプションを有効にする&lt;/h4&gt;
+
+&lt;p&gt;開発者オプションは&lt;code&gt;設定 -&amp;gt; タブレット情報 -&amp;gt; ビルド番号&lt;/code&gt;を数回(7回?)タップすることで設定できるようになります。&lt;/p&gt;
+
+&lt;h4 id=&#34;usb接続を有効にする&#34;&gt;USB接続を有効にする&lt;/h4&gt;
+
+&lt;p&gt;パソコンとAndroid端末でUSB接続をするには、開発者オプションでUSBデバッグをONにします。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;設定
+	開発者オプション
+		USBデバッグ = ON
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;描写速度の向上&#34;&gt;描写速度の向上&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;設定 -&amp;gt; 開発者オプション&lt;/code&gt;にてウィンドウアニメスケール, トランジションアニメスケール, Animatior再生時間スケールを&lt;code&gt;アニメーションなし0&lt;/code&gt;に設定します。&lt;/p&gt;
+
+&lt;p&gt;次に、GPUレンダリングを使用するをONにします。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;設定
+	開発者オプション
+		ウィンドウアニメスケール, トランジションアニメスケール, Animatior再生時間スケール = アニメーションなし
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;スクリーンショットやカメラ音をoffにする&#34;&gt;スクリーンショットやカメラ音をOFFにする&lt;/h4&gt;
+
+&lt;p&gt;日本用の端末はすべて強制的にカメラ音を出すように設定されており、企業に強制されています。&lt;/p&gt;
+
+&lt;p&gt;Androidではオーディオファイルを削除することで実現します。このようなシステムファイルへのアクセスにはroot権限を要します。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;/system/media/audio/ui/{camera_click.ogg,camera_focus.ogg}&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ su
+$ cd /system/media/audio/ui/
+$ rm camera_click.ogg
+$ rm camera_focus.ogg
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;androidのイースターエッグ&#34;&gt;Androidのイースターエッグ&lt;/h4&gt;
+
+&lt;p&gt;Android 6.Xや7.Xなどではイースターエッグとして隠しゲームがプレイできます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;設定
+	タブレット情報
+		Androidバージョン = &amp;quot;7回タップして出てきたお菓子を数回タップ後に長押し&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;microg&#34;&gt;microG&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/microg/android_packages_apps_GmsCore&#34;&gt;microG&lt;/a&gt;というのはGoogle開発者サービス(GmsCore)を置き換えるためのプロジェクトです。&lt;/p&gt;
+
+&lt;p&gt;これによってユーザーはプライバシーを守られると説明されています。その他、様々な制限を回避するのにも役立ちます。&lt;/p&gt;
+
+&lt;p&gt;しかし、問題もありGoogle Playが使えなくなるのが最も大きな問題です。これによってアプリのアップデートなどが不便になります。&lt;/p&gt;
+
+&lt;p&gt;したがって、&lt;a href=&#34;https://github.com/microg/android_packages_apps_FakeStore&#34;&gt;FakeStore&lt;/a&gt;や&lt;a href=&#34;https://github.com/mar-v-in/BlankStore/releases&#34;&gt;BlankStore&lt;/a&gt;などを使用してこれを行うことになります。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

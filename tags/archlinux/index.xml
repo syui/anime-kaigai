@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archlinux on アニメ海外反応</title>
+    <link>https://anime.syui.cf/tags/archlinux/index.xml</link>
+    <description>Recent content in Archlinux on アニメ海外反応</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [term](https://gitlab.com/syui/hugo-theme-term).</copyright>
+    <atom:link href="https://anime.syui.cf/tags/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Arch Linux</title>
+      <link>https://anime.syui.cf/2016-10-02-archlinux</link>
+      <pubDate>Sun, 02 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://anime.syui.cf/2016-10-02-archlinux</guid>
+      <description>&lt;p&gt;Arch Linux のインストールから、Arch Linux を普段使っていく上で役立つ Tips を紹介します。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+
+&lt;p&gt;私が Linux を本格的に使い始めたのは Manjaro Linux からでした。&lt;/p&gt;
+
+&lt;p&gt;Manjaro Linux というのは、Arch Linux をベースに GUI デスクトップを追加した Linux ディストリビューションです。インストールのしやすさとパッケージマネージャーの使いやすらから定評があります。また、Arch Linux ベースの OS はローリングリリースを採用しており、アップデートが早いことが特徴的です。&lt;/p&gt;
+
+&lt;h3 id=&#34;方針について&#34;&gt;方針について&lt;/h3&gt;
+
+&lt;p&gt;当記事の方針の一つは、著者が後々利用しやすいように作っていく方針です。&lt;/p&gt;
+
+&lt;p&gt;一部、表現等に正確ではないものも含まれると思いますが、この記事では正確さよりも分かりやすさを重視します。もし正確な情報が欲しければ、&lt;a href=&#34;https://archlinuxjp.org/wiki&#34;&gt;ArchWiki&lt;/a&gt;など参照してください。&lt;/p&gt;
+
+&lt;p&gt;なお、内容が充実してきたら別ページにも保存するかもしれません。&lt;/p&gt;
+
+&lt;h3 id=&#34;著者のレベル&#34;&gt;著者のレベル&lt;/h3&gt;
+
+&lt;p&gt;著者はコンピュータやLinuxについては全くの初心者です。一緒に勉強していきましょう。&lt;/p&gt;
+
+&lt;h3 id=&#34;linux-など&#34;&gt;Linux など&lt;/h3&gt;
+
+&lt;p&gt;いきなり専門用語を連発してしまいましたが、分からない人用に簡潔ではありますが、それぞれの単語のイメージするところを紹介します。&lt;/p&gt;
+
+&lt;p&gt;Linux とは Linux カーネル(kernel) を意味したり、WindowsやMacのような一般的な OS とは異なる OSS(オープンソース・ソフトウェア) の無料 OS を意味したり、Linux ディストリビューションという Linux カーネルを使って開発されている様々な種類の Linux OS を意味したりします。&lt;/p&gt;
+
+&lt;p&gt;ここで、カーネルというのはアプリとハードをつなぐ役割を担っている OS を動かすための必須の仕組み、機能をイメージすると分かりやすいです。&lt;/p&gt;
+
+&lt;p&gt;ローリングリリースとは、常にアップデートされる仕組みのことです。&lt;/p&gt;
+
+&lt;p&gt;パッケージマネージャーとは、アプリを管理するためのアプリのことで、インストールしたり、削除したりすることを簡単にしてくれます。&lt;/p&gt;
+
+&lt;h3 id=&#34;arch-linux-の特徴&#34;&gt;Arch Linux の特徴&lt;/h3&gt;
+
+&lt;p&gt;Arch Linux も Linux ディストリビューションの一つで、その特徴の一つはシンプルにあります。&lt;/p&gt;
+
+&lt;p&gt;シンプル故に、何をするにしても自分でやらなければなりません。特に、環境の構築はユーザーに任されています。&lt;/p&gt;
+
+&lt;p&gt;Arch Linux 自体は、パッケージマネージャーである&lt;code&gt;pacman&lt;/code&gt;及び、Arch Linuxのベース・パッケージである&lt;code&gt;base&lt;/code&gt;, &lt;code&gt;base-devel&lt;/code&gt;でできています。&lt;/p&gt;
+
+&lt;h3 id=&#34;arch-linux-と似た-gentoo-linux&#34;&gt;Arch Linux と似た Gentoo Linux&lt;/h3&gt;
+
+&lt;p&gt;ここで、Arch Linux はよく Gentoo Linux と比較されます。&lt;/p&gt;
+
+&lt;p&gt;ここで、Gentoo Linux は Chrome OS Linux のベースにもなっているハッカークラスのユーザーに人気の OS です。&lt;/p&gt;
+
+&lt;p&gt;Gentoo Linux は ローリング・リリースを採用している点及び、シンプルさ、つまり、環境構築は全てユーザーが行う点では Arch Linux に似ています。&lt;/p&gt;
+
+&lt;p&gt;違いと言えば、Gentoo Linux のほうが対応アーキテクチャが多いことと、基本パッケージのビルドを自分のマシンで行うかどうかです。&lt;/p&gt;
+
+&lt;p&gt;Arch Linux は基本パッケージを既にビルドされた状態でダウンロードし、インストールします。その為、Gentoo Linux に比べてインストール時間が非常に短いです。&lt;/p&gt;
+
+&lt;p&gt;ただし、これは、どちらの OS もやろうと思えばできることです。例えば、Arch Linux もパッケージを独自ビルドすることは可能です。また、Gentoo Linux も GRP(Gentoo Reference Platform) という仕組みを使ってあらかじめビルド(コンパイル)されたパッケージを用いて、インストールを素早く行うことができます。&lt;/p&gt;
+
+&lt;p&gt;私は、どちらかと言うと Arch Linux のほうが便利だと思ってこっちを使っています。それは、性能の低いマシンなどにもインストールすることがあり、その場合、ビルド時間が非常に長くなってしまう Gentoo Linux は基本的には向いていないと考えるからです。USB や Android などにもインストールして使います。&lt;/p&gt;
+
+&lt;p&gt;ただし、Arch Linux が動かないマシンには、対応アーキテクチャの関係で Gentoo Linux を選択するだろうと思います。&lt;/p&gt;
+
+&lt;h3 id=&#34;arch-linux-を選択するのに向いているユーザー&#34;&gt;Arch Linux を選択するのに向いているユーザー&lt;/h3&gt;
+
+&lt;p&gt;基本的には、Arch Linux を使ってみたいという方なら、誰でも向いているというのが個人的な考えです。&lt;/p&gt;
+
+&lt;p&gt;ただし、幾つかのアドバイスが必要だと思うので、それについて説明します。&lt;/p&gt;
+
+&lt;p&gt;まず、環境構築に興味がない人には向いていないだろうと思います。&lt;/p&gt;
+
+&lt;p&gt;なぜなら、Arch Linux はボタンを押したらインストールできるというものではないからです。&lt;/p&gt;
+
+&lt;p&gt;自分でコマンドを叩き、欲しいパッケージを選んでインストールしないと起動しません。その際に叩くコマンドも、基本的なものではあるものの非常に多いです。特にデスクトップをある程度使えるくらいまでにしようと思ったら、叩くコマンドは多くなります。したがって、構築する環境によっては非常に時間と手間がかかります。&lt;/p&gt;
+
+&lt;p&gt;次に、CL(コマンドライン) を日頃から使っていない人には Arch Linux は向いていないかもしれません。&lt;/p&gt;
+
+&lt;p&gt;CLI を日頃から使っているユーザーは迷うことがないし、もしハマることがあったとしても、大抵は自力で問題を解決できると思われます。しかし、そうでないユーザーは、ハマったら抜けられないかもしれませんし、訳がわからないということになるかもしれません。この場合はやはり時間が勿体無いと思われます。また、トラウマになってしまうこともあるかもしれません。&lt;/p&gt;
+
+&lt;h2 id=&#34;arch-linux-インストール関連&#34;&gt;Arch Linux インストール関連&lt;/h2&gt;
+
+&lt;p&gt;基本的には、&lt;a href=&#34;https://wiki.archlinuxjp.org/index.php/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%82%AC%E3%82%A4%E3%83%89&#34;&gt;インストールガイド&lt;/a&gt;を読めばOKです。&lt;/p&gt;
+
+&lt;h3 id=&#34;インストールディスクのダウンロードと作成&#34;&gt;インストールディスクのダウンロードと作成&lt;/h3&gt;
+
+&lt;p&gt;まずはArch Linuxのインストールディスクを作成します。インストールディスクと本体は全くの別物です。例えば、インストールディスクでのデフォルトシェルは&lt;code&gt;/bin/zsh&lt;/code&gt;ですが、本体は&lt;code&gt;bin/bash&lt;/code&gt;です。その他に様々な違いがあります。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# download iso
+$ export url=http://ftp.jaist.ac.jp/pub/Linux/ArchLinux/iso/latest
+$ export file=`curl -sL ${url} | grep &#39;.iso&amp;lt;&#39; | sed -n &#39;s/.*href=&amp;quot;\([^&amp;quot;]*\).*/\1/p&#39;`
+$ export sum=${url}/md5sums.txt
+$ export dl=${url}/${file}
+$ export curl -sOL ${dl}
+
+# check md5sum
+$ curl -sLO ${sum}
+$ md5sum -c md5sums.txt
+
+# write usb
+$ sudo dd bs=4M if=./${file} of=/dev/sdx &amp;amp;&amp;amp; sync
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ここで、&lt;code&gt;md5sum&lt;/code&gt;はファイルが改ざんされていないかを調べるためのコマンドです。セキュリティ的には別々の場所に保存し、ファイルをダウンロードする都度チェックを行いますが、ファイルと同じ場所にハッシュ値が置かれることもあります。&lt;/p&gt;
+
+&lt;h3 id=&#34;シェルスクリプト&#34;&gt;シェルスクリプト&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ export b=b
+$ export h=host
+$ export u=user
+$ export a=&amp;quot;jq net-tools git zsh tmux go ctags&amp;quot;
+
+$ cp -rf /etc/pacman.d/mirrorlist /etc
+$ zsh -c &amp;quot;cat /etc/mirrorlist | grep -A1 Japan &amp;gt;! /etc/pacman.d/mirrorlist&amp;quot;
+$ sed -i &#39;s/--//g&#39; /etc/pacman.d/mirrorlist
+$ pacman-key --refresh-keys
+$ pacman -Sy
+$ fdisk -l
+$ parted /dev/sd${b} \
+	-s mklabel gpt \ 
+	-s mkpart primary ext2 0 200 \
+	-s mkpart primary ext4 200 100% \
+	-s p
+$ mkfs.vfat /dev/sd${b}1
+$ mkfs.ext4 /dev/sd${b}2
+$ mount /dev/sd${b}2 /mnt
+$ pacstrap /mnt base base-devel grub dhcpcd efibootmgr
+$ genfstab -p /mnt &amp;gt;&amp;gt; /mnt/etc/fstab
+
+$ echo -e &#39;[archlinuxfr]\nSigLevel = Never\nServer = http://repo.archlinux.fr/$arch&#39; &amp;gt;&amp;gt; /mnt/etc/pacman.conf
+$ echo -e &#39;Defaults env_keep += &amp;quot;HOME&amp;quot;\n%wheel ALL=(ALL) ALL&#39; &amp;gt;&amp;gt; /mnt/etc/sudoers
+$ echo -e &#39;%wheel ALL=(ALL) NOPASSWD: /usr/bin/pacman -Syu --noconfirm, /usr/bin/yaourt -Syua --noconfirm, /usr/bin/reboot, /usr/bin/poweroff&#39; &amp;gt;&amp;gt; /mnt/etc/sudoers
+$ echo $h &amp;gt; /mnt/etc/hostname
+$ echo -e &#39;en_US.UTF-8 UTF-8\nja_JP.UTF-8 UTF-8&#39; &amp;gt;&amp;gt; /mnt/etc/locale.gen
+$ echo &#39;LANG=ja_JP.UTF-8&#39; &amp;gt; /mnt/etc/locale.conf
+
+$ arch-chroot /mnt /bin/bash -c &amp;quot;
+	pacman-db-upgrade
+	grub-install --force --recheck /dev/sd${b}
+	grub-mkconfig -o /boot/grub/grub.cfg
+	systemctl enable dhcpcd
+	pacman -S archlinux-keyring --noconfirm;
+
+	useradd -m -G wheel -s /bin/bash $u
+
+	ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
+	timedatectl set-timezone Asia/Tokyo
+	timedatectl set-ntp true
+	hwclock --systohc --utc
+	hwclock --systohc
+	echo root:root | chpasswd
+	echo $u:root | chpasswd
+
+	pacman -Sy yaourt --noconfirm
+	update-ca-trust
+	pacman -Sy $a --noconfirm
+&amp;quot;
+
+$ reboot
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;コマンド解説&#34;&gt;コマンド解説&lt;/h3&gt;
+
+&lt;p&gt;では、以下より詳細な解説を行います。なお、上記コマンドの一部の不要な部分を省略することがあるかもしれません。&lt;/p&gt;
+
+&lt;p&gt;まずはポイントから。以下のコマンドを使用すると、Arch Linuxのインストールを自動化できます。手動でやる場合はこのようなワンライナーではなく&lt;code&gt;cfdisk&lt;/code&gt;や&lt;code&gt;arch-chroot&lt;/code&gt;を単体で使いますが、自動化スクリプトを作成する場合はこのようなワンライナーを使えます。ディスクはインストールするものを選択します。気をつけましょう。ここでは本体&lt;code&gt;sda&lt;/code&gt;ではなく&lt;code&gt;sdb&lt;/code&gt;にインストールしています。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# ディスクパーティションを作成する
+# fdisk, cfdisk
+$ parted /dev/sdb \ # sdb
+	-s mklabel gpt \ # gpt
+	-s mkpart primary ext2 0 200 \ # 0M - 200M
+	-s mkpart primary ext4 200 100% \ # 200M - 残り全部
+	-s p
+
+# chrootで実行するコマンドの記述
+$ arch-chroot /mnt /bin/bash -c &amp;quot;
+	pacman-db-upgrade
+&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;kernelからの情報取得&#34;&gt;Kernelからの情報取得&lt;/h3&gt;
+
+&lt;p&gt;Kernelから吐かれた情報を取得することができます。Kernelから吐かれる情報は&lt;code&gt;/sys/class&lt;/code&gt;などに置いてあります。基本的にハードに関する情報で、コマンドから取得するよりも遥かに効率的です。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/zsh
+export DISPLAY=:0.0
+export XAUTHORITY=/home/`whoami`/.Xauthority
+export battery_level=`cat /sys/class/power_supply/BAT0/capacity`
+export battery_status=`cat /sys/class/power_supply/BAT0/status`
+echo -e &amp;quot;$battery_level\n$battery_status&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;arch-linux-アプリ関連&#34;&gt;Arch Linux アプリ関連&lt;/h2&gt;
+
+&lt;p&gt;基本的には、&lt;a href=&#34;https://wiki.archlinuxjp.org/index.php/%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E4%B8%80%E8%A6%A7&#34;&gt;アプリ一覧&lt;/a&gt;が便利です。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

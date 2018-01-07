@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ue4 on アニメ海外反応</title>
+    <link>https://anime.syui.cf/tags/ue4/index.xml</link>
+    <description>Recent content in Ue4 on アニメ海外反応</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [term](https://gitlab.com/syui/hugo-theme-term).</copyright>
+    <atom:link href="https://anime.syui.cf/tags/ue4/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Unity &amp; UE4 ゲーム開発</title>
+      <link>https://anime.syui.cf/2016-10-04-game-unity</link>
+      <pubDate>Tue, 04 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://anime.syui.cf/2016-10-04-game-unity</guid>
+      <description>&lt;p&gt;私がゲーム開発アプリを試してみて、キャラクターを動かすまでにハマった箇所などをまとめます。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+
+&lt;p&gt;現在のゲーム開発の主流はiOS/Androidへの対応です。したがって、これらのアプリ用にビルドできる開発エンジンを選択することが重要だと思います。&lt;/p&gt;
+
+&lt;p&gt;ここで、&lt;code&gt;Unity&lt;/code&gt;や&lt;code&gt;UE4(Unreal Engine 4)&lt;/code&gt;はiOS/Android互換に対応しています。また、互換性においては&lt;code&gt;HTML5&lt;/code&gt;が有望です。&lt;/p&gt;
+
+&lt;p&gt;例えば、ノベルゲーム開発エンジンである&lt;code&gt;Tyrano Builder&lt;/code&gt;というものがあり、&lt;code&gt;HTML5&lt;/code&gt;にビルドできます。したがって、ブラウザで動かすこともできます。また、iOS/Androidにも対応できます。&lt;/p&gt;
+
+&lt;p&gt;この記事では、主に入門として&lt;code&gt;Unity&lt;/code&gt;, &lt;code&gt;UE4&lt;/code&gt;, &lt;code&gt;Tyrano Builder&lt;/code&gt;を使って簡単なゲームを作ってみるまでの手順を紹介します。また、ゲーム制作に役立つ他の補助ツールも紹介します。&lt;/p&gt;
+
+&lt;h3 id=&#34;方針について&#34;&gt;方針について&lt;/h3&gt;
+
+&lt;p&gt;当記事の方針の一つは、著者が後々利用しやすいように作っていく方針です。&lt;/p&gt;
+
+&lt;p&gt;一部、表現等に正確ではないものも含まれると思いますが、この記事では正確さよりも分かりやすさを重視します。もし正確な情報が欲しければ、公式ドキュメントなど参照してください。&lt;/p&gt;
+
+&lt;p&gt;なお、内容が充実してきたら別ページにも保存するかもしれません。&lt;/p&gt;
+
+&lt;h3 id=&#34;著者のレベル&#34;&gt;著者のレベル&lt;/h3&gt;
+
+&lt;p&gt;著者はゲーム開発については全くの初心者です。一緒に勉強していきましょう。&lt;/p&gt;
+
+&lt;h2 id=&#34;unity&#34;&gt;Unity&lt;/h2&gt;
+
+&lt;h3 id=&#34;unityとは&#34;&gt;Unityとは&lt;/h3&gt;
+
+&lt;p&gt;Unityとは無料ゲームエンジンとして最も有名な開発アプリです。Linuxにも対応しており、コミュニティも活発です。&lt;/p&gt;
+
+&lt;h3 id=&#34;unityでmmdモデルを使ってダンスモーションをセットする&#34;&gt;UnityでMMDモデルを使ってダンスモーションをセットする&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/unity-mikumikudance-vmd.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;モデル : &lt;a href=&#34;http://somefatwhiteguy.deviantart.com/art/Api-Miku-Costume-Arrangement-A-Updated-DL-again-412592117&#34;&gt;Api Miku Costume Arrangement A&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;モーション : &lt;a href=&#34;https://bowlroll.net/file/50621&#34;&gt;Heart Beats モーションデータ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;プラグイン :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mmd-for-unity-proj.github.io/mmd-for-unity/&#34;&gt;MikuMikuDance for Unity&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://stereoarts.jp/&#34;&gt;MMD4Mecanim&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;基本的な手順としては、ダウンロードしたMMDモデルをMMD4Mecanimを使ってUnityで読み込みます。どちらも解凍したディレクトリをUnityプロジェクトのルートにでも置けばよいです。プラグインの場合は、ディレクトリ内にUnityの実行ファイルが置かれていると思いますので、それを開くと、プラグインをインポートできるようになってると思います。&lt;/p&gt;
+
+&lt;p&gt;モデルは、モデルディレクトリ内にある&lt;code&gt;.mmd4mecanim.asset&lt;/code&gt;を開くと変換できると思います。&lt;/p&gt;
+
+&lt;p&gt;次に、変換したモデルをSceneにドラッグアンドドロップします。&lt;/p&gt;
+
+&lt;p&gt;ここで、初音ミクの3DモデルがUnityで表示できました。&lt;/p&gt;
+
+&lt;p&gt;VMDモーションをUnityで読み込むには、MikuMikuDanceを使う必要があります。MMD4Mecanimと同じように、プラグインをインポートして、先ほどモデルを変換する前に使った&lt;code&gt;.mmd4mecanim.asset&lt;/code&gt;をもう一度開き、表示された&lt;code&gt;VMD&lt;/code&gt;の項目のところに、モーションデータである&lt;code&gt;.vmd&lt;/code&gt;を指定します。&lt;/p&gt;
+
+&lt;p&gt;後は実行すると、モデル内に&lt;code&gt;Api Miku Costume Arrangement A ponytail.fbx &amp;gt; heartbeats_miku.vmd&lt;/code&gt;というものができていますが、これがモーションになります。&lt;/p&gt;
+
+&lt;p&gt;モーションをコントロールするには、&lt;code&gt;Creat &amp;gt; Animation Controller&lt;/code&gt;を使います。これをモデルの&lt;code&gt;inspector &amp;gt; Animation &amp;gt; Controller&lt;/code&gt;に指定します。そして、このコントローラーに先ほどのモーションを紐付ければよいです。&lt;/p&gt;
+
+&lt;p&gt;なお、モデルのAnimation Typeは&lt;code&gt;Humanoid&lt;/code&gt;にしておきましょう。でないと動きません。&lt;/p&gt;
+
+&lt;p&gt;まあ、そんな感じで、後はステージと曲を用意して、それを組み合わせると、一般的な初音ミク動画の完成です。&lt;/p&gt;
+
+&lt;h2 id=&#34;ue4&#34;&gt;UE4&lt;/h2&gt;
+
+&lt;h3 id=&#34;ue4とは&#34;&gt;UE4とは&lt;/h3&gt;
+
+&lt;p&gt;UE4とは、Unreal Engine 4の略で、有料アプリでしたが、現在は無料で誰でも使うことができます。&lt;/p&gt;
+
+&lt;p&gt;コミュニティは上級者が多いですが、Unityよりは緩やかな印象です。また、そのためかライブラリも若干少ない印象を受けます。&lt;/p&gt;
+
+&lt;h3 id=&#34;ue4を使ってmmdモデルを表示する&#34;&gt;UE4を使ってMMDモデルを表示する&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/game_ue4_mmd_miku_04.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;このようなゲームエンジンは、MMDモデルを直接読み込めるわけではありません。モデルを読み込むには、プラグインを使ったり、変換したりする必要があります。&lt;/p&gt;
+
+&lt;h4 id=&#34;プラグインを使ったmmdの読み込み&#34;&gt;プラグインを使ったMMDの読み込み&lt;/h4&gt;
+
+&lt;p&gt;まず、プラグインを使った方法を紹介します。しかし、バイナリがWindowsのものしか配布されておらず、ソースも公開されていないため、Macでは使えませんでした。&lt;/p&gt;
+
+&lt;p&gt;なぜソースが公開されていないかというと、処理中にUE4本体のコードを含むらしいからとのこと。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/bm9/IM4U&#34;&gt;https://github.com/bm9/IM4U&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ git clone https://github.com/bm9/IM4U
+$ cd IM4U
+$ git checkout 4.11.X
+$ cp -rf Plugins ~/Documents/Unreal\ Projects/MyProject/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;この場合、マテリアルに適切なテクスチャが設定されるため煩わしさは軽減されると思われます。使ってないので分かりませんが。&lt;/p&gt;
+
+&lt;h4 id=&#34;pmxからfbxに変換してmmdを読み込む&#34;&gt;PMXからFBXに変換してMMDを読み込む&lt;/h4&gt;
+
+&lt;p&gt;プラグインを使わない場合はこちらの方法になります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://stereoarts.jp/&#34;&gt;MMD4Mecanim&lt;/a&gt;というものがあります。これを使って変換を行います。&lt;/p&gt;
+
+&lt;p&gt;モデルは、&lt;a href=&#34;http://piapro.jp/t/KPU3&#34;&gt;Appearance Miku&lt;/a&gt;を使います。&lt;code&gt;pmx2fbx.exe&lt;/code&gt;があるところで変換したい&lt;code&gt;.pmx&lt;/code&gt;を置いて実行します。実行は、&lt;code&gt;cmd&lt;/code&gt;上で行います。Windowsです。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;&amp;gt; pmx2fbx.exe Appearance_Miku.pmx
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;変換が終わると、&lt;code&gt;Appearance_Miku.fbx&lt;/code&gt;ができますが、これをUE4にインポートします。&lt;/p&gt;
+
+&lt;p&gt;普通にファイルをドラッグアンドドロップすればいけます。&lt;/p&gt;
+
+&lt;p&gt;その前に展開先のフォルダを作っておくと便利です。&lt;/p&gt;
+
+&lt;h4 id=&#34;マテリアルが上手く設定されない問題&#34;&gt;マテリアルが上手く設定されない問題&lt;/h4&gt;
+
+&lt;p&gt;インポートしてもそのままではマテリアルに色がついていません。&lt;/p&gt;
+
+&lt;p&gt;したがって、私の場合、手動で各マテリアル(1肌, 2髪など)にテクスチャを設定しました。この作業は非常に面倒でした。必要な情報は、変換した際にできた&lt;code&gt;.xml&lt;/code&gt;を見ます。&lt;/p&gt;
+
+&lt;p&gt;まず、モデルを解凍したディレクトリにあるテクスチャ(PNGファイルなど)をUE4にインポートします。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/game_ue4_mmd_miku_02.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/game_ue4_mmd_miku_01.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;そして、各マテリアルをダブルクリックで開き、エディタが起動すると思いますが、そこで先ほどインポートしたテクスチャ(PNG画像ファイル)をドラッグアンドドロップし、ベースカラーへのリンクを貼ります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/game_ue4_mmd_miku_03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;これで、モデルがある程度はちゃんと表示されると思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/game_ue4_mmd_miku_05.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ちなみに、マテリアルを変更した際、ビルドには多少時間がかかりますので、その間、マテリアルが反映されないことがあります。気長に待ちましょう。&lt;/p&gt;
+
+&lt;h5 id=&#34;キャラクターにモーションを付ける&#34;&gt;キャラクターにモーションを付ける&lt;/h5&gt;
+
+&lt;p&gt;プロジェクトを作成する画面で階段とかがあるマップ選択すると、サンプルキャラクターとモーションがついてきます。今回はそれを利用してモデルに動きをつけます。&lt;/p&gt;
+
+&lt;p&gt;まず、サンプルキャラのスケルトン、&lt;code&gt;Mannequin/Character/Mesh/UE4_Mannequin_Skeleton&lt;/code&gt;を編集します。&lt;/p&gt;
+
+&lt;p&gt;そこでリターゲットマネージャーを起動し、&lt;code&gt;リグを選択&lt;/code&gt;にて&lt;code&gt;Humanoid&lt;/code&gt;を指定します。すると、自動で各ボーンが割り当てられます。最後にポーズを保存します。&lt;/p&gt;
+
+&lt;p&gt;次に、Mikuのスケルトンを編集します。先ほどと同じようにリターゲットマネージャーを起動し、リグを選択にて&lt;code&gt;Humanoid&lt;/code&gt;を指定します。そして、各ボーンを手動で割り当てます。これが非常に面倒です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/game_ue4_mmd_miku_motion_02.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/game_ue4_mmd_miku_motion_03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;部位&lt;/th&gt;
+&lt;th&gt;ue4標準ボーン&lt;/th&gt;
+&lt;th&gt;MMD標準ボーン&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;頭&lt;/td&gt;
+&lt;td&gt;head&lt;/td&gt;
+&lt;td&gt;頭&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;首&lt;/td&gt;
+&lt;td&gt;neck_01&lt;/td&gt;
+&lt;td&gt;首&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;肩（左）&lt;/td&gt;
+&lt;td&gt;clavicle_l&lt;/td&gt;
+&lt;td&gt;左肩&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;肩（右）&lt;/td&gt;
+&lt;td&gt;clavicle_r&lt;/td&gt;
+&lt;td&gt;右肩&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;上腕（左）&lt;/td&gt;
+&lt;td&gt;upperarm_l&lt;/td&gt;
+&lt;td&gt;左腕&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;上腕（右）&lt;/td&gt;
+&lt;td&gt;upperarm_r&lt;/td&gt;
+&lt;td&gt;右腕&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;前腕（左）&lt;/td&gt;
+&lt;td&gt;lowerarm_l&lt;/td&gt;
+&lt;td&gt;左ひじ&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;前腕（右）&lt;/td&gt;
+&lt;td&gt;lowerarm_r&lt;/td&gt;
+&lt;td&gt;右ひじ&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;手首（左）&lt;/td&gt;
+&lt;td&gt;hand_l&lt;/td&gt;
+&lt;td&gt;左手首&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;手首（右）&lt;/td&gt;
+&lt;td&gt;hand_r&lt;/td&gt;
+&lt;td&gt;右手首&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;背中1&lt;/td&gt;
+&lt;td&gt;spline_01&lt;/td&gt;
+&lt;td&gt;下半身&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;背中2&lt;/td&gt;
+&lt;td&gt;spline_02&lt;/td&gt;
+&lt;td&gt;上半身１&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;背中3&lt;/td&gt;
+&lt;td&gt;spline_03&lt;/td&gt;
+&lt;td&gt;上半身２&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;腰&lt;/td&gt;
+&lt;td&gt;pelvis&lt;/td&gt;
+&lt;td&gt;腰&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;大腿（左）&lt;/td&gt;
+&lt;td&gt;thigh_l&lt;/td&gt;
+&lt;td&gt;左足&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;大腿（右）&lt;/td&gt;
+&lt;td&gt;thigh_r&lt;/td&gt;
+&lt;td&gt;右足&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;下腿（左）&lt;/td&gt;
+&lt;td&gt;calf_l&lt;/td&gt;
+&lt;td&gt;左ひざ&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;下腿（右）&lt;/td&gt;
+&lt;td&gt;calf_r&lt;/td&gt;
+&lt;td&gt;右ひざ&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;足首（左）&lt;/td&gt;
+&lt;td&gt;foot_l&lt;/td&gt;
+&lt;td&gt;左足首&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;足首（右）&lt;/td&gt;
+&lt;td&gt;foot_r&lt;/td&gt;
+&lt;td&gt;右足首&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;親指（左1）&lt;/td&gt;
+&lt;td&gt;thumb_01_l&lt;/td&gt;
+&lt;td&gt;左親指０&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;親指（左2）&lt;/td&gt;
+&lt;td&gt;thumb_02_l&lt;/td&gt;
+&lt;td&gt;左親指１&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;親指（左3）&lt;/td&gt;
+&lt;td&gt;thumb_03_l&lt;/td&gt;
+&lt;td&gt;左親指２&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;親指（右1）&lt;/td&gt;
+&lt;td&gt;thumb_01_r&lt;/td&gt;
+&lt;td&gt;右親指０&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;親指（右2）&lt;/td&gt;
+&lt;td&gt;thumb_02_r&lt;/td&gt;
+&lt;td&gt;右親指１&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;親指（右3）&lt;/td&gt;
+&lt;td&gt;thumb_03_r&lt;/td&gt;
+&lt;td&gt;右親指２&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;人差し指（左1）&lt;/td&gt;
+&lt;td&gt;index_01_l&lt;/td&gt;
+&lt;td&gt;左人差１&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;人差し指（左2）&lt;/td&gt;
+&lt;td&gt;index_02_l&lt;/td&gt;
+&lt;td&gt;左人差２&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;人差し指（左3）&lt;/td&gt;
+&lt;td&gt;index_03_l&lt;/td&gt;
+&lt;td&gt;左人差３&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;人差し指（右1）&lt;/td&gt;
+&lt;td&gt;index_01_r&lt;/td&gt;
+&lt;td&gt;右人差１&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;人差し指（右2）&lt;/td&gt;
+&lt;td&gt;index_02_r&lt;/td&gt;
+&lt;td&gt;右人差２&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;人差し指（右3）&lt;/td&gt;
+&lt;td&gt;index_03_r&lt;/td&gt;
+&lt;td&gt;右人差３&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;中指（左1）&lt;/td&gt;
+&lt;td&gt;middle_01_l&lt;/td&gt;
+&lt;td&gt;左中指１&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;中指（左2）&lt;/td&gt;
+&lt;td&gt;middle_02_l&lt;/td&gt;
+&lt;td&gt;左中指２&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;中指（左3）&lt;/td&gt;
+&lt;td&gt;middle_03_l&lt;/td&gt;
+&lt;td&gt;左中指３&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;中指（右1）&lt;/td&gt;
+&lt;td&gt;middle_01_r&lt;/td&gt;
+&lt;td&gt;右中指１&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;中指（右2）&lt;/td&gt;
+&lt;td&gt;middle_02_r&lt;/td&gt;
+&lt;td&gt;右中指２&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;中指（右3）&lt;/td&gt;
+&lt;td&gt;middle_03_r&lt;/td&gt;
+&lt;td&gt;右中指３&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;薬指（左1）&lt;/td&gt;
+&lt;td&gt;ring_01_l&lt;/td&gt;
+&lt;td&gt;左薬指１&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;薬指（左2）&lt;/td&gt;
+&lt;td&gt;ring_02_l&lt;/td&gt;
+&lt;td&gt;左薬指２&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;薬指（左3）&lt;/td&gt;
+&lt;td&gt;ring_03_l&lt;/td&gt;
+&lt;td&gt;左薬指３&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;薬指（右1）&lt;/td&gt;
+&lt;td&gt;ring_01_r&lt;/td&gt;
+&lt;td&gt;右薬指１&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;薬指（右2）&lt;/td&gt;
+&lt;td&gt;ring_02_r&lt;/td&gt;
+&lt;td&gt;右薬指２&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;薬指（右3）&lt;/td&gt;
+&lt;td&gt;ring_03_r&lt;/td&gt;
+&lt;td&gt;右薬指３&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;小指（左1）&lt;/td&gt;
+&lt;td&gt;pinky_01_l&lt;/td&gt;
+&lt;td&gt;左小指１&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;小指（左2）&lt;/td&gt;
+&lt;td&gt;pinky_02_l&lt;/td&gt;
+&lt;td&gt;左小指２&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;小指（左3）&lt;/td&gt;
+&lt;td&gt;pinky_03_l&lt;/td&gt;
+&lt;td&gt;左小指３&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;小指（右1）&lt;/td&gt;
+&lt;td&gt;pinky_01_r&lt;/td&gt;
+&lt;td&gt;右小指１&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;小指（右2）&lt;/td&gt;
+&lt;td&gt;pinky_02_r&lt;/td&gt;
+&lt;td&gt;右小指２&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;小指（右3）&lt;/td&gt;
+&lt;td&gt;pinky_03_r&lt;/td&gt;
+&lt;td&gt;右小指３&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;これでアニメーションを動かせるようになったと思います。もし試したいなら&lt;code&gt;Mannequin/Animations&lt;/code&gt;にて好きなアニメーションを選択し、右クリックにて&lt;code&gt;Animアセットをリターゲットする&lt;/code&gt;を選択します。ここでMikuモデルを選択すれば再生されると思います。&lt;/p&gt;
+
+&lt;p&gt;再生すると分かりますが、&lt;code&gt;肩&lt;/code&gt;と&lt;code&gt;足&lt;/code&gt;の曲がり具合がサンプルモデルとMMDモデルでは異なっているため調整が必要です。しかし、今回は省略します。調整したい方は、サンプルモデルの各ボーンをできるだけまっすぐにすると良いでしょう。&lt;/p&gt;
+
+&lt;p&gt;最後に、初音ミクモデルを自由にコントロールする方法です。&lt;/p&gt;
+
+&lt;p&gt;これは、&lt;code&gt;ThirdPersonBP/Blueprints/ThirdPersonCharacter&lt;/code&gt;の&lt;code&gt;Mesh&lt;/code&gt;を初音ミクのものにし、かつAnimationのClassを&lt;code&gt;ThirdPerson_AnimeBP...&lt;/code&gt;に指定することで設定できます。&lt;/p&gt;
+
+&lt;p&gt;あとは、プレイするとキーボードで初音ミクを操作できます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/game_ue4_mmd_miku_motion_01.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ボーンの指定や調整などが非常に面倒でした。Unityの場合、この辺りはプラグインでほぼ全部やってくれたような記憶があります。&lt;/p&gt;
+
+&lt;h2 id=&#34;tyrano-builder&#34;&gt;Tyrano Builder&lt;/h2&gt;
+
+&lt;h3 id=&#34;tyrano-builderとは&#34;&gt;Tyrano Builderとは&lt;/h3&gt;
+
+&lt;p&gt;Tyrano Builderとは、日本人が開発しているノベルゲーム開発エンジンです。非常に簡単にゲームを制作できるのが特徴です。これもノベルゲームの性質上、ある程度は予想できることです。過去有名だったノベルゲームエンジンに触発されているということです。&lt;/p&gt;
+
+&lt;h2 id=&#34;live2d&#34;&gt;Live2D&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/live2d_miku_model.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;まず、Live2Dで初音ミクのモデルを作成し、それをUnityで動かしてみました。動き方は、マウスやタッチの感度、時間経過などを元に、動作を設定するプログラムを書きます。デフォルトでも基本的な設定はなされているようです。サンプルモデルなので。&lt;/p&gt;
+
+&lt;p&gt;これは、10分ほどで作成できます。なぜなら、Live2Dのマニュアル、初期説明が充実しているからです。個人的にはこのマニュアルは素晴らしい出来だと思います。基本説明ではあるものの、それが応用可能な説明になっているからです。&lt;/p&gt;
+
+&lt;h2 id=&#34;spritestudio&#34;&gt;SpriteStudio&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.webtech.co.jp/spritestudio/&#34;&gt;SpriteStudio&lt;/a&gt;は、2D画像をアニメーションするためのアプリで、UnityやUE4とも連携でき、そのためのプラグインがいくつか用意されています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SpriteStudio&#34;&gt;https://github.com/SpriteStudio&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;補助ツールなども豊富で、分かりやすく説明されているためすぐに使えました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.webtech.co.jp/help/ja/spritestudio/download/fordesigner/&#34;&gt;http://www.webtech.co.jp/help/ja/spritestudio/download/fordesigner/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;gimpからpsdを作成し-それをspritestudioで読み込む&#34;&gt;GIMPからPSDを作成し、それをSpriteStudioで読み込む&lt;/h3&gt;
+
+&lt;p&gt;以下のツールを使います。これにより&lt;code&gt;.psd&lt;/code&gt;から&lt;code&gt;.ssce(ssae,sspj)&lt;/code&gt;ができます。&lt;/p&gt;
+
+&lt;p&gt;(正確には、&lt;code&gt;.psd&lt;/code&gt;からレイヤーごとの&lt;code&gt;.png&lt;/code&gt;が作られ、その構成を記した&lt;code&gt;.txt&lt;/code&gt;から&lt;code&gt;.ssce&lt;/code&gt;などが作成されます)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SpriteStudio/PSDtoSS/wiki&#34;&gt;https://github.com/SpriteStudio/PSDtoSS/wiki&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;spritestudioで-ssceを読み込む&#34;&gt;SpriteStudioで.ssceを読み込む&lt;/h3&gt;
+
+&lt;p&gt;先ほど作成した&lt;code&gt;.ssce&lt;/code&gt;を開きます。当該アプリと拡張子が関連付けされていると思います。&lt;/p&gt;
+
+&lt;p&gt;しかし、Mac(Free版)ではアプリを開いた後に再度読み込まないと、できたりできなかったりでした。&lt;/p&gt;
+
+&lt;p&gt;また、当該環境下では、GIMPプラグインである&lt;code&gt;GIMPWin_PSDtoSS_PNGExport.py&lt;/code&gt;で作成し、&lt;code&gt;PSDtoSS for Mac&lt;/code&gt;で作成した&lt;code&gt;.ssce&lt;/code&gt;は「セルマップ画像とパーツ毎のX,Y座標、縦横サイズを含む.SSCEファイルとパーツのレイアウト情報」を正確には含んでいませんでした。したがって、「セルマップの登録とパーツの配置まで自動で行」われませんでしたので、手動で配置しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/game_spritestudio_undroid.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;アニメーションの振り付け&#34;&gt;アニメーションの振り付け&lt;/h3&gt;
+
+&lt;p&gt;自動(私の場合は手動)でパーツの配置を完了した後は、アニメーションをつけていきます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/game_spritestudio_undroid.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ヒント : 手の重心を下のほうに変更すれば、もう少しスムーズに手をふることが出来ます!&lt;/p&gt;
+
+&lt;h3 id=&#34;live2dとspritestudio&#34;&gt;Live2DとSpriteStudio&lt;/h3&gt;
+
+&lt;p&gt;まず、SpriteStudioは&lt;a href=&#34;http://www.live2d.com/ja/&#34;&gt;Live2D&lt;/a&gt;より遥かに使いやすい印象でした。ただし、Live2Dは完全無料版があるのに対し、SpriteStudioは基本有料です。&lt;/p&gt;
+
+&lt;p&gt;しかし、Live2D(Free)は制限がきつくて実際はあまり使いものにならないような気がします。&lt;/p&gt;
+
+&lt;p&gt;次に、Live2Dが使えない理由は他にもあります。&lt;/p&gt;
+
+&lt;p&gt;具体的には、&lt;code&gt;QuickTime&lt;/code&gt;と&lt;code&gt;Java&lt;/code&gt;に依存しているからです。Windowsの場合もMacの場合も、これは最悪です&lt;/p&gt;
+
+&lt;p&gt;Macの場合は&lt;code&gt;Java SE6&lt;/code&gt;をインストールしなければいけません。Windowsは脆弱な&lt;code&gt;QuickTime&lt;/code&gt;が必要になるため使いたくありません。&lt;/p&gt;
+
+&lt;p&gt;さらに、Live2DはViewerなどにAdobe Airが必要だったりと、技術者が使うにはとても抵抗があるアプリです。&lt;/p&gt;
+
+&lt;p&gt;なので、2Dを作るならSpriteStudioのほうが良いと私は思いました。これは、使いやすさや依存関係などを見て総合的に判断しています。&lt;/p&gt;
+
+&lt;p&gt;まず、&lt;a href=&#34;http://www.webtech.co.jp/help/ja/spritestudio/download/fordesigner/&#34;&gt;こちら&lt;/a&gt;にサンプルが用意されていると思います。それを読み込んで動作を確認してみても良いし、イチから作ってみても良いです。&lt;/p&gt;
+
+&lt;p&gt;私の場合、イラストから作成し、アニメーションを付けてみました。&lt;/p&gt;
+
+&lt;p&gt;使い方は、画像ファイルを読み込んで、一つ一つのパーツに時間軸のアニメーションを付けていきます。この際、&lt;a href=&#34;https://github.com/SpriteStudio/PSDtoSS&#34;&gt;プラグイン&lt;/a&gt;を使っても構いません。&lt;/p&gt;
+
+&lt;p&gt;アニメーションの付け方ですが、パーツをダブルクリックすると重心を設定できます。重心は基本的に胸や腰の方向に向けて設定すると良いでしょう。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/game_spritestudio_sample_04.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;また、アニメーションを付ける際には、ツールバーの下記にマーク(的?のマーク)されたものを使うと設定しやすいです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/game_spritestudio_sample_03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

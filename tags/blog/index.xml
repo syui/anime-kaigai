@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on アニメ海外反応</title>
+    <link>https://anime.syui.cf/tags/blog/index.xml</link>
+    <description>Recent content in Blog on アニメ海外反応</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [term](https://gitlab.com/syui/hugo-theme-term).</copyright>
+    <atom:link href="https://anime.syui.cf/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ブログ入門</title>
+      <link>https://anime.syui.cf/2016-10-16-blog</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://anime.syui.cf/2016-10-16-blog</guid>
+      <description>&lt;p&gt;ブログを始めようと考えている人に対して一般的なアドバイスをします。具体的には、おすすめのサービスやテンプレートのカスタマイズなどを解説します。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+
+&lt;p&gt;この記事では、&lt;a href=&#34;https://www.blogger.com/&#34;&gt;Blogger&lt;/a&gt;, &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;, &lt;a href=&#34;https://docs.gitlab.com/ee/pages/README.html&#34;&gt;GitLab Pages&lt;/a&gt;の基本的な使い方を解説します。これらは私が使ってきたブログサービスです。&lt;/p&gt;
+
+&lt;p&gt;また、一般的なブログサービスとして&lt;a href=&#34;https://medium.com/&#34;&gt;Medium&lt;/a&gt;, &lt;a href=&#34;http://hatenablog.com/&#34;&gt;Hatena Blog&lt;/a&gt;, &lt;a href=&#34;https://note.mu/&#34;&gt;note&lt;/a&gt;, &lt;a href=&#34;qiita.com&#34;&gt;Qiita&lt;/a&gt;, &lt;a href=&#34;https://ghost.org/&#34;&gt;Ghost&lt;/a&gt;などについても言及します。結論としてはこれらのうちで良さそうなものを自分で選んで始めればそれでいいと思います。&lt;/p&gt;
+
+&lt;p&gt;この記事ではWebサーバーを含むインフラ技術はあまり解説しません。あくまでサービスを使って更新するブログを紹介していきたいと思います。&lt;/p&gt;
+
+&lt;h3 id=&#34;方針について&#34;&gt;方針について&lt;/h3&gt;
+
+&lt;p&gt;当記事の方針の一つは、著者が後々利用しやすいように作っていく方針です。&lt;/p&gt;
+
+&lt;p&gt;一部、表現等に正確ではないものも含まれると思いますが、この記事では正確さよりも分かりやすさを重視します。もし正確な情報が欲しければ、公式ドキュメントを参照してください。&lt;/p&gt;
+
+&lt;p&gt;なお、内容が充実してきたら別ページにも保存するかもしれません。&lt;/p&gt;
+
+&lt;h3 id=&#34;著者のレベル&#34;&gt;著者のレベル&lt;/h3&gt;
+
+&lt;p&gt;著者はブログについては初心者です。この記事は調べたものを載せるというより、ほとんどがアドリブで、定義なども単に自分のイメージを書いているに過ぎません。&lt;/p&gt;
+
+&lt;h3 id=&#34;おすすめのブログサービス&#34;&gt;おすすめのブログサービス&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;結論 :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;おすすめは&lt;code&gt;Medium&lt;/code&gt;か&lt;code&gt;Blogger&lt;/code&gt;です。&lt;/p&gt;
+
+&lt;p&gt;Webサーバーから構築し独自ドメインで運用する場合は&lt;code&gt;Ghost&lt;/code&gt;です。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;理由 :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;SSLに対応しているか、広告非表示は可能か、アドセンス(AD)は可能か、その他、プラットフォームの使用言語などから判断&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;その人の技術レベルに応じておすすめするものも変わってきます。したがって、まずは難易度別に表示してみます。なお、この難易度はあくまで目安と考えてください。初心者の視点から、主にブログ更新に必要な知識及び、ブラウザから設定できるかどうかなどによって判断しています。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Level&lt;/th&gt;
+&lt;th&gt;SSL&lt;/th&gt;
+&lt;th&gt;JS-OFF&lt;/th&gt;
+&lt;th&gt;AD&lt;/th&gt;
+&lt;th&gt;広告非表示&lt;/th&gt;
+&lt;th&gt;特徴&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;GitLab&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;ブラウザからの設定は不可&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;GitHub&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;ブラウザからの設定は不可&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Ghost&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;ある程度の設定はブラウザから可能&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;WordPress&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;ある程度の設定はブラウザから可能&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Blogger&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;ブラウザから設定&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Medium&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color: red&#34;&gt;NO&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;ブラウザから設定&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;note&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color: red&#34;&gt;NO&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color: red&#34;&gt;NO&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;ブラウザから設定, 課金を設定できる&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Hatena&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color: red&#34;&gt;NO&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color: red&#34;&gt;NO&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;ブラウザから設定&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Qiita&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color: red&#34;&gt;NO&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color: red&#34;&gt;NO&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;OK&lt;/td&gt;
+&lt;td&gt;ブラウザから設定&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;JS-OFFというのは、JavaScriptをOFFにしていても表示できるか否かです。個人的にはこれはとても重要な事です。その他、利用者にとって有利な点をOKとし、それ以外をNOで表現しています。&lt;/p&gt;
+
+&lt;p&gt;まず、&lt;code&gt;GitLab&lt;/code&gt;と&lt;code&gt;GitHub&lt;/code&gt;では同じようにページを構築できるのですが、情報の量及びCIサービスを稼働するかどうかが違ってきます。GitLabでページを作るには、ビルドしたものをPushすればいいというわけではなく、あくまでCIビルドを通さなくてはなりません。ソースコードで上げられるのは便利ですが、CIビルドを通さなければならない分、難易度は高めになっています。&lt;code&gt;GitLab&lt;/code&gt;は&lt;code&gt;GitHub&lt;/code&gt;と違い無料でプライベートリポジトリを使えます。GitHubは有料版しかプライベートリポジトリを有効にできません。&lt;/p&gt;
+
+&lt;p&gt;次に、&lt;code&gt;Ghost&lt;/code&gt;と&lt;code&gt;WordPress&lt;/code&gt;は別段、Gitの知識は必要はありません。また、テンプレートなどが予め用意されていたりと、ユーザーフレンドリーです。その為、難易度的には標準になっています。ただし、GhostやWordPressなどは通常、Webサーバーにホストして使うことを前提としているため、Webサイトの基本的な知識が必要になります。情報量ではGhostのほうが少なく、かつテンプレートやプラグインなども少ないため、Ghostのほうが難易度は高めです。&lt;/p&gt;
+
+&lt;p&gt;最後に、&lt;code&gt;Blogger&lt;/code&gt;などのサービスは完全にブラウザだけでサイトを構築し、更新できます。したがって、難易度的は最も簡単です。&lt;/p&gt;
+
+&lt;p&gt;使っている人の数で言うと、レベル1が圧倒的に多数を占めます。レベルが上がるほど少数になっていき、最終的にはブログとして使っている人はほとんどいない状態になります。&lt;/p&gt;
+
+&lt;p&gt;ですが、例えば、GitHub Pagesを使ってブログをやっている人は、数は少ないですが確かに存在します。&lt;/p&gt;
+
+&lt;h3 id=&#34;静的サイトジェネレーター&#34;&gt;静的サイトジェネレーター&lt;/h3&gt;
+
+&lt;p&gt;ここで、レイアウトに使うコードを自分で決められるサービスを選んだ場合、静的サイトジェネレーターが便利です。なお、上の表で言うとレベル1以外は自分で書いたコードをそのまま使えます。他のサービスは様々な制約があります。&lt;/p&gt;
+
+&lt;p&gt;一覧 : &lt;a href=&#34;https://gitlab.com/groups/pages&#34;&gt;https://gitlab.com/groups/pages&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Content&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/jekyll/jekyll&#34;&gt;Jekyll&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Rubyで書かれており、最も普及している&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/octopress/octopress&#34;&gt;Octopress&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Rubyで書かれており、GitHub Pages用に作られた。テンプレートにはBootstrapを使ったものが多い&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/middleman/middleman&#34;&gt;Middleman&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Rubyで書かれおり、Octopressの後発。SlimやHamlで書かれたテンプレートも多い&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;Hugo&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Goで書かれており、とても高速でシンプルなテンプレートが多い。この中では最も新しい&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;bloggerのカスタマイズ&#34;&gt;Bloggerのカスタマイズ&lt;/h2&gt;
+
+&lt;p&gt;Bloggerを使っている人が僅かながら私の周りにもいます。したがって、項目別にカスタマイズ方法とコードを載せることにします。&lt;/p&gt;
+
+&lt;h3 id=&#34;コードの書き方&#34;&gt;コードの書き方&lt;/h3&gt;
+
+&lt;p&gt;まず、Bloggerで使用するコードは非常に特殊です。HTMLで書く&lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;などを特殊文字に直さなければならなかったりします。それを踏まえた上で、いくつかのレイアウトコードを見ていきます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;amp;lt;!-- コメント --&amp;amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;投稿-atom-を削除する方法&#34;&gt;「投稿:Atom」を削除する方法&lt;/h3&gt;
+
+&lt;p&gt;以下の箇所を見つけてそれを削除します｡&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;data:feedLinksMsg/&amp;gt;
+&amp;lt;b:loop values=&#39;data:links&#39; var=&#39;f&#39;&amp;gt;
+   &amp;lt;a class=&#39;feed-link&#39; expr:href=&#39;data:f.url&#39; expr:type=&#39;data:f.mimeType&#39; target=&#39;_blank&#39;&amp;gt;&amp;lt;data:f.name/&amp;gt; (&amp;lt;data:f.feedType/&amp;gt;)&amp;lt;/a&amp;gt;
+&amp;lt;/b:loop&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;ホーム-を削除する方法&#34;&gt;「ホーム」を削除する方法&lt;/h3&gt;
+
+&lt;p&gt;以下の箇所を見つけてそれを削除します｡&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;a class=&#39;home-link&#39; ...  &amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;前の投稿-を削除する方法&#34;&gt;「前の投稿」を削除する方法&lt;/h3&gt;
+
+&lt;p&gt;以下の箇所を見つけてそれを削除します｡&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;span id=&#39;blog-pager-older-link&#39;&amp;gt;
+	&amp;lt;a class=&#39;blog-pager-older-link&#39; expr:href=&#39;data:olderPageUrl&#39; expr:id=&#39;data:widget.instanceId + &amp;amp;quot;_blog-pager-older-link&amp;amp;quot;&#39; expr:title=&#39;data:olderPageTitle&#39;&amp;gt;&amp;lt;data:olderPageTitle/&amp;gt;&amp;lt;/a&amp;gt;
+&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;次の投稿-を削除する方法&#34;&gt;「次の投稿」を削除する方法&lt;/h3&gt;
+
+&lt;p&gt;以下の箇所を見つけてそれを削除します｡&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;span id=&#39;blog-pager-newer-link&#39;&amp;gt;
+	&amp;lt;a class=&#39;blog-pager-newer-link&#39; expr:href=&#39;data:newerPageUrl&#39; expr:id=&#39;data:widget.instanceId + &amp;amp;quot;_blog-pager-newer-link&amp;amp;quot;&#39; expr:title=&#39;data:newerPageTitle&#39;&amp;gt;&amp;lt;data:newerPageTitle/&amp;gt;&amp;lt;/a&amp;gt;
+&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;powered-by-blogger-を削除する方法&#34;&gt;「Powered by Blogger」を削除する方法&lt;/h3&gt;
+
+&lt;p&gt;以下の箇所を見つけて変更します。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;- &amp;lt;b:widget id=&#39;Attribution1&#39; locked=&#39;true&#39; title=&#39;&#39; type=&#39;Attribution&#39;/&amp;gt;
++ &amp;lt;b:widget id=&#39;Attribution1&#39; locked=&#39;false&#39; title=&#39;&#39; type=&#39;Attribution&#39;/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;解説としては、Bloggerでは、ガジェットを表現するキーワードを widgetと言います。ここで、この widgetには、一括して様々な設定ができるようになっているのですが、ロックするかしないかを設定することができます。ここで、ロックをオンにした場合は、管理画面からの変更が不可能になります。反対に、ロックをオフにした場合は、管理画面からの変更が可能になります。true、 falseで設定できます。これは、ロックをするか?と聞かれた場合の Yes , No の意味です。&lt;/p&gt;
+
+&lt;p&gt;ここで変更可能にした widgetは、管理画面の レイアウトから変更可能になります。「Powerd by Blogger」に該当するウィジェットを削除します。&lt;/p&gt;
+
+&lt;h3 id=&#34;タイトルとコンテンツを分ける線を表示する方法&#34;&gt;タイトルとコンテンツを分ける線を表示する方法&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.main-inner {
+  padding-top: $(main.padding.top);
+  padding-bottom: $(main.padding.bottom);
+  border-top: solid 1px #ccc;
+}
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

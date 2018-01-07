@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on アニメ海外反応</title>
+    <link>https://anime.syui.cf/tags/mac/index.xml</link>
+    <description>Recent content in Mac on アニメ海外反応</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [term](https://gitlab.com/syui/hugo-theme-term).</copyright>
+    <atom:link href="https://anime.syui.cf/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>デスクトップ・カスタマイズ</title>
+      <link>https://anime.syui.cf/2016-10-17-desktop</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://anime.syui.cf/2016-10-17-desktop</guid>
+      <description>&lt;p&gt;それぞれのOSで使っているデスクトップアプリとその使い方など。デスクトップと言っても私はほとんどCLIしか使いませんので、多くはCLI Toolと補助アプリになります。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+
+&lt;p&gt;私は主にArch Linux, macOS, Windows10のデスクトップを使います。Windows10だけはVirtualBoxで構築したものを主に使いますが、殆どは実機かVPN上に構築しています。&lt;/p&gt;
+
+&lt;p&gt;それぞれのOSには特徴が異なりますが、基本的なことはどのデスクトップでも可能になっているので、それほど違いはありません。&lt;/p&gt;
+
+&lt;p&gt;私の印象で言うとLinuxのデスクトップは自由度が高くコマンドライン系のアプリが多く、非常に扱いやすい印象です。反対にデザイン系のアプリは少なく、X上で再現されるため非常に貧弱です。&lt;/p&gt;
+
+&lt;p&gt;macはUnixの上に構築されているので、Unixコマンドが便利です。また、UIに強いこだわりがあり、そのためかデザイン系のアプリが豊富です。&lt;/p&gt;
+
+&lt;p&gt;Windowsは昔からあるOSでユーザーが多かったことから様々なGUIアプリが豊富です。しかし、コマンドラインが貧弱です。&lt;/p&gt;
+
+&lt;p&gt;このような違いが出てくるのは主にユーザーの数や特徴によります。&lt;/p&gt;
+
+&lt;p&gt;現在一番バランスが良いのはmacです。殆どの主要アプリは移植され、コマンドラインも扱いやすいので人気があります。ハードはApple製のみで統一されているため不満も少なく、快適に動作します。&lt;/p&gt;
+
+&lt;h3 id=&#34;壁紙&#34;&gt;壁紙&lt;/h3&gt;
+
+&lt;p&gt;基本的にはターミナルを透過することもあり黒で設定する&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/desktop/archlinux.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/mba-hack/images/master/desktop/screen.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;cli&#34;&gt;CLI&lt;/h2&gt;
+
+&lt;p&gt;CLIは使ってるものが多すぎて整理中&lt;/p&gt;
+
+&lt;h2 id=&#34;macos&#34;&gt;macOS&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Text&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.iterm2.com/downloads.html&#34;&gt;iTerm2&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ターミナル&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://brew.sh/&#34;&gt;Homebrew&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;パッケージマネージャー&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://pqrs.org/osx/karabiner/&#34;&gt;Karabiner&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;キーボード・カスタマイズ、ショートカット&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/fikovnik/ShiftIt/releases&#34;&gt;ShiftIt&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ショートカット&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.clipmenu.com/&#34;&gt;ClipMenu&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;クリップボード&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://anime.syui.cf/macosx-nosleep-extension/&#34;&gt;NoSleep&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;スリープ抑止&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.virtualbox.org/wiki/Downloads&#34;&gt;VirtualBox&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;仮想環境&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://freemacsoft.net/appcleaner/&#34;&gt;AppCleaner&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;アプリ・アンインストーラー&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.bresink.com/osx/TinkerTool.html&#34;&gt;TinkerTool&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;設定カスタマイズ&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.piriform.com/ccleaner-mac&#34;&gt;CCleaner&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;クリーナー&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;karabiner&#34;&gt;Karabiner&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;~/Library/Application Support/Karabiner/private.xml&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-xml&#34;&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot;?&amp;gt;
+&amp;lt;root&amp;gt;
+
+  &amp;lt;vkopenurldef&amp;gt;
+    &amp;lt;name&amp;gt;KeyCode::VK_OPEN_URL_APP_MacVim&amp;lt;/name&amp;gt;
+    &amp;lt;url type=&amp;quot;file&amp;quot;&amp;gt;/Applications/MacVim.app&amp;lt;/url&amp;gt;
+  &amp;lt;/vkopenurldef&amp;gt;
+  &amp;lt;vkopenurldef&amp;gt;
+    &amp;lt;name&amp;gt;KeyCode::VK_OPEN_URL_APP_GoogleChrome&amp;lt;/name&amp;gt;
+    &amp;lt;url type=&amp;quot;shell&amp;quot;&amp;gt;
+	    &amp;lt;![CDATA[
+	    open &amp;quot;/Applications/Google Chrome.app&amp;quot; --args --disable-javascript --disable-java --disable-plugins --incognito
+	    ]]&amp;gt;
+    &amp;lt;/url&amp;gt;
+  &amp;lt;/vkopenurldef&amp;gt;
+  &amp;lt;vkopenurldef&amp;gt;
+    &amp;lt;name&amp;gt;KeyCode::VK_OPEN_URL_APP_GoogleChrome_Default&amp;lt;/name&amp;gt;
+    &amp;lt;url type=&amp;quot;file&amp;quot;&amp;gt;/Applications/Google Chrome.app&amp;lt;/url&amp;gt;
+  &amp;lt;/vkopenurldef&amp;gt;
+  &amp;lt;vkopenurldef&amp;gt;
+    &amp;lt;name&amp;gt;KeyCode::VK_OPEN_URL_APP_Terminal&amp;lt;/name&amp;gt;
+    &amp;lt;url type=&amp;quot;file&amp;quot;&amp;gt;/Applications/iTerm.app&amp;lt;/url&amp;gt;
+  &amp;lt;/vkopenurldef&amp;gt;
+ &amp;lt;vkopenurldef&amp;gt;
+    &amp;lt;name&amp;gt;KeyCode::VK_OPEN_URL_APP_FireFox&amp;lt;/name&amp;gt;
+    &amp;lt;url type=&amp;quot;file&amp;quot;&amp;gt;/Applications/FireFox.app&amp;lt;/url&amp;gt;
+  &amp;lt;/vkopenurldef&amp;gt;
+ &amp;lt;vkopenurldef&amp;gt;
+    &amp;lt;name&amp;gt;KeyCode::VK_OPEN_URL_APP_Safari&amp;lt;/name&amp;gt;
+    &amp;lt;url type=&amp;quot;file&amp;quot;&amp;gt;/Applications/Safari.app&amp;lt;/url&amp;gt;
+  &amp;lt;/vkopenurldef&amp;gt;
+ &amp;lt;vkopenurldef&amp;gt;
+    &amp;lt;name&amp;gt;KeyCode::VK_OPEN_URL_APP_Finder&amp;lt;/name&amp;gt;
+    &amp;lt;url type=&amp;quot;file&amp;quot;&amp;gt;/System/Library/CoreServices/Finder.app&amp;lt;/url&amp;gt;
+  &amp;lt;/vkopenurldef&amp;gt;
+
+  &amp;lt;list&amp;gt;
+    &amp;lt;item&amp;gt;
+      &amp;lt;name&amp;gt;LeaveInsMode with EISUU(Terminal)&amp;lt;/name&amp;gt;
+      &amp;lt;identifier&amp;gt;private.app_terminal_esc_with_eisuu&amp;lt;/identifier&amp;gt;
+      &amp;lt;only&amp;gt;TERMINAL&amp;lt;/only&amp;gt;
+      &amp;lt;autogen&amp;gt;--KeyToKey-- KeyCode::ESCAPE, KeyCode::ESCAPE, KeyCode::JIS_EISUU&amp;lt;/autogen&amp;gt;
+      &amp;lt;autogen&amp;gt;--KeyToKey-- KeyCode::J, VK_CONTROL, KeyCode::J, VK_CONTROL, KeyCode::JIS_EISUU&amp;lt;/autogen&amp;gt;
+      &amp;lt;autogen&amp;gt;--KeyToKey-- KeyCode::BRACKET_RIGHT, VK_CONTROL, KeyCode::BRACKET_RIGHT, VK_CONTROL, KeyCode::JIS_EISUU,KeyCode::BRACKET_RIGHT, VK_CONTROL, KeyCode::BRACKET_RIGHT, VK_CONTROL, KeyCode::JIS_EISUU&amp;lt;/autogen&amp;gt;
+    &amp;lt;/item&amp;gt;
+
+  &amp;lt;item&amp;gt;
+    &amp;lt;name&amp;gt;Open MacVim&amp;lt;/name&amp;gt;
+    &amp;lt;identifier&amp;gt;private.cmd_sh_v&amp;lt;/identifier&amp;gt;
+    &amp;lt;autogen&amp;gt;
+      __KeyToKey__
+      KeyCode::V, ModifierFlag::SHIFT_L, ModifierFlag::COMMAND_L,
+      KeyCode::VK_OPEN_URL_APP_MacVim
+    &amp;lt;/autogen&amp;gt;
+  &amp;lt;/item&amp;gt;
+
+  &amp;lt;item&amp;gt;
+    &amp;lt;name&amp;gt;Open Terminal&amp;lt;/name&amp;gt;
+    &amp;lt;identifier&amp;gt;private.cmd_re&amp;lt;/identifier&amp;gt;
+    &amp;lt;autogen&amp;gt;
+      __KeyToKey__
+      KeyCode::Z, ModifierFlag::COMMAND_L, ModifierFlag::SHIFT_L,
+      KeyCode::VK_OPEN_URL_APP_Terminal
+    &amp;lt;/autogen&amp;gt;
+  &amp;lt;/item&amp;gt;
+
+  &amp;lt;item&amp;gt;
+    &amp;lt;name&amp;gt;Open Chrome&amp;lt;/name&amp;gt;
+    &amp;lt;identifier&amp;gt;private.cmd_sh_g&amp;lt;/identifier&amp;gt;
+    &amp;lt;autogen&amp;gt;
+      __KeyToKey__
+      KeyCode::G, ModifierFlag::COMMAND_L, ModifierFlag::SHIFT_L,
+      KeyCode::VK_OPEN_URL_APP_GoogleChrome_Default
+    &amp;lt;/autogen&amp;gt;
+    &amp;lt;autogen&amp;gt;
+      __KeyToKey__
+      KeyCode::D, ModifierFlag::COMMAND_L, ModifierFlag::SHIFT_L,
+      KeyCode::VK_OPEN_URL_APP_GoogleChrome
+    &amp;lt;/autogen&amp;gt;
+  &amp;lt;/item&amp;gt;
+
+  &amp;lt;item&amp;gt;
+    &amp;lt;name&amp;gt;Open FireFox&amp;lt;/name&amp;gt;
+    &amp;lt;identifier&amp;gt;private.cmd_sh_f&amp;lt;/identifier&amp;gt;
+    &amp;lt;autogen&amp;gt;
+      __KeyToKey__
+      KeyCode::F, ModifierFlag::COMMAND_L, ModifierFlag::SHIFT_L,
+      KeyCode::VK_OPEN_URL_APP_FireFox
+    &amp;lt;/autogen&amp;gt;
+  &amp;lt;/item&amp;gt;
+
+  &amp;lt;item&amp;gt;
+    &amp;lt;name&amp;gt;Open Safari&amp;lt;/name&amp;gt;
+    &amp;lt;identifier&amp;gt;private.cmd_sh_s&amp;lt;/identifier&amp;gt;
+    &amp;lt;autogen&amp;gt;
+      __KeyToKey__
+      KeyCode::S, ModifierFlag::COMMAND_L, ModifierFlag::SHIFT_L,
+      KeyCode::VK_OPEN_URL_APP_Safari
+    &amp;lt;/autogen&amp;gt;
+  &amp;lt;/item&amp;gt;
+
+  &amp;lt;item&amp;gt;
+    &amp;lt;name&amp;gt;Open Finder&amp;lt;/name&amp;gt;
+    &amp;lt;identifier&amp;gt;private.cmd_1&amp;lt;/identifier&amp;gt;
+    &amp;lt;autogen&amp;gt;
+      __KeyToKey__
+      KeyCode::KEY_1, ModifierFlag::COMMAND_L,
+      KeyCode::VK_OPEN_URL_APP_Finder
+    &amp;lt;/autogen&amp;gt;
+  &amp;lt;/item&amp;gt;
+  &amp;lt;/list&amp;gt;
+
+&amp;lt;/root&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;起動音をoffにする&#34;&gt;起動音をOFFにする&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo nvram SystemAudioVolume=%00
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;ディスクのマウント&#34;&gt;ディスクのマウント&lt;/h3&gt;
+
+&lt;p&gt;MacではなぜかNTFSでフォーマットされたディスクの書き込みを許しません。したがって、以下のように読み書きができるようマウントできるようになります。&lt;/p&gt;
+
+&lt;p&gt;ただし、書き込み後にディスク自体が壊れるという惨劇を発生させたので、おすすめしません、危険。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ sudo mount -t ntfs -o rw,auto,nobrowse /dev/disk2s1 /mnt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;rootユーザーを有効にする&#34;&gt;rootユーザーを有効にする&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ dsenableroot
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;あとは&lt;code&gt;command + shift + option + Q&lt;/code&gt;でログアウトして、rootでログイン後に&lt;code&gt;/etc/sudoers&lt;/code&gt;を編集したりもできます。&lt;/p&gt;
+
+&lt;h3 id=&#34;復旧ディスクからターミナルでblessコマンドを実行する方法&#34;&gt;復旧ディスクからターミナルでblessコマンドを実行する方法&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ diskutil list
+disk0s1 200M EFI vfat
+disk0s2 100G / ext4
+
+$ cd /Volumes
+$ mkdir efi
+$ mount -t msdos /dev/disk0s1 /Volumes/efi
+
+$ cp -r Image \Volume/System /Volumes/efi
+$ cp /Volumes/efi/EFI/arch/grubx64.efi /Volumes/efi/System/Library/CoreServices/boot.efi
+$ bless --folder=/Volumes/efi --file=/Volumes/efi/System/Library/CoreServices/boot.efi --setBoot
+
+$ reboot
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;ブートメニューにアイコンを設定する方法&#34;&gt;ブートメニューにアイコンを設定する方法&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;/.volumeicon.icns&lt;/code&gt;を置くとできます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#Macのディスクにアイコンを設定する
+$ sudo cp 設定したいファイル /.volumeicon.icns
+
+#復旧ディスクにアイコンを設定する
+$ diskutil list
+$ mkdir mnt
+$ sudo mount -t hfs /dev/disk0s3 ./mnt
+$ sudo cp 設定したいファイル ./mnt/.volumeicon.icns
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;年式を調べる&#34;&gt;年式を調べる&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ system_profiler -listdatatypes | peco | xargs system_profiler -detailLevel full -xml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;bluetoohの音質を良くする&#34;&gt;Bluetoohの音質を良くする&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# apt-Xを有効にする
+$ defaults write com.apple.BluetoothAudioAgent &amp;quot;Enable AptX codec&amp;quot; -bool true
+
+# 確認
+$ defaults read com.apple.BluetoothAudioAgent
+
+# 設定の削除
+$ defaults delete com.apple.BluetoothAudioAgent &amp;quot;Enable AptX codec&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;crontab相当をmacで使う&#34;&gt;crontab相当をMacで使う&lt;/h3&gt;
+
+&lt;p&gt;Macの場合は面倒ですが、以下のスケジュール機能の&lt;code&gt;launchctl&lt;/code&gt;を使います。まず、設定ファイルを作成します。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;~/Library/LaunchAgents/foo.plist&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-xml&#34;&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;
+&amp;lt;!DOCTYPE plist PUBLIC &amp;quot;-//Apple//DTD PLIST 1.0//EN&amp;quot; &amp;quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&amp;quot;&amp;gt;
+&amp;lt;plist version=&amp;quot;1.0&amp;quot;&amp;gt;
+    &amp;lt;dict&amp;gt;
+        &amp;lt;key&amp;gt;Label&amp;lt;/key&amp;gt;
+        &amp;lt;string&amp;gt;foo&amp;lt;/string&amp;gt;
+        &amp;lt;key&amp;gt;ProgramArguments&amp;lt;/key&amp;gt;
+        &amp;lt;array&amp;gt;
+            &amp;lt;string&amp;gt;/usr/local/bin/zsh&amp;lt;/string&amp;gt;
+            &amp;lt;string&amp;gt;/Users/syui/bin/foo.sh&amp;lt;/string&amp;gt;
+        &amp;lt;/array&amp;gt;
+        &amp;lt;key&amp;gt;StartInterval&amp;lt;/key&amp;gt;
+        &amp;lt;integer&amp;gt;60&amp;lt;/integer&amp;gt;
+        &amp;lt;key&amp;gt;RunAtLoad&amp;lt;/key&amp;gt;
+        &amp;lt;true/&amp;gt;
+    &amp;lt;/dict&amp;gt;
+&amp;lt;/plist&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;StartInterval&lt;/code&gt;は秒を指定で&lt;code&gt;RunAtLoad&lt;/code&gt;は自動起動の設定です。次に、スケジュールをロードします。オプションは、&lt;code&gt;start, stop, unload&lt;/code&gt;など。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ launchctl load ~/Library/LaunchAgents/foo.plist
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;arch-linux&#34;&gt;Arch Linux&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Text&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://i3wm.org/&#34;&gt;i3&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ウィンドウマネージャー(WM)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/Tetralet/LilyTerm&#34;&gt;lilyterm&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;ターミナル&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;windows10&#34;&gt;Windows10&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Text&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://chocolatey.org&#34;&gt;Choco&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;パッケージマネージャー&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/PowerShell&#34;&gt;PowerShell&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;コマンドシェル&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://msys2.github.io/&#34;&gt;MSYS2&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Linuxターミナル・システム&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cygwin.com/&#34;&gt;Cygwin&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Linuxターミナル・システム&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.mingw.org/&#34;&gt;MinGW&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;コマンドパッケージ&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://boxstarter.org/&#34;&gt;BoxStarter&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;コマンドパッケージ&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/pclouds/busybox-w32&#34;&gt;Busybox&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;コマンドパッケージ&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://technet.microsoft.com/ja-jp/sysinternals/bb545027.aspx&#34;&gt;Sysinternals&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;システム管理&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.microsoft.com/ja-jp/dev/products/visual-studio-2015.aspx&#34;&gt;VirtualStudio&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;IEDエディタ&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/PowerShell/Win32-OpenSSH&#34;&gt;OpenSSH&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;リモート&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;パスワード-ログインの無効化&#34;&gt;パスワード・ログインの無効化&lt;/h3&gt;
+
+&lt;p&gt;Windows10でパスワードを設定してると、起動時にパスワード入力を求められるのですが、これを自動入力する方法。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;C+r -&amp;gt; netplwiz&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;cmdの文字化け&#34;&gt;cmdの文字化け&lt;/h3&gt;
+
+&lt;p&gt;リモートで文字化けする場合は&lt;code&gt;chcp 65001&lt;/code&gt;に変更します。&lt;/p&gt;
+
+&lt;p&gt;ターミナルの文字化けは&lt;code&gt;cmd&lt;/code&gt;のフォントも変更することで解決できるかもしれません。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AppleScript Reference</title>
+      <link>https://anime.syui.cf/2016-09-28-applescript</link>
+      <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://anime.syui.cf/2016-09-28-applescript</guid>
+      <description>&lt;p&gt;この記事は筆者 syui による、AppleScript に関する Tips をまとめたものになります。AppleScript の書き方ではなく、主に Example を紹介する内容になります。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;具体的には、AppleScript を ShellScript から実行したり、ターミナル・アプリとの連携を主体とする内容になります。&lt;/p&gt;
+
+&lt;p&gt;最後に、著者はコンピュータについては全くの初心者です。多分、はじめてコンピュータを触ったばかりの人よりも遥かに劣るレベルだと思われます。その点は考慮していただけると幸いです。一緒に AppleScript を学習していきましょう。&lt;/p&gt;
+
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+
+&lt;h3 id=&#34;applescriptについて&#34;&gt;AppleScriptについて&lt;/h3&gt;
+
+&lt;p&gt;AppleScript は、Mac で起動する GUI(グラフィック・ユーザーインターフェース) アプリやウィンドウなどを操作することに使える補助的なスクリプトです。&lt;/p&gt;
+
+&lt;p&gt;著者は CLI(コマンドライン・インターフェイス) に生息しているため、これを CLI から実行するコンセプトで書いていきます。&lt;/p&gt;
+
+&lt;p&gt;その他の内部的なシステムの変更はコマンドで行えます。&lt;/p&gt;
+
+&lt;p&gt;この記事では直接 AppleScript と関係するわけではありませんが、いくつか Mac を操作するコマンドを解説することにします。&lt;/p&gt;
+
+&lt;h3 id=&#34;方針について&#34;&gt;方針について&lt;/h3&gt;
+
+&lt;p&gt;当記事の方針の一つは、著者が後々利用しやすいように作っていく方針です。&lt;/p&gt;
+
+&lt;p&gt;一部、表現等に正確ではないものも含まれると思いますが、この記事では正確さよりも分かりやすさを重視します。もし正確な情報が欲しければ、&lt;a href=&#34;https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptLangGuide/reference/ASLR_cmds.html&#34;&gt;公式ドキュメント&lt;/a&gt;を参照指定ください。&lt;/p&gt;
+
+&lt;p&gt;なお、内容が充実してきたら別ページにも保存するかもしれません。&lt;/p&gt;
+
+&lt;h2 id=&#34;applescript入門&#34;&gt;AppleScript入門&lt;/h2&gt;
+
+&lt;h3 id=&#34;applescriptの作成と実行&#34;&gt;AppleScriptの作成と実行&lt;/h3&gt;
+
+&lt;p&gt;まずは具体例から見ていきましょう。そちらのほうが早いです。&lt;/p&gt;
+
+&lt;p&gt;拡張子はなんでも良いのですが、公式エディタアプリは&lt;code&gt;.scpt&lt;/code&gt;などを読みます。&lt;/p&gt;
+
+&lt;h4 id=&#34;applescript&#34;&gt;AppleScript&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;chrome_get_url.scpt&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-applescript&#34;&gt;#!/usr/bin/osascript
+tell application &amp;quot;Google Chrome&amp;quot; 
+	get URL of active tab of first window
+end tell
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;これは、&lt;code&gt;Google Chrome&lt;/code&gt;で開いているタブのURLを取得するスクリプトです。&lt;/p&gt;
+
+&lt;p&gt;作成したAppleScriptには実行は権限を渡して以下のように実行できます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ chmod +x chrome_get_url.scpt
+$ ./chrome_get_url.scpt
+https://syui.gitlab.io
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;shell&#34;&gt;Shell&lt;/h4&gt;
+
+&lt;p&gt;AppleScriptをShellから実行するには、&lt;code&gt;osascript -e&lt;/code&gt;を使います。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ osascript -e &#39;tell application &amp;quot;Google Chrome&amp;quot; to get URL of active tab of first window&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;shellscript&#34;&gt;ShellScript&lt;/h4&gt;
+
+&lt;p&gt;ShellScript内で実行するには&lt;code&gt;osascript&lt;/code&gt;から&lt;code&gt;&amp;lt;&amp;lt; EOF&lt;/code&gt;を使います。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;chrome_get_url.scpt&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-applescript&#34;&gt;#!/bin/zsh
+osascript &amp;lt;&amp;lt; EOF
+	tell application &amp;quot;Google Chrome&amp;quot;
+		get URL of active tab of first window
+	end tell
+EOF
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-applescript&#34;&gt;cat &amp;lt;&amp;lt; EOF | osascript -
+	tell application &amp;quot;Google Chrome&amp;quot;
+		get URL of active tab of first window
+	end tell
+EOF
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ここで、ShellScript内で実行するメリットを一つ紹介しておきます。それは、引数が使いやすいからです。例えば、以下のように引数を&lt;code&gt;$1&lt;/code&gt;などから取りやすいのです。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;iterm_key.sh&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-applescript&#34;&gt;osascript &amp;lt;&amp;lt; EOF
+tell application &amp;quot;iTerm&amp;quot;
+    activate
+    tell application &amp;quot;System Events&amp;quot;
+        delay 0.1
+        keystroke &amp;quot;$1&amp;quot;
+    end tell
+end tell
+EOF
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;これは、&lt;code&gt;iTerm&lt;/code&gt;に特定のキー(引数1)を入力するスクリプトです。ここでは&lt;code&gt;a&lt;/code&gt;を入力させています。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ chmod +x iterm_key.sh
+$ ./iterm_key.sh a
+a
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+
+&lt;h3 id=&#34;ctrlキーを使った入力をアプリに送る&#34;&gt;Ctrlキーを使った入力をアプリに送る&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/usr/bin/osascript
+tell application &amp;quot;iTerm&amp;quot;
+    activate
+    tell application &amp;quot;System Events&amp;quot;
+        delay 0.2
+        keystroke &amp;quot;v&amp;quot; using {command down}
+    end tell
+end tell
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;特定のアプリのwindowの情報を取得する&#34;&gt;特定のアプリのWindowの情報を取得する&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/usr/bin/osascript
+tell application &amp;quot;iTerm&amp;quot;
+	get id of every window
+end tell
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ osascript -e &#39;tell application &amp;quot;System Events&amp;quot; to get properties of first window of application process &amp;quot;iTerm2&amp;quot;&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;特定のアプリのwindowを選択する&#34;&gt;特定のアプリのWindowを選択する&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;peco&lt;/code&gt;を使って&lt;code&gt;iTerm2&lt;/code&gt;のウィンドウを選択するスクリプトです。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/zsh
+i=`osascript -e &#39;tell application &amp;quot;iTerm&amp;quot; to get id of every window&#39;
+i=`echo &amp;quot;$i&amp;quot;|tr , &#39;\n&#39;|tr -d , |cut -d &#39;-&#39; -f 2|peco`
+osascript &amp;lt;&amp;lt;EOF
+	tell application &amp;quot;iTerm&amp;quot; to select window $i
+EOF
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;iterm2のウィンドウサイズを変更する&#34;&gt;iTerm2のウィンドウサイズを変更する&lt;/h3&gt;
+
+&lt;p&gt;まずはコマンドを使って変更したいウィンドウサイズにしておきます。なぜなら、そこからサイズ情報を取得するからです。その後、以下のスクリプトを実行します。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/zsh
+i=`osascript -e &#39;tell application &amp;quot;System Events&amp;quot; to get properties of first window of application process &amp;quot;iTerm2&amp;quot;&#39;`
+i=`echo &amp;quot;$i&amp;quot;| tr &amp;quot;:&amp;quot; &amp;quot;\n&amp;quot; | grep -A 1 -e position -e size|awk &amp;quot;NR==2;NR==5&amp;quot;`
+export a=`echo &amp;quot;$i&amp;quot;|awk &amp;quot;NR==1&amp;quot;|cut -d , -f 1-2`
+export b=`echo &amp;quot;$i&amp;quot;|awk &amp;quot;NR==2&amp;quot;|cut -d , -f 1-2`
+echo $a
+echo $b
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;次に、出力された情報を使って以下のスクリプトを実行します。なお、&lt;code&gt;process &amp;quot;iTerm2&amp;quot;&lt;/code&gt;になっていることに注意。&lt;code&gt;application &amp;quot;iTerm&amp;quot;&lt;/code&gt;と指定することとの違いです。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/zsh
+osascript &amp;lt;&amp;lt;EOF
+	tell application &amp;quot;System Events&amp;quot;
+		set position of first window of application process &amp;quot;iTerm2&amp;quot; to {$a}
+		set size of first window of application process &amp;quot;iTerm2&amp;quot; to {$b}
+	end tell
+EOF
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/zsh
+osascript &amp;lt;&amp;lt;EOF
+	tell application &amp;quot;System Events&amp;quot; to tell application process &amp;quot;iTerm2&amp;quot;
+		set position of window 1 to {$a}
+		set size of window 1 to {$b}
+	end tell
+EOF
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/zsh
+osascript &amp;lt;&amp;lt;EOF
+	tell application &amp;quot;System Events&amp;quot;
+		tell application process &amp;quot;iTerm2&amp;quot;
+			set position of window 1 to {$a}
+			set size of window 1 to {$b}
+		end tell
+	end tell
+EOF
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;基本的には、それぞれのディスプレイによってウィンドウサイズは変わってくるので&lt;code&gt;top&lt;/code&gt;や&lt;code&gt;left&lt;/code&gt;など定型情報を保存しておき、適時、&lt;code&gt;peco&lt;/code&gt;などから選択できるようにしておくと便利です。&lt;/p&gt;
+
+&lt;p&gt;また、同じ動作をするスクリプトでも書き方は様々です。&lt;/p&gt;
+
+&lt;p&gt;これは、個人の好みにもよりますが、個人的には一番上の書き方が好きです。しかし、一般的に好まれるのは一番下の書き方でしょう。&lt;/p&gt;
+
+&lt;p&gt;できる限り、再現性及び再利用を考慮した上で書くようにすればいいと思います。&lt;/p&gt;
+
+&lt;h3 id=&#34;itermのウィンドウ透過度を設定する&#34;&gt;iTermのウィンドウ透過度を設定する&lt;/h3&gt;
+
+&lt;p&gt;まず最初に透過設定をONにしています。次に、透過度を設定する処理です。この方法は&lt;code&gt;iTerm3&lt;/code&gt;に対応しています。具体的には、&lt;code&gt;current terminal&lt;/code&gt;を&lt;code&gt;window 1&lt;/code&gt;に変更します。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/zsh
+
+osascript &amp;lt;&amp;lt;EOF
+tell application &amp;quot;iTerm&amp;quot;
+  if the transparency of the current session of window 1 &amp;gt; 0 then
+    set the transparency of the current session of window 1 to 0
+  else
+    set the transparency of the current session of window 1 to 1
+  end if
+end tell
+EOF
+
+osascript &amp;lt;&amp;lt;EOF
+tell application &amp;quot;iTerm&amp;quot;
+	tell current session of first window
+      set transparency to 0.3
+    end tell
+end tell
+EOF
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;vlcのウィンドウを複数操作する&#34;&gt;VLCのウィンドウを複数操作する&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;VLC&lt;/code&gt;のウィンドウは非常に厄介なことになっており、&lt;code&gt;window id&lt;/code&gt;も一つしかありません。したがって、&lt;code&gt;pid&lt;/code&gt;から操作していかなければなりません。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/usr/bin/osascript
+-- http://stackoverflow.com/questions/22940975/opening-multiple-windows-with-applescript
+set WIN_POSITIONS to {{1366,239}, {2326, 240}}
+set WIN_SIZES to {{960,598}, {960, 528}}
+tell application &amp;quot;System Events&amp;quot;
+    set vlcPids to get the unix id of every process whose name is &amp;quot;VLC&amp;quot;
+    set winNdx to 1
+    repeat with vlcPid in vlcPids
+        set haveWin to false
+        tell (first process whose unix id is vlcPid)
+            repeat with i from 1 to 25 # times out after 25 * .2 == 5 secs.
+                if (count of windows of it) &amp;gt; 0 then
+                    set haveWin to true
+                    tell front window of it
+                        set position to item winNdx of WIN_POSITIONS
+                        set size to item winNdx of WIN_SIZES
+                    end tell
+                    exit repeat
+                end if
+                delay 0.2 # no window yet; sleep some and try again
+            end repeat
+        end tell
+        if not haveWin then error &amp;quot;VLC instance &amp;quot; &amp;amp; vlcPid &amp;amp; &amp;quot; unexpectedly did not create a window within the timeout period.&amp;quot;
+        set winNdx to winNdx + 1
+    end repeat
+end tell
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

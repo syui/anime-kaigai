@@ -8292,86 +8292,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/2016-10-26-web-app</loc>
-    <lastmod>2016-10-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/2016-10-25-game-emulator</loc>
-    <lastmod>2016-10-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/2016-10-23-virtual</loc>
-    <lastmod>2016-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/2016-10-19-security</loc>
-    <lastmod>2016-10-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/2016-10-17-desktop</loc>
-    <lastmod>2016-10-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/2016-10-16-web-front-end</loc>
-    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/2016-10-16-blog</loc>
-    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/2016-10-12-android</loc>
-    <lastmod>2016-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/2016-10-09-metatrader</loc>
-    <lastmod>2016-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/2016-10-08-illust</loc>
-    <lastmod>2016-10-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/2016-10-04-game-unity</loc>
-    <lastmod>2016-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/2016-10-02-archlinux</loc>
-    <lastmod>2016-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/2016-10-01-law</loc>
-    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/2016-09-29-vocaloid</loc>
-    <lastmod>2016-09-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/2016-09-28-applescript</loc>
-    <lastmod>2016-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/2016-09-27-shellscript</loc>
-    <lastmod>2016-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/009-1/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -8984,13 +8904,13 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/categories/about/</loc>
+    <loc>https://anime.syui.cf/tags/about/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/about/</loc>
+    <loc>https://anime.syui.cf/categories/about/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -9200,12 +9120,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/android/</loc>
-    <lastmod>2016-10-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/ange-vierge/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -9326,12 +9240,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/applescript/</loc>
-    <lastmod>2016-09-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/appleseed-alpha/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -9387,12 +9295,6 @@
   
   <url>
     <loc>https://anime.syui.cf/archive/</loc>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/archlinux/</loc>
-    <lastmod>2016-10-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -9666,12 +9568,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/black-arch/</loc>
-    <lastmod>2016-10-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/black-blood-brothers/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -9734,18 +9630,6 @@
   <url>
     <loc>https://anime.syui.cf/tags/bleach-movie-1-memories-of-nobody/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/blog/</loc>
-    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/blogger/</loc>
-    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9956,12 +9840,6 @@
   <url>
     <loc>https://anime.syui.cf/tags/c-the-money-of-soul-and-possibility-control/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/caffescrit/</loc>
-    <lastmod>2016-10-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10193,12 +10071,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/comic/</loc>
-    <lastmod>2016-10-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/coppelion/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -10243,12 +10115,6 @@
   <url>
     <loc>https://anime.syui.cf/tags/crystal-blaze/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/css/</loc>
-    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10327,12 +10193,6 @@
   <url>
     <loc>https://anime.syui.cf/tags/dareka-no-manazashi/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/dark-web/</loc>
-    <lastmod>2016-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10559,12 +10419,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/docker/</loc>
-    <lastmod>2016-10-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/dog-days/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -10723,12 +10577,6 @@
   <url>
     <loc>https://anime.syui.cf/tags/eve-no-jikan/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/exploit/</loc>
-    <lastmod>2016-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11189,18 +11037,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/github/</loc>
-    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/gitlab/</loc>
-    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/gj-bu/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -11597,12 +11433,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/heroku/</loc>
-    <lastmod>2016-10-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/heroman/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -11839,12 +11669,6 @@
   <url>
     <loc>https://anime.syui.cf/tags/hourou-musuko/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/html/</loc>
-    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12137,12 +11961,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/javascript/</loc>
-    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/jigoku-shoujo/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -12277,12 +12095,6 @@
   <url>
     <loc>https://anime.syui.cf/tags/kaichou-wa-maid-sama/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/kail-linux/</loc>
-    <lastmod>2016-10-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12851,12 +12663,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/law/</loc>
-    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/level-e/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -12865,12 +12671,6 @@
   <url>
     <loc>https://anime.syui.cf/tags/line-offline-salaryman/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/linux/</loc>
-    <lastmod>2016-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -13009,12 +12809,6 @@
   <url>
     <loc>https://anime.syui.cf/tags/maburaho/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/mac/</loc>
-    <lastmod>2016-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -13337,20 +13131,8 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/metasploit/</loc>
-    <lastmod>2016-10-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/mikakunin-de-shinkoukei/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/miku/</loc>
-    <lastmod>2016-09-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -13595,18 +13377,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/mt4/</loc>
-    <lastmod>2016-10-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/mt5/</loc>
-    <lastmod>2016-10-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/murder-princess/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -13841,13 +13611,13 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/categories/new/</loc>
+    <loc>https://anime.syui.cf/tags/new/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/new/</loc>
+    <loc>https://anime.syui.cf/categories/new/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -14481,18 +14251,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/psp/</loc>
-    <lastmod>2016-10-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/psvita/</loc>
-    <lastmod>2016-10-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/psycho-pass/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -14693,12 +14451,6 @@
   <url>
     <loc>https://anime.syui.cf/tags/ristorante-paradiso/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/rkt/</loc>
-    <lastmod>2016-10-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15199,12 +14951,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/shellscript/</loc>
-    <lastmod>2016-09-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/shigatsu-wa-kimi-no-uso/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -15615,12 +15361,6 @@
   <url>
     <loc>https://anime.syui.cf/tags/strike-the-blood/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/studio-one/</loc>
-    <lastmod>2016-09-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16188,12 +15928,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/tyranobuidler/</loc>
-    <lastmod>2016-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/tytania/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -16230,12 +15964,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/ue4/</loc>
-    <lastmod>2016-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/ufo-princess-valkyrie/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -16250,12 +15978,6 @@
   <url>
     <loc>https://anime.syui.cf/tags/un-go/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/unity/</loc>
-    <lastmod>2016-10-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16374,18 +16096,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/vm/</loc>
-    <lastmod>2016-10-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/vocaloid/</loc>
-    <lastmod>2016-09-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/wagamama-high-spec/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -16434,12 +16144,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/web-app/</loc>
-    <lastmod>2016-10-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/white-album/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -16448,12 +16152,6 @@
   <url>
     <loc>https://anime.syui.cf/tags/white-album-2/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/windows/</loc>
-    <lastmod>2016-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16740,12 +16438,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/zero-day/</loc>
-    <lastmod>2016-10-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/tags/zero-no-tsukaima/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -16814,12 +16506,6 @@
   <url>
     <loc>https://anime.syui.cf/tags/zombie-loan/</loc>
     <lastmod>2016-12-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/tags/zsh/</loc>
-    <lastmod>2016-09-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

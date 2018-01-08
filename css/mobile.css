@@ -11,11 +11,11 @@
 #article-nav-newer{float:left;text-align:right;padding-right:20px;}
 #article-nav-older{float:right;text-align:left;padding-left:20px;}
 }
-@media screen and (max-width:1100px){#footer .outer{margin-top:70px;}
+@media screen and (max-width:1100px){
 #footer-right{display:none;}
 #footer-left{display:none;}
 #container > .outer{width:auto;}
-#footer .outer{width:auto;}
+#footer .outer{width:auto;padding: 20px;}
 .container-fluid{width:auto;padding-top:7px;}
 }
 @media screen and (max-width:900px){header .outer{border-bottom:solid 0px #428bca;
@@ -54,3 +54,5 @@
 }
 @media screen and (max-width:380px){#sub-nav{display:none;}
 }
+
+    

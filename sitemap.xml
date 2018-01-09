@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://anime.syui.cf/anime-kaigai-a54/</loc>
+    <lastmod>2018-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/anime-kaigai-a27/</loc>
     <lastmod>2018-01-09T00:00:00+00:00</lastmod>
   </url>
@@ -9933,6 +9938,12 @@
   <url>
     <loc>https://anime.syui.cf/categories/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/cc%E3%81%95%E3%81%8F%E3%82%89/</loc>
+    <lastmod>2018-01-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

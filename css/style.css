@@ -117,7 +117,7 @@ a:visited{color:#337ab7;}
 .archive-article-header a:hover,
 .layout-wrap-inner.tag-cloud a:hover,
 .archive-article-header a:visited:hover,
-.layout-wrap-inner.tag-cloud a:visited:hover{color:#38b7ea;}
+.layout-wrap-inner.tag-cloud a:visited:hover{color:#337ab7;}
 .article-date,
 .article-category-link,
 .archive-year,
@@ -185,7 +185,7 @@ a:visited{color:#337ab7;}
 #header{background:#fff}
 #header a,
 #header a:visited{white-space:nowrap;-webkit-transition:0.2s ease;-moz-transition:0.2s ease;-ms-transition:0.2s ease;transition:0.2s ease;color:#565a5f;}
-#header a:hover{color:#38b7ea;}
+#header a:hover{color:#337ab7;}
 .header-inner #logo,
 #main-nav,
 #sub-nav,
@@ -228,7 +228,7 @@ a:visited{color:#337ab7;}
 #search-form-wrap .search-form .search-form-submit:hover,
 #search-form-wrap .search-form .search-form-submit:focus{color:#777;}
 .search-form-input{width:200px;outline:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:none;-webkit-box-shadow:none;box-shadow:none;color:#565a5f;-webkit-transition:0.2s ease;-moz-transition:0.2s ease;-ms-transition:0.2s ease;transition:0.2s ease;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;font:14px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;border:1px solid #eceff2;}
-.search-form-input:focus{border-color:#38b7ea;}
+.search-form-input:focus{border-color:#337ab7;}
 #main-nav-mobile{overflow-y:hidden;overflow-x:auto;}
 #main-nav-mobile .menu{margin:0;height:48px;}
 #main-nav-mobile .menu:before,
@@ -251,7 +251,7 @@ a:visited{color:#337ab7;}
 #profile .inner .base-info #name{font-size:20px;font-weight:600;}
 #profile .inner .base-info #location{font-size:12px;margin-top:5px;color:#9a9ea3;}
 #profile .inner .base-info #location .fa{margin-right:5px;}
-#profile .inner .base-info #follow{color:#fff;width:150px;height:40px;display:block;font-size:14px;line-height:40px;text-align:center;margin:20px auto 10px;background:#38b7ea;-webkit-border-radius:0px;border-radius:0px;-webkit-transition:0.2s ease;-moz-transition:0.2s ease;-ms-transition:0.2s ease;transition:0.2s ease;}
+#profile .inner .base-info #follow{color:#fff;width:150px;height:40px;display:block;font-size:14px;line-height:40px;text-align:center;margin:20px auto 10px;background:#337ab7;-webkit-border-radius:0px;border-radius:0px;-webkit-transition:0.2s ease;-moz-transition:0.2s ease;-ms-transition:0.2s ease;transition:0.2s ease;}
 #profile .inner .base-info #follow:hover{background:#49c8fb;}
 #profile .inner .article-info{padding:0px;}
 #profile .inner .article-info:before,
@@ -379,7 +379,7 @@ a:visited{color:#337ab7;}
 .article-gallery-img.loaded{position:absolute;display:block;}
 .article-gallery-img img{display:block;max-width:100%;margin:0 auto;}
 #comments{padding:20px;margin:40px 0;}
-#comments a{color:#38b7ea;}
+#comments a{color:#337ab7;}
 .archives:before,
 .archives:after{content:"";display:table;}
 .archives:after{clear:both;}
@@ -399,7 +399,7 @@ a:visited{color:#337ab7;}
 .archive-year-wrap .archive-year:hover,
 .archive-category-wrap .archive-year:hover,
 .archive-tag-wrap .archive-year:hover,
-.layout-title .archive-year:hover{color:#38b7ea;}
+.layout-title .archive-year:hover{color:#337ab7;}
 .archive-article{-webkit-column-break-inside:avoid;page-break-inside:avoid;overflow:hidden;break-inside:avoid-column;padding:0;margin-bottom:15px;}
 .archive-article:before,
 .archive-article:after{content:"";display:table;}
@@ -434,7 +434,7 @@ a:visited{color:#337ab7;}
 #page-nav a,
 #page-nav span{font-size:60px;display:inline-block;}
 #page-nav a{color:#999;text-decoration:none;}
-#page-nav a:hover{color:#fff;background:#38b7ea;}
+#page-nav a:hover{color:#fff;background:#337ab7;}
 #page-nav .page-number{display:inline-block;}
 #page-nav .current{color:#565a5f;font-weight:bold;}
 #page-nav .space{color:#eceff2;}
@@ -609,7 +609,7 @@ pre .javascript .function{color:#c9c;}
 #recent-post li .item-inner a,
 #recent-post li .item-inner .item-category{font-size:13px;text-transform:uppercase;}
 #recent-post li .item-inner a a,
-#recent-post li .item-inner .item-category a{color:#38b7ea;}
+#recent-post li .item-inner .item-category a{color:#337ab7;}
 #recent-post li .item-inner a a:hover,
 #recent-post li .item-inner .item-category a:hover{color:#333;}
 #recent-post li .item-inner a a,
@@ -620,7 +620,7 @@ pre .javascript .function{color:#c9c;}
 #recent-post li .item-inner .item-title a{color:#333;-webkit-transition:all 0.2s ease;-moz-transition:all 0.2s ease;-ms-transition:all 0.2s ease;transition:all 0.2s ease;}
 #recent-post li .item-inner .item-date{color:#aaa;font-size:13px;text-transform:uppercase;}
 #recent-post li:hover .item-thumbnail{opacity:0.8;}
-#recent-post li:hover .item-title a{color:#38b7ea;}
+#recent-post li:hover .item-title a{color:#337ab7;}
 code.has-jax{font:inherit;font-size:100%;background:inherit;border:inherit;color:#515151;}
 .article-banner{width:200px;height:auto;}
 h1.article-title{color:#000;}
@@ -673,7 +673,7 @@ span.tweet-botton:hover{border-color:#eceff2;border:1px solid rgba(64, 120, 192,
 span.tweet-botton > i.fa.fa-twitter{position:absolute;font-size:20px;margin-left:-20px;margin-top:-2px;}
 div.talaria-wrapper div.talaria-comment-count{padding:20px;}
 input#search{padding:10px 14px;width:100%;border-radius:0px !important;-webkit-transition:0.2s ease;-moz-transition:0.2s ease;-ms-transition:0.2s ease;transition:0.2s ease;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;font:18px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;border:1px solid #eceff2;}
-input#search:focus{border-color:#38b7ea;}
+input#search:focus{border-color:#337ab7;}
 ul#results{padding:10px 0;font-size:20px;}
 #sidebar{margin-top:20px;}
 #container > .outer{margin-bottom:30px;margin-top:30px;}
@@ -722,11 +722,11 @@ a.archive-article-title:hover{color:#31708f;}
 .navbar-brand span.icon-phoenix_logo{font-size:40px;}
 .nav.navbar-nav.navbar-right li span.icon-archlinux-font-arch{padding-left:5px;font-size:45px;color:#fff;}
 .nav.navbar-nav.navbar-right li a span.icon-archlinux-font-linux{font-size:45px;color:#1794D1;}
-.navbar-brand span.icon-phoenix_logo:hover{color:#38b7ea;}
+.navbar-brand span.icon-phoenix_logo:hover{color:#337ab7;}
 .navbar-brand a:link{text-decoration:none !important;}
 .navbar-brand a:{text-decoration:none !important;}
-h1 a:hover span.icon-archlinux{-webkit-transition:0.3s ease-in-out;-moz-transition:0.3s ease-in-out;-o-transition:0.3s ease-in-out;transition:0.3s ease-in-out;-moz-text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;-webkit-text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;-o-text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;color:#38b7ea;}
-h1 a:hover span.icon-phoenix_logo{-webkit-transition:0.3s ease-in-out;-moz-transition:0.3s ease-in-out;-o-transition:0.3s ease-in-out;transition:0.3s ease-in-out;-moz-text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;-webkit-text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;-o-text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;color:#38b7ea;}
+h1 a:hover span.icon-archlinux{-webkit-transition:0.3s ease-in-out;-moz-transition:0.3s ease-in-out;-o-transition:0.3s ease-in-out;transition:0.3s ease-in-out;-moz-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;-webkit-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;-o-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;text-shadow:0px 0px 1px black, 0 0 15px #337ab7;color:#337ab7;}
+h1 a:hover span.icon-phoenix_logo{-webkit-transition:0.3s ease-in-out;-moz-transition:0.3s ease-in-out;-o-transition:0.3s ease-in-out;transition:0.3s ease-in-out;-moz-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;-webkit-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;-o-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;text-shadow:0px 0px 1px black, 0 0 15px #337ab7;color:#337ab7;}
 #footer a:hover{-webkit-transition:0.3s ease-in-out;-moz-transition:0.3s ease-in-out;-o-transition:0.3s ease-in-out;transition:0.3s ease-in-out;color:#07b;}
 .fa-bars:hover{-webkit-transition:0.3s ease-in-out;-moz-transition:0.3s ease-in-out;-o-transition:0.3s ease-in-out;transition:0.3s ease-in-out;color:#1794D1;}
 a.navbar-brand span.site-title-arch{position:absolute;padding-left:5px;font-size:33px;color:#fff;font-weight:700;}
@@ -739,8 +739,8 @@ a.navbar-brand span.site-title-linux{position:absolute;padding-left:76px;font-si
 div#example-heatmap{padding:30px;text-align:-webkit-center;}
 .heatmap h3{font-size:22px;padding:20px 20px 0 20px;}
 footer#footer-left{margin-top:1.5em;}
-div.quickterm{padding:10px;font-size:18px;text-align:center;color:#fff;background-color:#337ab7;border:solid 1px #337ab7;border-color:#31708f;margin-bottom:20px;border-radius:3px;-moz-text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;-webkit-text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;-o-text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;}
-div.quickterm:hover{-webkit-transition:0.3s ease-in-out;-moz-transition:0.3s ease-in-out;-o-transition:0.3s ease-in-out;transition:0.3s ease-in-out;background-color:#1794D1;-moz-text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;-webkit-text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;-o-text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;text-shadow:0px 0px 1px black, 0 0 15px #38b7ea;}
+div.quickterm{padding:10px;font-size:18px;text-align:center;color:#fff;background-color:#337ab7;border:solid 1px #337ab7;border-color:#31708f;margin-bottom:20px;border-radius:3px;-moz-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;-webkit-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;-o-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;text-shadow:0px 0px 1px black, 0 0 15px #337ab7;}
+div.quickterm:hover{-webkit-transition:0.3s ease-in-out;-moz-transition:0.3s ease-in-out;-o-transition:0.3s ease-in-out;transition:0.3s ease-in-out;background-color:#1794D1;-moz-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;-webkit-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;-o-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;text-shadow:0px 0px 1px black, 0 0 15px #337ab7;}
 ul.nav.navbar-nav.navbar-right > li:hover{border-bottom:solid 2px #337ab7;background-image:linear-gradient(to bottom, #f5f5f5 70%,#ccc 400%);transition:all 0.3s ease-in-out;animation-fill-mode:forwards;}
 .navbar-nav>li{border-bottom:solid 2px #f5f5f5;}
 

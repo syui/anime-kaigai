@@ -627,7 +627,7 @@ h1.article-title{color:#000;}
 #recent-post li#first-recent{padding:0;}
 .container{width:100% !important;}
 .thumbnail{padding:0px;border:0px solid #ddd;}
-.container-fluid{width:980px;padding-top:7px;}
+.container-fluid{width:1100px;padding-top:7px;}
 .container{padding-right:0px !important;padding-left:0px !important;}
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{padding-bottom:2px;}
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{border-color:#fff !important;color:#000;}
@@ -679,7 +679,7 @@ ul#results{padding:10px 0;font-size:20px;}
 #container > .outer{margin-bottom:30px;margin-top:30px;}
 ul.nav.navbar-nav.navbar-right > li > a > i.fa.fa-gitlab,ul.nav.navbar-nav.navbar-right > li > a > i.fa.fa-twitter, ul.nav.navbar-nav.navbar-right > li > a > i.fa.fa-github,ul.nav.navbar-nav.navbar-right > li > a > i.fa.fa-rss-square{font-size:22px;}
 #container > .outer{width:1100px;}
-#footer .outer{width:980px;margin-right:auto;margin-left:auto;}
+#footer .outer{width:1100px;margin-right:auto;margin-left:auto;}
 #footer-right{font-size:14px;color:#999;float:right !important;margin-top:-2.5em;}
 .widget li{border-top:solid 1px #ccc;}
 .widget ul{border-bottom:solid 1px #ddd;border-left:solid 1px #ddd;border-right:solid 1px #ddd;}
@@ -833,4 +833,9 @@ div#blog-archives.category li {
 }
 .widget-wrap-about .widget h3.widget-title{
 	border-bottom:solid 1px #ccc;
+}
+
+.container-fluid {
+	padding-right: 25px;
+	padding-left: 25px;
 }

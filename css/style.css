@@ -445,7 +445,6 @@ a:visited{color:#337ab7;}
 #footer-info{line-height:1.6em;}
 #footer-center a{color:#ccc;}
 #footer-center{left:45%;font-size:44px;position:absolute;margin-top:-1em;}
-footer#footer-center > a > span.icon-phoenix_logo:hover{color:rgba(153, 153, 153, 0.71);}
 footer#footer-right a{padding-left:30px;}
 .article-entry pre,
 .article-entry .highlight{background:#272822;padding:15px 20px;border-style:solid;border-color:#eceff2;border-width:1px 0;overflow:auto;color:#ccc;line-height:22.400000000000002px;}
@@ -725,8 +724,6 @@ a.archive-article-title:hover{color:#31708f;}
 .navbar-brand span.icon-phoenix_logo:hover{color:#337ab7;}
 .navbar-brand a:link{text-decoration:none !important;}
 .navbar-brand a:{text-decoration:none !important;}
-h1 a:hover span.icon-archlinux{-webkit-transition:0.3s ease-in-out;-moz-transition:0.3s ease-in-out;-o-transition:0.3s ease-in-out;transition:0.3s ease-in-out;-moz-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;-webkit-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;-o-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;text-shadow:0px 0px 1px black, 0 0 15px #337ab7;color:#337ab7;}
-h1 a:hover span.icon-phoenix_logo{-webkit-transition:0.3s ease-in-out;-moz-transition:0.3s ease-in-out;-o-transition:0.3s ease-in-out;transition:0.3s ease-in-out;-moz-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;-webkit-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;-o-text-shadow:0px 0px 1px black, 0 0 15px #337ab7;text-shadow:0px 0px 1px black, 0 0 15px #337ab7;color:#337ab7;}
 #footer a:hover{-webkit-transition:0.3s ease-in-out;-moz-transition:0.3s ease-in-out;-o-transition:0.3s ease-in-out;transition:0.3s ease-in-out;color:#07b;}
 .fa-bars:hover{-webkit-transition:0.3s ease-in-out;-moz-transition:0.3s ease-in-out;-o-transition:0.3s ease-in-out;transition:0.3s ease-in-out;color:#1794D1;}
 a.navbar-brand span.site-title-arch{position:absolute;padding-left:5px;font-size:33px;color:#fff;font-weight:700;}

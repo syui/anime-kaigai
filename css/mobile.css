@@ -20,7 +20,7 @@
 }
 @media screen and (max-width:900px){header .outer{border-bottom:solid 0px #428bca;
 	}
-.container-fluid { padding-right: 5px; padding-left: 5px; }
+.container-fluid { padding-left: 5px; }
 #header a, #header a:visited{position:relative;margin-bottom:4px;}
 .article-entry pre,
 .article-entry .highlight{background:#272822;margin:0 -20px;padding:15px 20px;border-style:solid;border-color:#eceff2;border-width:1px 0;overflow:auto;color:#ccc;line-height:22.400000000000002px;}

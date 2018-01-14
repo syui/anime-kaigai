@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://anime.syui.cf/new/new/</loc>
+    <lastmod>2018-01-14T18:01:09+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/anime-kaigai-a_old90/</loc>
     <lastmod>2018-01-14T17:01:09+09:00</lastmod>
   </url>
@@ -730,11 +735,6 @@
   <url>
     <loc>https://anime.syui.cf/anime-kaigai-108/</loc>
     <lastmod>2018-01-14T17:00:57+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/new/new/</loc>
-    <lastmod>2018-01-14T16:59:44+09:00</lastmod>
   </url>
   
   <url>
@@ -14164,13 +14164,13 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/new/</loc>
-    <lastmod>2018-01-14T16:59:44+09:00</lastmod>
+    <lastmod>2018-01-14T18:01:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/categories/new/</loc>
-    <lastmod>2018-01-14T16:59:44+09:00</lastmod>
+    <lastmod>2018-01-14T18:01:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14204,7 +14204,7 @@
   
   <url>
     <loc>https://anime.syui.cf/new/</loc>
-    <lastmod>2018-01-14T16:59:44+09:00</lastmod>
+    <lastmod>2018-01-14T18:01:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -17664,7 +17664,7 @@
   
   <url>
     <loc>https://anime.syui.cf/</loc>
-    <lastmod>2018-01-14T17:01:09+09:00</lastmod>
+    <lastmod>2018-01-14T18:01:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   

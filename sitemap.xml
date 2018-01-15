@@ -4,37 +4,42 @@
   
   <url>
     <loc>https://anime.syui.cf/anime-kaigai-a_old644/</loc>
-    <lastmod>2018-01-15T13:34:33+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:28+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/anime-kaigai-a_old336/</loc>
-    <lastmod>2018-01-15T13:34:32+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:27+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/anime-kaigai-a44/</loc>
-    <lastmod>2018-01-15T13:34:32+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:27+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/anime-kaigai-a23/</loc>
-    <lastmod>2018-01-15T13:34:32+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:27+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/anime-kaigai-89/</loc>
-    <lastmod>2018-01-15T13:34:32+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:26+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/anime-kaigai-2/</loc>
+    <lastmod>2018-01-15T15:26:22+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/anime-kaigai-123/</loc>
-    <lastmod>2018-01-15T13:34:26+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:20+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/new/new/</loc>
-    <lastmod>2018-01-15T13:33:05+09:00</lastmod>
+    <lastmod>2018-01-15T15:25:10+09:00</lastmod>
   </url>
   
   <url>
@@ -629,11 +634,6 @@
   
   <url>
     <loc>https://anime.syui.cf/anime-kaigai-160/</loc>
-    <lastmod>2018-01-15T00:30:09+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/anime-kaigai-2/</loc>
     <lastmod>2018-01-15T00:30:09+09:00</lastmod>
   </url>
   
@@ -9186,7 +9186,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/accel-world/</loc>
-    <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9199,6 +9199,18 @@
   <url>
     <loc>https://anime.syui.cf/tags/ace-attorney/</loc>
     <lastmod>2018-01-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/action-heroine-cheer-fruits/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/active-raid/</loc>
+    <lastmod>2018-01-14T16:12:53+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9504,7 +9516,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/aquarion-evol/</loc>
-    <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -9611,6 +9623,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/asura-cryin-2/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/attack-on-titan/</loc>
+    <lastmod>2018-01-15T00:30:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10234,7 +10252,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/charlotte/</loc>
-    <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11061,6 +11079,12 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/food-wars-shokugeki-no-soma/</loc>
+    <lastmod>2018-01-15T00:30:10+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/free/</loc>
     <lastmod>2018-01-15T00:30:14+09:00</lastmod>
     <priority>0</priority>
@@ -11087,6 +11111,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/freezing-vibration/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/from-the-new-world/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11247,6 +11277,12 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/gargantia-on-the-verdurous-planet/</loc>
+    <lastmod>2018-01-15T00:30:10+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/gatchaman-crowds/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -11380,7 +11416,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/gintama/</loc>
-    <lastmod>2018-01-15T13:34:26+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -11417,6 +11453,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/girls-amp-panzer/</loc>
     <lastmod>2018-01-14T16:12:15+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/girls-beyond-the-wasteland/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12093,6 +12135,12 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/humanity-has-declined/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/hundred/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -12393,6 +12441,12 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/izetta-the-last-witch/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/jigoku-shoujo/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -12441,8 +12495,14 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/jojo#039s-bizarre-adventure/</loc>
+    <lastmod>2018-01-15T00:30:10+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/joker-game/</loc>
-    <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12466,7 +12526,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/joshiraku/</loc>
-    <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12893,6 +12953,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/kiznaiver/</loc>
     <lastmod>2018-01-14T16:12:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/knights-of-sidonia/</loc>
+    <lastmod>2018-01-15T00:30:09+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -13569,6 +13635,12 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/maria-the-virgin-witch/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/mariaholic-alive/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -14151,6 +14223,12 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/neon-genesis-evangelion/</loc>
+    <lastmod>2018-01-15T00:30:10+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/neppuu-kairiku-bushi-road/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -14164,13 +14242,13 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/new/</loc>
-    <lastmod>2018-01-15T13:33:05+09:00</lastmod>
+    <lastmod>2018-01-15T15:25:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/categories/new/</loc>
-    <lastmod>2018-01-15T13:33:05+09:00</lastmod>
+    <lastmod>2018-01-15T15:25:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14204,7 +14282,7 @@
   
   <url>
     <loc>https://anime.syui.cf/new/</loc>
-    <lastmod>2018-01-15T13:33:05+09:00</lastmod>
+    <lastmod>2018-01-15T15:25:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14551,6 +14629,12 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/overlord/</loc>
+    <lastmod>2018-01-15T15:26:22+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/owarimonogatari/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -14773,8 +14857,14 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/polar-bear-cafe/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/post/</loc>
-    <lastmod>2018-01-15T13:34:33+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14895,6 +14985,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/r-15/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/rage-of-bahamut-genesis/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15115,6 +15211,12 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/sabagebu--survival-game-club-/</loc>
+    <lastmod>2018-01-14T16:12:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/saber-marionette-r/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -15266,19 +15368,25 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/samurai-champloo/</loc>
-    <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/tags/samurai-flamenco/</loc>
-    <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <lastmod>2018-01-14T16:12:53+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/tags/sankarea/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/sankarea-undying-love/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15307,6 +15415,12 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/say-quoti-love-youquot./</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/school-days/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -15315,6 +15429,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/schwarzesmarken/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/scorching-ping-pong-girls/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15581,6 +15701,18 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/shiki/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/shimoneta-a-boring-world-where-the-concept-of-dirty-jokes-doesn#039t-exist/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/shin-koihimemusou/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -15713,6 +15845,12 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/shonen-maid/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/shoujo-tachi-wa-kouya-wo-mezasu/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -15733,6 +15871,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/shouwa-monogatari/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/showa-genroku-rakugo-shinju/</loc>
+    <lastmod>2018-01-14T16:12:53+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15917,6 +16061,12 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/squid-girl/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/stand-by-me-doraemon/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -15943,6 +16093,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/steins-gate-oukoubakko-no-poriomania/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/steinsgate/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16265,6 +16421,12 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/terror-in-resonance/</loc>
+    <lastmod>2018-01-14T16:12:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/tesagure-bukatsumono/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -16273,6 +16435,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/the-animatrix/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/the-big-o/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16301,14 +16469,32 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/the-melancholy-of-haruhi-suzumiya/</loc>
+    <lastmod>2018-01-14T16:12:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/the-pet-girl-of-sakurasou/</loc>
     <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/the-testament-of-sister-new-devil/</loc>
+    <lastmod>2018-01-15T00:30:10+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/the-troubled-life-of-miss-kotoura/</loc>
     <lastmod>2018-01-14T16:12:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/the-twelve-kingdoms/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16326,6 +16512,12 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/this-art-club-has-a-problem/</loc>
+    <lastmod>2018-01-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/three-leaves-three-colors/</loc>
     <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -16975,6 +17167,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/young-black-jack/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/your-lie-in-april/</loc>
+    <lastmod>2018-01-14T16:12:53+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -17646,7 +17844,7 @@
   
   <url>
     <loc>https://anime.syui.cf/categories/%E3%82%A2%E3%83%8B%E3%83%A1/</loc>
-    <lastmod>2018-01-15T13:34:33+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -17664,7 +17862,7 @@
   
   <url>
     <loc>https://anime.syui.cf/</loc>
-    <lastmod>2018-01-15T13:34:33+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -17742,7 +17940,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89/</loc>
-    <lastmod>2018-01-15T00:30:18+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:22+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18246,7 +18444,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%83%8F%E3%82%AF%E3%83%A1%E3%82%A4%E3%81%A8%E3%83%9F%E3%82%B3%E3%83%81/</loc>
-    <lastmod>2018-01-15T13:34:32+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:27+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18432,7 +18630,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%83%9D%E3%83%97%E3%83%86%E3%83%94%E3%83%94%E3%83%83%E3%82%AF/</loc>
-    <lastmod>2018-01-15T13:34:32+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:27+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18678,7 +18876,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E5%8D%9A%E5%A4%9A%E8%B1%9A%E9%AA%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%BA/</loc>
-    <lastmod>2018-01-15T13:34:33+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:28+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18816,7 +19014,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E5%AE%87%E5%AE%99%E3%82%88%E3%82%8A%E3%82%82%E9%81%A0%E3%81%84%E5%A0%B4%E6%89%80/</loc>
-    <lastmod>2018-01-15T13:34:32+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:27+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -19452,7 +19650,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E8%B3%AD%E3%82%B1%E3%82%B0%E3%83%AB%E3%82%A4/</loc>
-    <lastmod>2018-01-15T13:34:32+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:26+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -19518,7 +19716,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E9%8A%80%E9%AD%82/</loc>
-    <lastmod>2018-01-15T13:34:26+09:00</lastmod>
+    <lastmod>2018-01-15T15:26:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   

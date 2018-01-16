@@ -843,3 +843,7 @@ img.share_img {
 	float: left;
 	margin-right: 15px;
 }
+
+span.reddit-comment {
+	font-weight: 600;
+}

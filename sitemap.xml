@@ -3,18 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://anime.syui.cf/anime-kaigai-a_old181/</loc>
-    <lastmod>2018-01-19T16:03:27+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/anime-kaigai-a52/</loc>
-    <lastmod>2018-01-19T16:03:26+09:00</lastmod>
+    <lastmod>2018-01-19T18:03:22+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/new/new/</loc>
-    <lastmod>2018-01-19T16:01:30+09:00</lastmod>
+    <lastmod>2018-01-19T18:01:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/anime-kaigai-a_old181/</loc>
+    <lastmod>2018-01-19T16:03:27+09:00</lastmod>
   </url>
   
   <url>
@@ -9243,13 +9243,13 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/categories/about/</loc>
+    <loc>https://anime.syui.cf/tags/about/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/about/</loc>
+    <loc>https://anime.syui.cf/categories/about/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -14437,14 +14437,14 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/categories/new/</loc>
-    <lastmod>2018-01-19T16:01:30+09:00</lastmod>
+    <loc>https://anime.syui.cf/tags/new/</loc>
+    <lastmod>2018-01-19T18:01:24+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/new/</loc>
-    <lastmod>2018-01-19T16:01:30+09:00</lastmod>
+    <loc>https://anime.syui.cf/categories/new/</loc>
+    <lastmod>2018-01-19T18:01:24+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14478,7 +14478,7 @@
   
   <url>
     <loc>https://anime.syui.cf/new/</loc>
-    <lastmod>2018-01-19T16:01:30+09:00</lastmod>
+    <lastmod>2018-01-19T18:01:24+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15078,7 +15078,7 @@
   
   <url>
     <loc>https://anime.syui.cf/post/</loc>
-    <lastmod>2018-01-19T16:03:27+09:00</lastmod>
+    <lastmod>2018-01-19T18:03:22+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18076,7 +18076,7 @@
   
   <url>
     <loc>https://anime.syui.cf/categories/%E3%82%A2%E3%83%8B%E3%83%A1/</loc>
-    <lastmod>2018-01-19T16:03:27+09:00</lastmod>
+    <lastmod>2018-01-19T18:03:22+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18094,7 +18094,7 @@
   
   <url>
     <loc>https://anime.syui.cf/</loc>
-    <lastmod>2018-01-19T16:03:27+09:00</lastmod>
+    <lastmod>2018-01-19T18:03:22+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18922,7 +18922,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E5%A4%A7%E5%A5%BD%E3%81%8D%E5%B0%8F%E6%B3%89%E3%81%95%E3%82%93/</loc>
-    <lastmod>2018-01-19T16:03:26+09:00</lastmod>
+    <lastmod>2018-01-19T18:03:22+09:00</lastmod>
     <priority>0</priority>
   </url>
   

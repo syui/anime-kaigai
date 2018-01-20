@@ -3,8 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://anime.syui.cf/spoilers_slow_start_episode_2_discussion/</loc>
+    <lastmod>2018-01-21T08:03:34+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/anime-kaigai-a_old672/</loc>
-    <lastmod>2018-01-21T06:03:26+09:00</lastmod>
+    <lastmod>2018-01-21T08:03:23+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/anime-kaigai-a27/</loc>
+    <lastmod>2018-01-21T08:03:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/anime-kaigai-a44/</loc>
+    <lastmod>2018-01-21T08:03:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/anime-kaigai-1/</loc>
+    <lastmod>2018-01-21T08:03:15+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/new/new/</loc>
+    <lastmod>2018-01-21T08:01:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/spoilers_slow_start_episode_1_discussion/</loc>
+    <lastmod>2018-01-21T07:39:40+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/spoilers_citrus_episode_3_discussion/</loc>
+    <lastmod>2018-01-21T07:32:31+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/spoilers_darling_in_the_franxx_episode_2/</loc>
+    <lastmod>2018-01-21T07:32:31+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/spoilers_pop_team_epic_episode_3_discussion/</loc>
+    <lastmod>2018-01-21T07:32:31+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/spoilers_mahoutsukai_no_yome_episode_15_discussion/</loc>
+    <lastmod>2018-01-21T07:32:31+09:00</lastmod>
   </url>
   
   <url>
@@ -15,26 +65,6 @@
   <url>
     <loc>https://anime.syui.cf/anime-kaigai-a_old249/</loc>
     <lastmod>2018-01-21T06:03:25+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/anime-kaigai-a44/</loc>
-    <lastmod>2018-01-21T06:03:25+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/anime-kaigai-a27/</loc>
-    <lastmod>2018-01-21T06:03:24+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/anime-kaigai-1/</loc>
-    <lastmod>2018-01-21T06:03:17+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/new/new/</loc>
-    <lastmod>2018-01-21T06:01:23+09:00</lastmod>
   </url>
   
   <url>
@@ -10454,13 +10484,19 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/citrus/</loc>
-    <lastmod>2018-01-21T04:03:27+09:00</lastmod>
+    <lastmod>2018-01-21T07:32:31+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/tags/citrus---episode-2-discussion/</loc>
     <lastmod>2018-01-16T18:22:37+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/citrus---episode-3-discussion/</loc>
+    <lastmod>2018-01-21T07:32:31+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -10688,13 +10724,19 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/darling-in-the-franxx/</loc>
-    <lastmod>2018-01-16T18:22:37+09:00</lastmod>
+    <lastmod>2018-01-21T07:32:31+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/tags/darling-in-the-franxx---episode-1-discussion/</loc>
     <lastmod>2018-01-16T18:22:37+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/darling-in-the-franxx---episode-2-discussion/</loc>
+    <lastmod>2018-01-21T07:32:31+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -13681,6 +13723,12 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/mahoutsukai-no-yome---episode-15-discussion/</loc>
+    <lastmod>2018-01-21T07:32:31+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/mahoutsukai-no-yome-hoshi-matsu-hito/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -14438,13 +14486,13 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/new/</loc>
-    <lastmod>2018-01-21T06:01:23+09:00</lastmod>
+    <lastmod>2018-01-21T08:01:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/categories/new/</loc>
-    <lastmod>2018-01-21T06:01:23+09:00</lastmod>
+    <lastmod>2018-01-21T08:01:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14478,7 +14526,7 @@
   
   <url>
     <loc>https://anime.syui.cf/new/</loc>
-    <lastmod>2018-01-21T06:01:23+09:00</lastmod>
+    <lastmod>2018-01-21T08:01:25+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15066,7 +15114,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/pop-team-epic/</loc>
-    <lastmod>2018-01-16T18:22:37+09:00</lastmod>
+    <lastmod>2018-01-21T07:32:31+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15077,8 +15125,14 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/pop-team-epic---episode-3-discussion/</loc>
+    <lastmod>2018-01-21T07:32:31+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/post/</loc>
-    <lastmod>2018-01-21T06:03:26+09:00</lastmod>
+    <lastmod>2018-01-21T08:03:34+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15294,7 +15348,7 @@
   
   <url>
     <loc>https://anime.syui.cf/categories/reddit/</loc>
-    <lastmod>2018-01-19T09:38:51+09:00</lastmod>
+    <lastmod>2018-01-21T08:03:34+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16167,6 +16221,24 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/slow-start/</loc>
+    <lastmod>2018-01-21T08:03:34+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/slow-start---episode-1-discussion/</loc>
+    <lastmod>2018-01-21T07:39:40+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/slow-start---episode-2-discussion/</loc>
+    <lastmod>2018-01-21T08:03:34+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/snow-white-with-the-red-hair/</loc>
     <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -16655,6 +16727,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/tesagure-bukatsumono/</loc>
     <lastmod>2016-12-07T00:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/the-ancient-magus#039-bride/</loc>
+    <lastmod>2018-01-21T07:32:31+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -17740,7 +17818,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%81%91%E3%82%82%E3%81%AE%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA/</loc>
-    <lastmod>2018-01-21T06:03:17+09:00</lastmod>
+    <lastmod>2018-01-21T08:03:15+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18076,7 +18154,7 @@
   
   <url>
     <loc>https://anime.syui.cf/categories/%E3%82%A2%E3%83%8B%E3%83%A1/</loc>
-    <lastmod>2018-01-21T06:03:26+09:00</lastmod>
+    <lastmod>2018-01-21T08:03:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18094,7 +18172,7 @@
   
   <url>
     <loc>https://anime.syui.cf/</loc>
-    <lastmod>2018-01-21T06:03:26+09:00</lastmod>
+    <lastmod>2018-01-21T08:03:34+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18465,6 +18543,12 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/%E3%82%B9%E3%83%AD%E3%82%A6%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88/</loc>
+    <lastmod>2018-01-21T08:03:34+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/%E3%82%BB%E3%82%A4%E3%82%AF%E3%83%AA%E3%83%83%E3%83%89%E3%82%BB%E3%83%96%E3%83%B3/</loc>
     <lastmod>2018-01-07T00:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -18514,7 +18598,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%83%80%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B6%E3%83%95%E3%83%A9%E3%83%B3%E3%82%AD%E3%82%B9/</loc>
-    <lastmod>2018-01-21T06:03:24+09:00</lastmod>
+    <lastmod>2018-01-21T08:03:21+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18862,7 +18946,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%83%9D%E3%83%97%E3%83%86%E3%83%94%E3%83%94%E3%83%83%E3%82%AF/</loc>
-    <lastmod>2018-01-21T06:03:25+09:00</lastmod>
+    <lastmod>2018-01-21T08:03:21+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -19816,7 +19900,7 @@
   
   <url>
     <loc>https://anime.syui.cf/categories/%E7%BF%BB%E8%A8%B3/</loc>
-    <lastmod>2018-01-19T09:38:51+09:00</lastmod>
+    <lastmod>2018-01-21T08:03:34+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -20026,7 +20110,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E9%AD%94%E6%B3%95%E4%BD%BF%E3%81%84%E3%81%AE%E5%AB%81/</loc>
-    <lastmod>2018-01-21T06:03:26+09:00</lastmod>
+    <lastmod>2018-01-21T08:03:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   

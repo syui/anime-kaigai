@@ -18,8 +18,11 @@
       <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://anime.syui.cf/about/about/</guid>
-      <description>syuiと言います。よろしくお願いします。
-@syui@syui.cf</description>
+      <description> 自己紹介 syuiと言います。よろしくお願いします。
+@syui@syui.cf
+メンテナンス情報  lunr.jsとgrunt.jsで作成している検索フォームですが、現在、日本語入力の検索ができません。また、contentを含めるとすごく遅くなるのでcontentは消しています。したがって、記事内部のキーワードによる検索は不可能で、タイトルやタグ一致のみの検索となっております。
+ このサイトは、hugoで構築しているのですが、そのうちタグなどを記事内に明記する予定です。
+  </description>
     </item>
     
   </channel>

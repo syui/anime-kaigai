@@ -434,7 +434,7 @@ a:visited{color:#337ab7;}
 #page-nav a,
 #page-nav span{font-size:60px;display:inline-block;}
 #page-nav a{color:#999;text-decoration:none;}
-#page-nav a:hover{color:#fff;background:#337ab7;}
+#page-nav a:hover{color:#fff;background:rgba(51, 122, 183, 0.71);}
 #page-nav .page-number{display:inline-block;}
 #page-nav .current{color:#565a5f;font-weight:bold;}
 #page-nav .space{color:#eceff2;}
@@ -850,4 +850,9 @@ span.reddit-comment {
 
 .adsense {
 	margin: 25px;
+}
+
+.article-inner:hover {
+	text-decoration: none;
+	background: #31708f1f;
 }

@@ -3,13 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://anime.syui.cf/anime-kaigai-a_old123/</loc>
+    <lastmod>2018-01-23T14:10:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/anime-kaigai-1/</loc>
-    <lastmod>2018-01-23T09:07:17+09:00</lastmod>
+    <lastmod>2018-01-23T14:09:52+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/new/new/</loc>
-    <lastmod>2018-01-23T09:05:43+09:00</lastmod>
+    <lastmod>2018-01-23T14:08:19+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/anime-kaigai-a53/</loc>
+    <lastmod>2018-01-23T13:02:48+09:00</lastmod>
   </url>
   
   <url>
@@ -29,11 +39,6 @@
   
   <url>
     <loc>https://anime.syui.cf/anime-kaigai-a_old23/</loc>
-    <lastmod>2018-01-23T03:57:35+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/anime-kaigai-a_old123/</loc>
     <lastmod>2018-01-23T03:57:35+09:00</lastmod>
   </url>
   
@@ -255,11 +260,6 @@
   <url>
     <loc>https://anime.syui.cf/spoilers_sora_yori_mo_tooi_basho_episode_3/</loc>
     <lastmod>2018-01-19T09:38:51+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/anime-kaigai-a53/</loc>
-    <lastmod>2018-01-19T01:50:08+09:00</lastmod>
   </url>
   
   <url>
@@ -9333,13 +9333,13 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/about/</loc>
+    <loc>https://anime.syui.cf/categories/about/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/categories/about/</loc>
+    <loc>https://anime.syui.cf/tags/about/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -14617,14 +14617,14 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/new/</loc>
-    <lastmod>2018-01-23T09:05:43+09:00</lastmod>
+    <loc>https://anime.syui.cf/categories/new/</loc>
+    <lastmod>2018-01-23T14:08:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/categories/new/</loc>
-    <lastmod>2018-01-23T09:05:43+09:00</lastmod>
+    <loc>https://anime.syui.cf/tags/new/</loc>
+    <lastmod>2018-01-23T14:08:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14658,7 +14658,7 @@
   
   <url>
     <loc>https://anime.syui.cf/new/</loc>
-    <lastmod>2018-01-23T09:05:43+09:00</lastmod>
+    <lastmod>2018-01-23T14:08:19+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15264,7 +15264,7 @@
   
   <url>
     <loc>https://anime.syui.cf/post/</loc>
-    <lastmod>2018-01-23T09:07:17+09:00</lastmod>
+    <lastmod>2018-01-23T14:10:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -17956,7 +17956,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%81%8B%E3%82%89%E3%81%8B%E3%81%84%E4%B8%8A%E6%89%8B%E3%81%AE%E9%AB%98%E6%9C%A8%E3%81%95%E3%82%93/</loc>
-    <lastmod>2018-01-23T03:57:35+09:00</lastmod>
+    <lastmod>2018-01-23T14:10:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -17986,7 +17986,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%81%91%E3%82%82%E3%81%AE%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA/</loc>
-    <lastmod>2018-01-23T09:07:17+09:00</lastmod>
+    <lastmod>2018-01-23T14:09:52+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18256,7 +18256,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%82%8A%E3%82%85%E3%81%86%E3%81%8A%E3%81%86%E3%81%AE%E3%81%8A%E3%81%97%E3%81%94%E3%81%A8/</loc>
-    <lastmod>2018-01-22T18:01:23+09:00</lastmod>
+    <lastmod>2018-01-23T13:02:48+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18322,7 +18322,7 @@
   
   <url>
     <loc>https://anime.syui.cf/categories/%E3%82%A2%E3%83%8B%E3%83%A1/</loc>
-    <lastmod>2018-01-23T09:07:17+09:00</lastmod>
+    <lastmod>2018-01-23T14:10:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18340,7 +18340,7 @@
   
   <url>
     <loc>https://anime.syui.cf/</loc>
-    <lastmod>2018-01-23T09:07:17+09:00</lastmod>
+    <lastmod>2018-01-23T14:10:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   

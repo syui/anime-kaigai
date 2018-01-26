@@ -3,18 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://anime.syui.cf/anime-kaigai-a_old522/</loc>
+    <lastmod>2018-01-27T02:02:51+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/anime-kaigai-a_old697/</loc>
-    <lastmod>2018-01-27T00:00:20+09:00</lastmod>
+    <lastmod>2018-01-27T02:02:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/anime-kaigai-a_old218/</loc>
+    <lastmod>2018-01-27T02:02:50+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/anime-kaigai-a23/</loc>
+    <lastmod>2018-01-27T02:02:49+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/anime-kaigai-2/</loc>
+    <lastmod>2018-01-27T02:02:44+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/anime-kaigai-154/</loc>
+    <lastmod>2018-01-27T02:02:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/new/new/</loc>
+    <lastmod>2018-01-27T02:01:10+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://anime.syui.cf/anime-kaigai-a44/</loc>
     <lastmod>2018-01-26T22:02:50+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/new/new/</loc>
-    <lastmod>2018-01-26T22:01:10+09:00</lastmod>
   </url>
   
   <url>
@@ -73,11 +98,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/anime-kaigai-a23/</loc>
-    <lastmod>2018-01-26T00:00:16+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/spoilers_violet_evergarden_episode_3_discussion/</loc>
     <lastmod>2018-01-25T12:00:39+09:00</lastmod>
   </url>
@@ -118,11 +138,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/anime-kaigai-154/</loc>
-    <lastmod>2018-01-25T05:23:11+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/anime-kaigai-a_old123/</loc>
     <lastmod>2018-01-25T02:02:47+09:00</lastmod>
   </url>
@@ -138,11 +153,6 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/anime-kaigai-a_old218/</loc>
-    <lastmod>2018-01-24T16:02:58+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://anime.syui.cf/anime-kaigai-331/</loc>
     <lastmod>2018-01-24T16:02:54+09:00</lastmod>
   </url>
@@ -150,11 +160,6 @@
   <url>
     <loc>https://anime.syui.cf/anime-kaigai-29/</loc>
     <lastmod>2018-01-24T16:02:53+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/anime-kaigai-2/</loc>
-    <lastmod>2018-01-24T16:02:52+09:00</lastmod>
   </url>
   
   <url>
@@ -220,11 +225,6 @@
   <url>
     <loc>https://anime.syui.cf/spoilers_ryuuou_no_oshigoto_episode_3_discussion/</loc>
     <lastmod>2018-01-22T18:01:23+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://anime.syui.cf/anime-kaigai-a_old522/</loc>
-    <lastmod>2018-01-22T04:02:46+09:00</lastmod>
   </url>
   
   <url>
@@ -9388,13 +9388,13 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/categories/about/</loc>
+    <loc>https://anime.syui.cf/tags/about/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/about/</loc>
+    <loc>https://anime.syui.cf/categories/about/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -14732,14 +14732,14 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/categories/new/</loc>
-    <lastmod>2018-01-26T22:01:10+09:00</lastmod>
+    <loc>https://anime.syui.cf/tags/new/</loc>
+    <lastmod>2018-01-27T02:01:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/new/</loc>
-    <lastmod>2018-01-26T22:01:10+09:00</lastmod>
+    <loc>https://anime.syui.cf/categories/new/</loc>
+    <lastmod>2018-01-27T02:01:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14773,7 +14773,7 @@
   
   <url>
     <loc>https://anime.syui.cf/new/</loc>
-    <lastmod>2018-01-26T22:01:10+09:00</lastmod>
+    <lastmod>2018-01-27T02:01:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15121,7 +15121,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/overlord/</loc>
-    <lastmod>2018-01-24T16:02:52+09:00</lastmod>
+    <lastmod>2018-01-27T02:02:44+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15391,7 +15391,7 @@
   
   <url>
     <loc>https://anime.syui.cf/post/</loc>
-    <lastmod>2018-01-27T00:00:20+09:00</lastmod>
+    <lastmod>2018-01-27T02:02:51+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18485,7 +18485,7 @@
   
   <url>
     <loc>https://anime.syui.cf/categories/%E3%82%A2%E3%83%8B%E3%83%A1/</loc>
-    <lastmod>2018-01-27T00:00:20+09:00</lastmod>
+    <lastmod>2018-01-27T02:02:51+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18503,7 +18503,7 @@
   
   <url>
     <loc>https://anime.syui.cf/</loc>
-    <lastmod>2018-01-27T00:00:20+09:00</lastmod>
+    <lastmod>2018-01-27T02:02:51+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18581,7 +18581,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89/</loc>
-    <lastmod>2018-01-25T10:24:04+09:00</lastmod>
+    <lastmod>2018-01-27T02:02:50+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -19535,7 +19535,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E5%88%BB%E5%88%BB/</loc>
-    <lastmod>2018-01-22T04:02:46+09:00</lastmod>
+    <lastmod>2018-01-27T02:02:51+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -19697,7 +19697,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E5%AE%87%E5%AE%99%E3%82%88%E3%82%8A%E3%82%82%E9%81%A0%E3%81%84%E5%A0%B4%E6%89%80/</loc>
-    <lastmod>2018-01-26T00:00:16+09:00</lastmod>
+    <lastmod>2018-01-27T02:02:49+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -19817,7 +19817,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E6%81%8B%E3%81%AF%E9%9B%A8%E4%B8%8A%E3%81%8C%E3%82%8A%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB/</loc>
-    <lastmod>2018-01-27T00:00:20+09:00</lastmod>
+    <lastmod>2018-01-27T02:02:51+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -20285,7 +20285,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E8%81%B2%E3%81%AE%E5%BD%A2/</loc>
-    <lastmod>2018-01-25T05:23:11+09:00</lastmod>
+    <lastmod>2018-01-27T02:02:43+09:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -43,12 +43,15 @@
 		<link rel="feed" type="application/rss+xml" title="アニメ海外反応" href="https://anime.syui.cf/index.xml" />
 		<link rel="stylesheet" href="/bower_components/bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="/bower_components/icomoon/css/icomoon.css" />
+    		<link rel="stylesheet" href="/bower_components/talaria/dist/talaria.css" />   
 		<link rel="stylesheet" href="/css/style.css" />
 		<link rel="stylesheet" href="/css/mobile.css" />
 		<link rel="stylesheet" href="/css/origin.css">
 		<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+		
 		<script type="text/javascript" src="/js/search.js"></script>
 		<script type="text/javascript" src="/bower_components/lunr.js/lunr.min.js"></script>
+		
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73617006-12"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -56,7 +59,11 @@
 			gtag('js', new Date());
 			gtag('config', 'UA-73617006-12');
 		</script>
-
+		
+		<script src="/bower_components/async/dist/async.min.js"></script>
+		<script src="/bower_components/bluebird/js/browser/bluebird.js"></script>
+		<script src="/bower_components/talaria/dist/talaria.js"></script>
+		
 		<script type="application/ld+json">
 			{
 				"@context": "http://schema.org",
@@ -69,8 +76,10 @@
 					}
 			}
 		</script>
+
 		
 		
+
 	</head>
 	<body>
 
@@ -130,94 +139,11 @@
 		<div class="article-inner">
 
 			<header class="article-header">
-	<img src="/img/icon/7062.png" class="share_img" alt="Hidamari Sketch x ☆☆☆ "/><meta property="og:image" content="https://anime.syui.cf/img/icon/7062.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/7062.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/7062/" class="permalink">Hidamari Sketch x ☆☆☆ </a>
-	</h1>
-	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
-	<div class="article-meta">
-	</div>
-</header>
-
-			
-		</div>
-	</article>
-	
-	<article class="article article-type-post" itemscope="" itemprop="blogPost">
-
-		<div class="article-inner">
-
-			<header class="article-header">
-	<img src="/img/icon/10604.png" class="share_img" alt="Hidan no Aria Special"/><meta property="og:image" content="https://anime.syui.cf/img/icon/10604.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/10604.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/10604/" class="permalink">Hidan no Aria Special</a>
-	</h1>
-	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
-	<div class="article-meta">
-	</div>
-</header>
-
-			
-		</div>
-	</article>
-	
-	<article class="article article-type-post" itemscope="" itemprop="blogPost">
-
-		<div class="article-inner">
-
-			<header class="article-header">
-	<img src="/img/icon/11617.png" class="share_img" alt="High School DxD"/><meta property="og:image" content="https://anime.syui.cf/img/icon/11617.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/11617.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/11617/" class="permalink">High School DxD</a>
-	</h1>
-	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
-	<div class="article-meta">
-	</div>
-</header>
-
-			
-		</div>
-	</article>
-	
-	<article class="article article-type-post" itemscope="" itemprop="blogPost">
-
-		<div class="article-inner">
-
-			<header class="article-header">
-	<img src="/img/icon/15451.png" class="share_img" alt="High School DxD New"/><meta property="og:image" content="https://anime.syui.cf/img/icon/15451.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/15451.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/15451/" class="permalink">High School DxD New</a>
-	</h1>
-	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
-	<div class="article-meta">
-	</div>
-</header>
-
-			
-		</div>
-	</article>
-	
-	<article class="article article-type-post" itemscope="" itemprop="blogPost">
-
-		<div class="article-inner">
-
-			<header class="article-header">
-	<img src="/img/icon/31500.png" class="share_img" alt="High School Fleet"/><meta property="og:image" content="https://anime.syui.cf/img/icon/31500.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/31500.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/31500/" class="permalink">High School Fleet</a>
-	</h1>
-	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
-	<div class="article-meta">
-	</div>
-</header>
-
-			
-		</div>
-	</article>
-	
-	<article class="article article-type-post" itemscope="" itemprop="blogPost">
-
-		<div class="article-inner">
-
-			<header class="article-header">
 	<img src="/img/icon/2178.png" class="share_img" alt="Highlander The Search for Vengeance"/><meta property="og:image" content="https://anime.syui.cf/img/icon/2178.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/2178.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/2178/" class="permalink">Highlander The Search for Vengeance</a>
+		<a href="https://anime.syui.cf/2016/12/07/highlander__the_search_for_vengeance/" class="permalink">Highlander The Search for Vengeance</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Highlander%20The%20Search%20for%20Vengeance/"><span class="article-header-tags-button">#Highlander The Search for Vengeance<span></a> <a href="/tags/2007-winter/"><span class="article-header-tags-button">#2007-winter<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -233,8 +159,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/8074.png" class="share_img" alt="Highschool of the Dead"/><meta property="og:image" content="https://anime.syui.cf/img/icon/8074.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/8074.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/8074/" class="permalink">Highschool of the Dead</a>
+		<a href="https://anime.syui.cf/2016/12/07/highschool_of_the_dead/" class="permalink">Highschool of the Dead</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Highschool%20of%20the%20Dead/"><span class="article-header-tags-button">#Highschool of the Dead<span></a> <a href="/tags/2010-summer/"><span class="article-header-tags-button">#2010-summer<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -250,8 +178,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/934.png" class="share_img" alt="Higurashi no Naku Koro ni"/><meta property="og:image" content="https://anime.syui.cf/img/icon/934.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/934.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/934/" class="permalink">Higurashi no Naku Koro ni</a>
+		<a href="https://anime.syui.cf/2016/12/07/higurashi_no_naku_koro_ni/" class="permalink">Higurashi no Naku Koro ni</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Higurashi%20no%20Naku%20Koro%20ni/"><span class="article-header-tags-button">#Higurashi no Naku Koro ni<span></a> <a href="/tags/2006-spring/"><span class="article-header-tags-button">#2006-spring<span></a> <a href="/tags/2006-summer/"><span class="article-header-tags-button">#2006-summer<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -267,8 +197,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/1889.png" class="share_img" alt="Higurashi no Naku Koro ni Kai"/><meta property="og:image" content="https://anime.syui.cf/img/icon/1889.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/1889.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/1889/" class="permalink">Higurashi no Naku Koro ni Kai</a>
+		<a href="https://anime.syui.cf/2016/12/07/higurashi_no_naku_koro_ni_kai/" class="permalink">Higurashi no Naku Koro ni Kai</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Higurashi%20no%20Naku%20Koro%20ni%20Kai/"><span class="article-header-tags-button">#Higurashi no Naku Koro ni Kai<span></a> <a href="/tags/2007-fall/"><span class="article-header-tags-button">#2007-fall<span></a> <a href="/tags/2007-summer/"><span class="article-header-tags-button">#2007-summer<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -284,8 +216,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/16700.png" class="share_img" alt="Higurashi no Naku Koro ni Kaku Outbreak"/><meta property="og:image" content="https://anime.syui.cf/img/icon/16700.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/16700.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/16700/" class="permalink">Higurashi no Naku Koro ni Kaku Outbreak</a>
+		<a href="https://anime.syui.cf/2016/12/07/higurashi_no_naku_koro_ni_kaku__outbreak/" class="permalink">Higurashi no Naku Koro ni Kaku Outbreak</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Higurashi%20no%20Naku%20Koro%20ni%20Kaku%20Outbreak/"><span class="article-header-tags-button">#Higurashi no Naku Koro ni Kaku Outbreak<span></a> <a href="/tags/2013-summer/"><span class="article-header-tags-button">#2013-summer<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -301,8 +235,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/10491.png" class="share_img" alt="Higurashi no Naku Koro ni Kira"/><meta property="og:image" content="https://anime.syui.cf/img/icon/10491.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/10491.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/10491/" class="permalink">Higurashi no Naku Koro ni Kira</a>
+		<a href="https://anime.syui.cf/2016/12/07/higurashi_no_naku_koro_ni_kira/" class="permalink">Higurashi no Naku Koro ni Kira</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Higurashi%20no%20Naku%20Koro%20ni%20Kira/"><span class="article-header-tags-button">#Higurashi no Naku Koro ni Kira<span></a> <a href="/tags/2011-summer/"><span class="article-header-tags-button">#2011-summer<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -318,8 +254,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/12461.png" class="share_img" alt="Hiiro no Kakera"/><meta property="og:image" content="https://anime.syui.cf/img/icon/12461.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/12461.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/12461/" class="permalink">Hiiro no Kakera</a>
+		<a href="https://anime.syui.cf/2016/12/07/hiiro_no_kakera/" class="permalink">Hiiro no Kakera</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Hiiro%20no%20Kakera/"><span class="article-header-tags-button">#Hiiro no Kakera<span></a> <a href="/tags/2012-spring/"><span class="article-header-tags-button">#2012-spring<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -335,8 +273,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/14645.png" class="share_img" alt="Hiiro no Kakera Dai Ni Shou"/><meta property="og:image" content="https://anime.syui.cf/img/icon/14645.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/14645.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/14645/" class="permalink">Hiiro no Kakera Dai Ni Shou</a>
+		<a href="https://anime.syui.cf/2016/12/07/hiiro_no_kakera_dai_ni_shou/" class="permalink">Hiiro no Kakera Dai Ni Shou</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Hiiro%20no%20Kakera%20Dai%20Ni%20Shou/"><span class="article-header-tags-button">#Hiiro no Kakera Dai Ni Shou<span></a> <a href="/tags/2012-fall/"><span class="article-header-tags-button">#2012-fall<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -352,8 +292,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/135.png" class="share_img" alt="Hikaru no Go"/><meta property="og:image" content="https://anime.syui.cf/img/icon/135.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/135.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/135/" class="permalink">Hikaru no Go</a>
+		<a href="https://anime.syui.cf/2016/12/07/hikaru_no_go/" class="permalink">Hikaru no Go</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Hikaru%20no%20Go/"><span class="article-header-tags-button">#Hikaru no Go<span></a> <a href="/tags/2001-fall/"><span class="article-header-tags-button">#2001-fall<span></a> <a href="/tags/2002-fall/"><span class="article-header-tags-button">#2002-fall<span></a> <a href="/tags/2002-spring/"><span class="article-header-tags-button">#2002-spring<span></a> <a href="/tags/2002-summer/"><span class="article-header-tags-button">#2002-summer<span></a> <a href="/tags/2002-winter/"><span class="article-header-tags-button">#2002-winter<span></a> <a href="/tags/2003-winter/"><span class="article-header-tags-button">#2003-winter<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -369,8 +311,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/910.png" class="share_img" alt="Himawari"/><meta property="og:image" content="https://anime.syui.cf/img/icon/910.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/910.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/910/" class="permalink">Himawari</a>
+		<a href="https://anime.syui.cf/2016/12/07/himawari/" class="permalink">Himawari</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Himawari/"><span class="article-header-tags-button">#Himawari<span></a> <a href="/tags/2006-spring/"><span class="article-header-tags-button">#2006-spring<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -386,8 +330,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/8206.png" class="share_img" alt="Hime Chen Otogi Chikku Idol Lilpri"/><meta property="og:image" content="https://anime.syui.cf/img/icon/8206.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/8206.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/8206/" class="permalink">Hime Chen Otogi Chikku Idol Lilpri</a>
+		<a href="https://anime.syui.cf/2016/12/07/hime_chen_otogi_chikku_idol_lilpri/" class="permalink">Hime Chen Otogi Chikku Idol Lilpri</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Hime%20Chen%20Otogi%20Chikku%20Idol%20Lilpri/"><span class="article-header-tags-button">#Hime Chen Otogi Chikku Idol Lilpri<span></a> <a href="/tags/2010-fall/"><span class="article-header-tags-button">#2010-fall<span></a> <a href="/tags/2010-spring/"><span class="article-header-tags-button">#2010-spring<span></a> <a href="/tags/2010-summer/"><span class="article-header-tags-button">#2010-summer<span></a> <a href="/tags/2011-winter/"><span class="article-header-tags-button">#2011-winter<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -403,8 +349,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/2037.png" class="share_img" alt="Hime-chan no Ribbon"/><meta property="og:image" content="https://anime.syui.cf/img/icon/2037.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/2037.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/2037/" class="permalink">Hime-chan no Ribbon</a>
+		<a href="https://anime.syui.cf/2016/12/07/hime-chan_no_ribbon/" class="permalink">Hime-chan no Ribbon</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Hime-chan%20no%20Ribbon/"><span class="article-header-tags-button">#Hime-chan no Ribbon<span></a> <a href="/tags/1993-summer/"><span class="article-header-tags-button">#1993-summer<span></a> <a href="/tags/1993-winter/"><span class="article-header-tags-button">#1993-winter<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -420,8 +368,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/22835.png" class="share_img" alt="Himegoto"/><meta property="og:image" content="https://anime.syui.cf/img/icon/22835.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/22835.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/22835/" class="permalink">Himegoto</a>
+		<a href="https://anime.syui.cf/2016/12/07/himegoto/" class="permalink">Himegoto</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Himegoto/"><span class="article-header-tags-button">#Himegoto<span></a> <a href="/tags/2014-summer/"><span class="article-header-tags-button">#2014-summer<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -437,8 +387,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/28825.png" class="share_img" alt="Himouto Umaru-chan"/><meta property="og:image" content="https://anime.syui.cf/img/icon/28825.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/28825.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/28825/" class="permalink">Himouto Umaru-chan</a>
+		<a href="https://anime.syui.cf/2016/12/07/himouto_umaru-chan/" class="permalink">Himouto Umaru-chan</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Himouto%20Umaru-chan/"><span class="article-header-tags-button">#Himouto Umaru-chan<span></a> <a href="/tags/2015-summer/"><span class="article-header-tags-button">#2015-summer<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -454,8 +406,105 @@
 
 			<header class="article-header">
 	<img src="/img/icon/20673.png" class="share_img" alt="Hinata no Aoshigure"/><meta property="og:image" content="https://anime.syui.cf/img/icon/20673.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/20673.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/20673/" class="permalink">Hinata no Aoshigure</a>
+		<a href="https://anime.syui.cf/2016/12/07/hinata_no_aoshigure/" class="permalink">Hinata no Aoshigure</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Hinata%20no%20Aoshigure/"><span class="article-header-tags-button">#Hinata no Aoshigure<span></a> <a href="/tags/2013-fall/"><span class="article-header-tags-button">#2013-fall<span></a></div>
+	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
+	<div class="article-meta">
+	</div>
+</header>
+
+			
+		</div>
+	</article>
+	
+	<article class="article article-type-post" itemscope="" itemprop="blogPost">
+
+		<div class="article-inner">
+
+			<header class="article-header">
+	<img src="/img/icon/33421.png" class="share_img" alt="Hitori no Shita The Outcast"/><meta property="og:image" content="https://anime.syui.cf/img/icon/33421.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/33421.png" /><h1 class="article-title" itemprop="name">
+		<a href="https://anime.syui.cf/2016/12/07/hitori_no_shita__the_outcast/" class="permalink">Hitori no Shita The Outcast</a>
+	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Hitori%20no%20Shita%20The%20Outcast/"><span class="article-header-tags-button">#Hitori no Shita The Outcast<span></a> <a href="/tags/2016-summer/"><span class="article-header-tags-button">#2016-summer<span></a></div>
+	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
+	<div class="article-meta">
+	</div>
+</header>
+
+			
+		</div>
+	</article>
+	
+	<article class="article article-type-post" itemscope="" itemprop="blogPost">
+
+		<div class="article-inner">
+
+			<header class="article-header">
+	<img src="/img/icon/20853.png" class="share_img" alt="Hitsugi no Chaika"/><meta property="og:image" content="https://anime.syui.cf/img/icon/20853.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/20853.png" /><h1 class="article-title" itemprop="name">
+		<a href="https://anime.syui.cf/2016/12/07/hitsugi_no_chaika/" class="permalink">Hitsugi no Chaika</a>
+	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Hitsugi%20no%20Chaika/"><span class="article-header-tags-button">#Hitsugi no Chaika<span></a> <a href="/tags/2014-spring/"><span class="article-header-tags-button">#2014-spring<span></a></div>
+	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
+	<div class="article-meta">
+	</div>
+</header>
+
+			
+		</div>
+	</article>
+	
+	<article class="article article-type-post" itemscope="" itemprop="blogPost">
+
+		<div class="article-inner">
+
+			<header class="article-header">
+	<img src="/img/icon/24231.png" class="share_img" alt="Hitsugi no Chaika Avenging Battle"/><meta property="og:image" content="https://anime.syui.cf/img/icon/24231.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/24231.png" /><h1 class="article-title" itemprop="name">
+		<a href="https://anime.syui.cf/2016/12/07/hitsugi_no_chaika__avenging_battle/" class="permalink">Hitsugi no Chaika Avenging Battle</a>
+	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Hitsugi%20no%20Chaika%20Avenging%20Battle/"><span class="article-header-tags-button">#Hitsugi no Chaika Avenging Battle<span></a> <a href="/tags/2014-fall/"><span class="article-header-tags-button">#2014-fall<span></a></div>
+	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
+	<div class="article-meta">
+	</div>
+</header>
+
+			
+		</div>
+	</article>
+	
+	<article class="article article-type-post" itemscope="" itemprop="blogPost">
+
+		<div class="article-inner">
+
+			<header class="article-header">
+	<img src="/img/icon/23787.png" class="share_img" alt="Hi☆sCoool! SeHa Girls "/><meta property="og:image" content="https://anime.syui.cf/img/icon/23787.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/23787.png" /><h1 class="article-title" itemprop="name">
+		<a href="https://anime.syui.cf/2016/12/07/hiscoool_seha_girls/" class="permalink">Hi☆sCoool! SeHa Girls </a>
+	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Hi%e2%98%86sCoool!%20SeHa%20Girls%20/"><span class="article-header-tags-button">#Hi☆sCoool! SeHa Girls <span></a> <a href="/tags/2014-fall/"><span class="article-header-tags-button">#2014-fall<span></a></div>
+	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
+	<div class="article-meta">
+	</div>
+</header>
+
+			
+		</div>
+	</article>
+	
+	<article class="article article-type-post" itemscope="" itemprop="blogPost">
+
+		<div class="article-inner">
+
+			<header class="article-header">
+	<img src="/img/icon/11005.png" class="share_img" alt="Holy Knight"/><meta property="og:image" content="https://anime.syui.cf/img/icon/11005.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/11005.png" /><h1 class="article-title" itemprop="name">
+		<a href="https://anime.syui.cf/2016/12/07/holy_knight/" class="permalink">Holy Knight</a>
+	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Holy%20Knight/"><span class="article-header-tags-button">#Holy Knight<span></a> <a href="/tags/2012-winter/"><span class="article-header-tags-button">#2012-winter<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -523,7 +572,7 @@
                 <a class="category-list-link" href="https://anime.syui.cf/categories/myanimelist">
             		<li class="category-list-item">
             		        myanimelist
-            		    <span class="category-list-count">1249</span>
+            		    <span class="category-list-count">1239</span>
             		</li>
                 </a>
             
@@ -979,21 +1028,21 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2007-fall">
             			<li class="category-list-item">
             			        2007-fall
-            			    <span class="category-list-count">30</span>
+            			    <span class="category-list-count">29</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2007-spring">
             			<li class="category-list-item">
             			        2007-spring
-            			    <span class="category-list-count">43</span>
+            			    <span class="category-list-count">42</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2007-summer">
             			<li class="category-list-item">
             			        2007-summer
-            			    <span class="category-list-count">47</span>
+            			    <span class="category-list-count">46</span>
             			</li>
                 	</a>
             	
@@ -1028,7 +1077,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2008-winter">
             			<li class="category-list-item">
             			        2008-winter
-            			    <span class="category-list-count">26</span>
+            			    <span class="category-list-count">25</span>
             			</li>
                 	</a>
             	
@@ -1063,14 +1112,14 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2010-fall">
             			<li class="category-list-item">
             			        2010-fall
-            			    <span class="category-list-count">27</span>
+            			    <span class="category-list-count">26</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2010-spring">
             			<li class="category-list-item">
             			        2010-spring
-            			    <span class="category-list-count">25</span>
+            			    <span class="category-list-count">24</span>
             			</li>
                 	</a>
             	
@@ -1091,21 +1140,21 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2011-fall">
             			<li class="category-list-item">
             			        2011-fall
-            			    <span class="category-list-count">47</span>
+            			    <span class="category-list-count">44</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2011-spring">
             			<li class="category-list-item">
             			        2011-spring
-            			    <span class="category-list-count">39</span>
+            			    <span class="category-list-count">37</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2011-summer">
             			<li class="category-list-item">
             			        2011-summer
-            			    <span class="category-list-count">52</span>
+            			    <span class="category-list-count">51</span>
             			</li>
                 	</a>
             	
@@ -1133,14 +1182,14 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2012-summer">
             			<li class="category-list-item">
             			        2012-summer
-            			    <span class="category-list-count">63</span>
+            			    <span class="category-list-count">61</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2012-winter">
             			<li class="category-list-item">
             			        2012-winter
-            			    <span class="category-list-count">56</span>
+            			    <span class="category-list-count">55</span>
             			</li>
                 	</a>
             	
@@ -1182,7 +1231,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2014-spring">
             			<li class="category-list-item">
             			        2014-spring
-            			    <span class="category-list-count">62</span>
+            			    <span class="category-list-count">61</span>
             			</li>
                 	</a>
             	
@@ -3359,7 +3408,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/dog-days">
             			<li class="category-list-item">
             			        dog-days
-            			    <span class="category-list-count">3</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -4115,7 +4164,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/gintama">
             			<li class="category-list-item">
             			        gintama
-            			    <span class="category-list-count">4</span>
+            			    <span class="category-list-count">3</span>
             			</li>
                 	</a>
             	
@@ -4220,7 +4269,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/gochuumon-wa-usagi-desu-ka">
             			<li class="category-list-item">
             			        gochuumon-wa-usagi-desu-ka
-            			    <span class="category-list-count">2</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -4647,7 +4696,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/hayate-no-gotoku">
             			<li class="category-list-item">
             			        hayate-no-gotoku
-            			    <span class="category-list-count">2</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -8021,7 +8070,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai">
             			<li class="category-list-item">
             			        ore-no-imouto-ga-konnani-kawaii-wake-ga-nai
-            			    <span class="category-list-count">2</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -9554,7 +9603,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/shinryaku-ika-musume">
             			<li class="category-list-item">
             			        shinryaku-ika-musume
-            			    <span class="category-list-count">3</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -11129,7 +11178,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/working">
             			<li class="category-list-item">
             			        working
-            			    <span class="category-list-count">3</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	

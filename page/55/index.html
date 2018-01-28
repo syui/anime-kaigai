@@ -43,12 +43,15 @@
 		<link rel="feed" type="application/rss+xml" title="アニメ海外反応" href="https://anime.syui.cf/index.xml" />
 		<link rel="stylesheet" href="/bower_components/bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="/bower_components/icomoon/css/icomoon.css" />
+    		<link rel="stylesheet" href="/bower_components/talaria/dist/talaria.css" />   
 		<link rel="stylesheet" href="/css/style.css" />
 		<link rel="stylesheet" href="/css/mobile.css" />
 		<link rel="stylesheet" href="/css/origin.css">
 		<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+		
 		<script type="text/javascript" src="/js/search.js"></script>
 		<script type="text/javascript" src="/bower_components/lunr.js/lunr.min.js"></script>
+		
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73617006-12"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -56,7 +59,11 @@
 			gtag('js', new Date());
 			gtag('config', 'UA-73617006-12');
 		</script>
-
+		
+		<script src="/bower_components/async/dist/async.min.js"></script>
+		<script src="/bower_components/bluebird/js/browser/bluebird.js"></script>
+		<script src="/bower_components/talaria/dist/talaria.js"></script>
+		
 		<script type="application/ld+json">
 			{
 				"@context": "http://schema.org",
@@ -69,8 +76,10 @@
 					}
 			}
 		</script>
+
 		
 		
+
 	</head>
 	<body>
 
@@ -130,94 +139,11 @@
 		<div class="article-inner">
 
 			<header class="article-header">
-	<img src="/img/icon/10152.png" class="share_img" alt="Kimi ni Todoke 2nd Season Kataomoi"/><meta property="og:image" content="https://anime.syui.cf/img/icon/10152.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/10152.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/10152/" class="permalink">Kimi ni Todoke 2nd Season Kataomoi</a>
-	</h1>
-	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
-	<div class="article-meta">
-	</div>
-</header>
-
-			
-		</div>
-	</article>
-	
-	<article class="article article-type-post" itemscope="" itemprop="blogPost">
-
-		<div class="article-inner">
-
-			<header class="article-header">
-	<img src="/img/icon/17741.png" class="share_img" alt="Kimi no Iru Machi"/><meta property="og:image" content="https://anime.syui.cf/img/icon/17741.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/17741.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/17741/" class="permalink">Kimi no Iru Machi</a>
-	</h1>
-	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
-	<div class="article-meta">
-	</div>
-</header>
-
-			
-		</div>
-	</article>
-	
-	<article class="article article-type-post" itemscope="" itemprop="blogPost">
-
-		<div class="article-inner">
-
-			<header class="article-header">
-	<img src="/img/icon/10460.png" class="share_img" alt="Kimi to Boku"/><meta property="og:image" content="https://anime.syui.cf/img/icon/10460.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/10460.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/10460/" class="permalink">Kimi to Boku</a>
-	</h1>
-	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
-	<div class="article-meta">
-	</div>
-</header>
-
-			
-		</div>
-	</article>
-	
-	<article class="article article-type-post" itemscope="" itemprop="blogPost">
-
-		<div class="article-inner">
-
-			<header class="article-header">
-	<img src="/img/icon/11739.png" class="share_img" alt="Kimi to Boku 2"/><meta property="og:image" content="https://anime.syui.cf/img/icon/11739.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/11739.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/11739/" class="permalink">Kimi to Boku 2</a>
-	</h1>
-	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
-	<div class="article-meta">
-	</div>
-</header>
-
-			
-		</div>
-	</article>
-	
-	<article class="article article-type-post" itemscope="" itemprop="blogPost">
-
-		<div class="article-inner">
-
-			<header class="article-header">
-	<img src="/img/icon/2927.png" class="share_img" alt="Kimikiss Pure Rouge"/><meta property="og:image" content="https://anime.syui.cf/img/icon/2927.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/2927.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/2927/" class="permalink">Kimikiss Pure Rouge</a>
-	</h1>
-	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
-	<div class="article-meta">
-	</div>
-</header>
-
-			
-		</div>
-	</article>
-	
-	<article class="article article-type-post" itemscope="" itemprop="blogPost">
-
-		<div class="article-inner">
-
-			<header class="article-header">
 	<img src="/img/icon/22817.png" class="share_img" alt="Kindaichi Shounen no Jikenbo Returns"/><meta property="og:image" content="https://anime.syui.cf/img/icon/22817.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/22817.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/22817/" class="permalink">Kindaichi Shounen no Jikenbo Returns</a>
+		<a href="https://anime.syui.cf/2016/12/07/kindaichi_shounen_no_jikenbo_returns/" class="permalink">Kindaichi Shounen no Jikenbo Returns</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kindaichi%20Shounen%20no%20Jikenbo%20Returns/"><span class="article-header-tags-button">#Kindaichi Shounen no Jikenbo Returns<span></a> <a href="/tags/2014-spring/"><span class="article-header-tags-button">#2014-spring<span></a> <a href="/tags/2014-summer/"><span class="article-header-tags-button">#2014-summer<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -233,8 +159,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/31227.png" class="share_img" alt="Kindaichi Shounen no Jikenbo Returns 2nd Season"/><meta property="og:image" content="https://anime.syui.cf/img/icon/31227.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/31227.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/31227/" class="permalink">Kindaichi Shounen no Jikenbo Returns 2nd Season</a>
+		<a href="https://anime.syui.cf/2016/12/07/kindaichi_shounen_no_jikenbo_returns_2nd_season/" class="permalink">Kindaichi Shounen no Jikenbo Returns 2nd Season</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kindaichi%20Shounen%20no%20Jikenbo%20Returns%202nd%20Season/"><span class="article-header-tags-button">#Kindaichi Shounen no Jikenbo Returns 2nd Season<span></a> <a href="/tags/2015-fall/"><span class="article-header-tags-button">#2015-fall<span></a> <a href="/tags/2016-winter/"><span class="article-header-tags-button">#2016-winter<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -250,8 +178,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/12031.png" class="share_img" alt="Kingdom"/><meta property="og:image" content="https://anime.syui.cf/img/icon/12031.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/12031.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/12031/" class="permalink">Kingdom</a>
+		<a href="https://anime.syui.cf/2016/12/07/kingdom/" class="permalink">Kingdom</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kingdom/"><span class="article-header-tags-button">#Kingdom<span></a> <a href="/tags/2012-fall/"><span class="article-header-tags-button">#2012-fall<span></a> <a href="/tags/2012-summer/"><span class="article-header-tags-button">#2012-summer<span></a> <a href="/tags/2013-winter/"><span class="article-header-tags-button">#2013-winter<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -267,8 +197,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/16732.png" class="share_img" alt="Kiniro Mosaic"/><meta property="og:image" content="https://anime.syui.cf/img/icon/16732.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/16732.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/16732/" class="permalink">Kiniro Mosaic</a>
+		<a href="https://anime.syui.cf/2016/12/07/kiniro_mosaic/" class="permalink">Kiniro Mosaic</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kiniro%20Mosaic/"><span class="article-header-tags-button">#Kiniro Mosaic<span></a> <a href="/tags/2013-summer/"><span class="article-header-tags-button">#2013-summer<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -284,8 +216,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/1579.png" class="share_img" alt="Kiniro no Corda Primo Passo"/><meta property="og:image" content="https://anime.syui.cf/img/icon/1579.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/1579.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/1579/" class="permalink">Kiniro no Corda Primo Passo</a>
+		<a href="https://anime.syui.cf/2016/12/07/kiniro_no_corda__primo_passo/" class="permalink">Kiniro no Corda Primo Passo</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kiniro%20no%20Corda%20Primo%20Passo/"><span class="article-header-tags-button">#Kiniro no Corda Primo Passo<span></a> <a href="/tags/2006-fall/"><span class="article-header-tags-button">#2006-fall<span></a> <a href="/tags/2007-winter/"><span class="article-header-tags-button">#2007-winter<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -301,8 +235,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/5717.png" class="share_img" alt="Kiniro no Corda Secondo Passo"/><meta property="og:image" content="https://anime.syui.cf/img/icon/5717.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/5717.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/5717/" class="permalink">Kiniro no Corda Secondo Passo</a>
+		<a href="https://anime.syui.cf/2016/12/07/kiniro_no_corda__secondo_passo/" class="permalink">Kiniro no Corda Secondo Passo</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kiniro%20no%20Corda%20Secondo%20Passo/"><span class="article-header-tags-button">#Kiniro no Corda Secondo Passo<span></a> <a href="/tags/2009-winter/"><span class="article-header-tags-button">#2009-winter<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -318,8 +254,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/20971.png" class="share_img" alt="Kiniro no Corda: Blue♪Sky "/><meta property="og:image" content="https://anime.syui.cf/img/icon/20971.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/20971.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/20971/" class="permalink">Kiniro no Corda: Blue♪Sky </a>
+		<a href="https://anime.syui.cf/2016/12/07/kiniro_no_corda__bluesky/" class="permalink">Kiniro no Corda: Blue♪Sky </a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kiniro%20no%20Corda:%20Blue%e2%99%aaSky%20/"><span class="article-header-tags-button">#Kiniro no Corda: Blue♪Sky <span></a> <a href="/tags/2014-spring/"><span class="article-header-tags-button">#2014-spring<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -335,8 +273,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/22535.png" class="share_img" alt="Kiseijuu Sei no Kakuritsu"/><meta property="og:image" content="https://anime.syui.cf/img/icon/22535.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/22535.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/22535/" class="permalink">Kiseijuu Sei no Kakuritsu</a>
+		<a href="https://anime.syui.cf/2016/12/07/kiseijuu__sei_no_kakuritsu/" class="permalink">Kiseijuu Sei no Kakuritsu</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kiseijuu%20Sei%20no%20Kakuritsu/"><span class="article-header-tags-button">#Kiseijuu Sei no Kakuritsu<span></a> <a href="/tags/2014-fall/"><span class="article-header-tags-button">#2014-fall<span></a> <a href="/tags/2015-winter/"><span class="article-header-tags-button">#2015-winter<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -352,8 +292,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/1067.png" class="share_img" alt="Kishin Houkou Demonbane TV"/><meta property="og:image" content="https://anime.syui.cf/img/icon/1067.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/1067.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/1067/" class="permalink">Kishin Houkou Demonbane TV</a>
+		<a href="https://anime.syui.cf/2016/12/07/kishin_houkou_demonbane_tv/" class="permalink">Kishin Houkou Demonbane TV</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kishin%20Houkou%20Demonbane%20TV/"><span class="article-header-tags-button">#Kishin Houkou Demonbane TV<span></a> <a href="/tags/2006-spring/"><span class="article-header-tags-button">#2006-spring<span></a> <a href="/tags/2006-summer/"><span class="article-header-tags-button">#2006-summer<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -369,8 +311,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/18495.png" class="share_img" alt="Kitakubu Katsudou Kiroku"/><meta property="og:image" content="https://anime.syui.cf/img/icon/18495.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/18495.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/18495/" class="permalink">Kitakubu Katsudou Kiroku</a>
+		<a href="https://anime.syui.cf/2016/12/07/kitakubu_katsudou_kiroku/" class="permalink">Kitakubu Katsudou Kiroku</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kitakubu%20Katsudou%20Kiroku/"><span class="article-header-tags-button">#Kitakubu Katsudou Kiroku<span></a> <a href="/tags/2013-summer/"><span class="article-header-tags-button">#2013-summer<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -386,8 +330,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/3323.png" class="share_img" alt="Kite Liberator"/><meta property="og:image" content="https://anime.syui.cf/img/icon/3323.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/3323.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/3323/" class="permalink">Kite Liberator</a>
+		<a href="https://anime.syui.cf/2016/12/07/kite_liberator/" class="permalink">Kite Liberator</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kite%20Liberator/"><span class="article-header-tags-button">#Kite Liberator<span></a> <a href="/tags/2008-winter/"><span class="article-header-tags-button">#2008-winter<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -403,8 +349,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/31798.png" class="share_img" alt="Kiznaiver"/><meta property="og:image" content="https://anime.syui.cf/img/icon/31798.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/31798.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/31798/" class="permalink">Kiznaiver</a>
+		<a href="https://anime.syui.cf/2016/12/07/kiznaiver/" class="permalink">Kiznaiver</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kiznaiver/"><span class="article-header-tags-button">#Kiznaiver<span></a> <a href="/tags/2016-spring/"><span class="article-header-tags-button">#2016-spring<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -420,8 +368,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/5678.png" class="share_img" alt="Kobato"/><meta property="og:image" content="https://anime.syui.cf/img/icon/5678.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/5678.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/5678/" class="permalink">Kobato</a>
+		<a href="https://anime.syui.cf/2016/12/07/kobato/" class="permalink">Kobato</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kobato/"><span class="article-header-tags-button">#Kobato<span></a> <a href="/tags/2009-fall/"><span class="article-header-tags-button">#2009-fall<span></a> <a href="/tags/2010-winter/"><span class="article-header-tags-button">#2010-winter<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -437,8 +387,10 @@
 
 			<header class="article-header">
 	<img src="/img/icon/1486.png" class="share_img" alt="Kodomo no Omocha TV"/><meta property="og:image" content="https://anime.syui.cf/img/icon/1486.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/1486.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/1486/" class="permalink">Kodomo no Omocha TV</a>
+		<a href="https://anime.syui.cf/2016/12/07/kodomo_no_omocha_tv/" class="permalink">Kodomo no Omocha TV</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kodomo%20no%20Omocha%20TV/"><span class="article-header-tags-button">#Kodomo no Omocha TV<span></a> <a href="/tags/1996-fall/"><span class="article-header-tags-button">#1996-fall<span></a> <a href="/tags/1996-spring/"><span class="article-header-tags-button">#1996-spring<span></a> <a href="/tags/1996-summer/"><span class="article-header-tags-button">#1996-summer<span></a> <a href="/tags/1997-fall/"><span class="article-header-tags-button">#1997-fall<span></a> <a href="/tags/1997-spring/"><span class="article-header-tags-button">#1997-spring<span></a> <a href="/tags/1997-summer/"><span class="article-header-tags-button">#1997-summer<span></a> <a href="/tags/1997-winter/"><span class="article-header-tags-button">#1997-winter<span></a> <a href="/tags/1998-winter/"><span class="article-header-tags-button">#1998-winter<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -454,8 +406,105 @@
 
 			<header class="article-header">
 	<img src="/img/icon/12175.png" class="share_img" alt="Koi to Senkyo to Chocolate"/><meta property="og:image" content="https://anime.syui.cf/img/icon/12175.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/12175.png" /><h1 class="article-title" itemprop="name">
-		<a href="https://anime.syui.cf/12175/" class="permalink">Koi to Senkyo to Chocolate</a>
+		<a href="https://anime.syui.cf/2016/12/07/koi_to_senkyo_to_chocolate/" class="permalink">Koi to Senkyo to Chocolate</a>
 	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Koi%20to%20Senkyo%20to%20Chocolate/"><span class="article-header-tags-button">#Koi to Senkyo to Chocolate<span></a> <a href="/tags/2012-summer/"><span class="article-header-tags-button">#2012-summer<span></a></div>
+	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
+	<div class="article-meta">
+	</div>
+</header>
+
+			
+		</div>
+	</article>
+	
+	<article class="article article-type-post" itemscope="" itemprop="blogPost">
+
+		<div class="article-inner">
+
+			<header class="article-header">
+	<img src="/img/icon/4262.png" class="share_img" alt="Koihime†Musou "/><meta property="og:image" content="https://anime.syui.cf/img/icon/4262.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/4262.png" /><h1 class="article-title" itemprop="name">
+		<a href="https://anime.syui.cf/2016/12/07/koihimemusou/" class="permalink">Koihime†Musou </a>
+	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Koihime%e2%80%a0Musou%20/"><span class="article-header-tags-button">#Koihime†Musou <span></a> <a href="/tags/2008-summer/"><span class="article-header-tags-button">#2008-summer<span></a></div>
+	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
+	<div class="article-meta">
+	</div>
+</header>
+
+			
+		</div>
+	</article>
+	
+	<article class="article article-type-post" itemscope="" itemprop="blogPost">
+
+		<div class="article-inner">
+
+			<header class="article-header">
+	<img src="/img/icon/11887.png" class="share_img" alt="Kokoro Connect"/><meta property="og:image" content="https://anime.syui.cf/img/icon/11887.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/11887.png" /><h1 class="article-title" itemprop="name">
+		<a href="https://anime.syui.cf/2016/12/07/kokoro_connect/" class="permalink">Kokoro Connect</a>
+	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kokoro%20Connect/"><span class="article-header-tags-button">#Kokoro Connect<span></a> <a href="/tags/2012-summer/"><span class="article-header-tags-button">#2012-summer<span></a></div>
+	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
+	<div class="article-meta">
+	</div>
+</header>
+
+			
+		</div>
+	</article>
+	
+	<article class="article article-type-post" itemscope="" itemprop="blogPost">
+
+		<div class="article-inner">
+
+			<header class="article-header">
+	<img src="/img/icon/31091.png" class="share_img" alt="Komori-san wa Kotowarenai"/><meta property="og:image" content="https://anime.syui.cf/img/icon/31091.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/31091.png" /><h1 class="article-title" itemprop="name">
+		<a href="https://anime.syui.cf/2016/12/07/komori-san_wa_kotowarenai/" class="permalink">Komori-san wa Kotowarenai</a>
+	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Komori-san%20wa%20Kotowarenai/"><span class="article-header-tags-button">#Komori-san wa Kotowarenai<span></a> <a href="/tags/2015-fall/"><span class="article-header-tags-button">#2015-fall<span></a></div>
+	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
+	<div class="article-meta">
+	</div>
+</header>
+
+			
+		</div>
+	</article>
+	
+	<article class="article article-type-post" itemscope="" itemprop="blogPost">
+
+		<div class="article-inner">
+
+			<header class="article-header">
+	<img src="/img/icon/250.png" class="share_img" alt="Konjiki no Gash Bell"/><meta property="og:image" content="https://anime.syui.cf/img/icon/250.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/250.png" /><h1 class="article-title" itemprop="name">
+		<a href="https://anime.syui.cf/2016/12/07/konjiki_no_gash_bell/" class="permalink">Konjiki no Gash Bell</a>
+	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Konjiki%20no%20Gash%20Bell/"><span class="article-header-tags-button">#Konjiki no Gash Bell<span></a> <a href="/tags/2003-fall/"><span class="article-header-tags-button">#2003-fall<span></a> <a href="/tags/2003-spring/"><span class="article-header-tags-button">#2003-spring<span></a> <a href="/tags/2003-summer/"><span class="article-header-tags-button">#2003-summer<span></a> <a href="/tags/2004-fall/"><span class="article-header-tags-button">#2004-fall<span></a> <a href="/tags/2004-spring/"><span class="article-header-tags-button">#2004-spring<span></a> <a href="/tags/2004-summer/"><span class="article-header-tags-button">#2004-summer<span></a> <a href="/tags/2004-winter/"><span class="article-header-tags-button">#2004-winter<span></a> <a href="/tags/2005-fall/"><span class="article-header-tags-button">#2005-fall<span></a> <a href="/tags/2005-spring/"><span class="article-header-tags-button">#2005-spring<span></a> <a href="/tags/2005-summer/"><span class="article-header-tags-button">#2005-summer<span></a> <a href="/tags/2005-winter/"><span class="article-header-tags-button">#2005-winter<span></a> <a href="/tags/2006-winter/"><span class="article-header-tags-button">#2006-winter<span></a></div>
+	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
+	<div class="article-meta">
+	</div>
+</header>
+
+			
+		</div>
+	</article>
+	
+	<article class="article article-type-post" itemscope="" itemprop="blogPost">
+
+		<div class="article-inner">
+
+			<header class="article-header">
+	<img src="/img/icon/2155.png" class="share_img" alt="Kono Aozora ni Yakusoku wo Youkoso Tsugumi Ryou e"/><meta property="og:image" content="https://anime.syui.cf/img/icon/2155.png" /><meta name="twitter:image" content="https://anime.syui.cf/img/icon/2155.png" /><h1 class="article-title" itemprop="name">
+		<a href="https://anime.syui.cf/2016/12/07/kono_aozora_ni_yakusoku_wo__youkoso_tsugumi_ryou_e/" class="permalink">Kono Aozora ni Yakusoku wo Youkoso Tsugumi Ryou e</a>
+	</h1>
+	<div class="article-header-categories"> <a href="/categories/myanimelist/"><span class="article-header-categories-button">myanimelist</span></a></div>
+	<div class="article-header-tags"> <a href="/tags/Kono%20Aozora%20ni%20Yakusoku%20wo%20Youkoso%20Tsugumi%20Ryou%20e/"><span class="article-header-tags-button">#Kono Aozora ni Yakusoku wo Youkoso Tsugumi Ryou e<span></a> <a href="/tags/2007-spring/"><span class="article-header-tags-button">#2007-spring<span></a></div>
 	<time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
 	<div class="article-meta">
 	</div>
@@ -523,7 +572,7 @@
                 <a class="category-list-link" href="https://anime.syui.cf/categories/myanimelist">
             		<li class="category-list-item">
             		        myanimelist
-            		    <span class="category-list-count">1249</span>
+            		    <span class="category-list-count">1239</span>
             		</li>
                 </a>
             
@@ -979,21 +1028,21 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2007-fall">
             			<li class="category-list-item">
             			        2007-fall
-            			    <span class="category-list-count">30</span>
+            			    <span class="category-list-count">29</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2007-spring">
             			<li class="category-list-item">
             			        2007-spring
-            			    <span class="category-list-count">43</span>
+            			    <span class="category-list-count">42</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2007-summer">
             			<li class="category-list-item">
             			        2007-summer
-            			    <span class="category-list-count">47</span>
+            			    <span class="category-list-count">46</span>
             			</li>
                 	</a>
             	
@@ -1028,7 +1077,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2008-winter">
             			<li class="category-list-item">
             			        2008-winter
-            			    <span class="category-list-count">26</span>
+            			    <span class="category-list-count">25</span>
             			</li>
                 	</a>
             	
@@ -1063,14 +1112,14 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2010-fall">
             			<li class="category-list-item">
             			        2010-fall
-            			    <span class="category-list-count">27</span>
+            			    <span class="category-list-count">26</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2010-spring">
             			<li class="category-list-item">
             			        2010-spring
-            			    <span class="category-list-count">25</span>
+            			    <span class="category-list-count">24</span>
             			</li>
                 	</a>
             	
@@ -1091,21 +1140,21 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2011-fall">
             			<li class="category-list-item">
             			        2011-fall
-            			    <span class="category-list-count">47</span>
+            			    <span class="category-list-count">44</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2011-spring">
             			<li class="category-list-item">
             			        2011-spring
-            			    <span class="category-list-count">39</span>
+            			    <span class="category-list-count">37</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2011-summer">
             			<li class="category-list-item">
             			        2011-summer
-            			    <span class="category-list-count">52</span>
+            			    <span class="category-list-count">51</span>
             			</li>
                 	</a>
             	
@@ -1133,14 +1182,14 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2012-summer">
             			<li class="category-list-item">
             			        2012-summer
-            			    <span class="category-list-count">63</span>
+            			    <span class="category-list-count">61</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2012-winter">
             			<li class="category-list-item">
             			        2012-winter
-            			    <span class="category-list-count">56</span>
+            			    <span class="category-list-count">55</span>
             			</li>
                 	</a>
             	
@@ -1182,7 +1231,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2014-spring">
             			<li class="category-list-item">
             			        2014-spring
-            			    <span class="category-list-count">62</span>
+            			    <span class="category-list-count">61</span>
             			</li>
                 	</a>
             	
@@ -3359,7 +3408,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/dog-days">
             			<li class="category-list-item">
             			        dog-days
-            			    <span class="category-list-count">3</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -4115,7 +4164,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/gintama">
             			<li class="category-list-item">
             			        gintama
-            			    <span class="category-list-count">4</span>
+            			    <span class="category-list-count">3</span>
             			</li>
                 	</a>
             	
@@ -4220,7 +4269,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/gochuumon-wa-usagi-desu-ka">
             			<li class="category-list-item">
             			        gochuumon-wa-usagi-desu-ka
-            			    <span class="category-list-count">2</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -4647,7 +4696,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/hayate-no-gotoku">
             			<li class="category-list-item">
             			        hayate-no-gotoku
-            			    <span class="category-list-count">2</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -8021,7 +8070,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai">
             			<li class="category-list-item">
             			        ore-no-imouto-ga-konnani-kawaii-wake-ga-nai
-            			    <span class="category-list-count">2</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -9554,7 +9603,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/shinryaku-ika-musume">
             			<li class="category-list-item">
             			        shinryaku-ika-musume
-            			    <span class="category-list-count">3</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -11129,7 +11178,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/working">
             			<li class="category-list-item">
             			        working
-            			    <span class="category-list-count">3</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	

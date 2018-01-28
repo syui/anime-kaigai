@@ -43,12 +43,15 @@
 		<link rel="feed" type="application/rss+xml" title="アニメ海外反応" href="https://anime.syui.cf/index.xml" />
 		<link rel="stylesheet" href="/bower_components/bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="/bower_components/icomoon/css/icomoon.css" />
+    		<link rel="stylesheet" href="/bower_components/talaria/dist/talaria.css" />   
 		<link rel="stylesheet" href="/css/style.css" />
 		<link rel="stylesheet" href="/css/mobile.css" />
 		<link rel="stylesheet" href="/css/origin.css">
 		<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+		
 		<script type="text/javascript" src="/js/search.js"></script>
 		<script type="text/javascript" src="/bower_components/lunr.js/lunr.min.js"></script>
+		
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73617006-12"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -56,7 +59,11 @@
 			gtag('js', new Date());
 			gtag('config', 'UA-73617006-12');
 		</script>
-
+		
+		<script src="/bower_components/async/dist/async.min.js"></script>
+		<script src="/bower_components/bluebird/js/browser/bluebird.js"></script>
+		<script src="/bower_components/talaria/dist/talaria.js"></script>
+		
 		<script type="application/ld+json">
 			{
 				"@context": "http://schema.org",
@@ -69,8 +76,10 @@
 					}
 			}
 		</script>
+
 		
 		
+
 	</head>
 	<body>
  <header id="header">
@@ -132,14 +141,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/15061/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/aikatsu/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/15061/">Aikatsu</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/aikatsu/">Aikatsu</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -155,14 +164,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/19429/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/akuma_no_riddle/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/19429/">Akuma no Riddle</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/akuma_no_riddle/">Akuma no Riddle</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -178,14 +187,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/21185/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/baby_steps/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/21185/">Baby Steps</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/baby_steps/">Baby Steps</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -201,14 +210,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/20787/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/black_bullet/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/20787/">Black Bullet</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/black_bullet/">Black Bullet</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -224,14 +233,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/22547/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/blade___soul/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/22547/">Blade  Soul</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/blade___soul/">Blade  Soul</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -247,14 +256,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/21405/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/bokura_wa_minna_kawaisou/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/21405/">Bokura wa Minna Kawaisou</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/bokura_wa_minna_kawaisou/">Bokura wa Minna Kawaisou</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -270,14 +279,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/22433/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/break_blade/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/22433/">Break Blade</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/break_blade/">Break Blade</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -293,14 +302,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/21677/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/captain_earth/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/21677/">Captain Earth</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/captain_earth/">Captain Earth</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -316,14 +325,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/21729/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/cardfight_vanguard__legion_mate-hen/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/21729/">Cardfight Vanguard Legion Mate-hen</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/cardfight_vanguard__legion_mate-hen/">Cardfight Vanguard Legion Mate-hen</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -339,14 +348,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/19163/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/date_a_live_ii/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/19163/">Date A Live II</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/date_a_live_ii/">Date A Live II</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -362,14 +371,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/235/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/detective_conan/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/235/">Detective Conan</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/detective_conan/">Detective Conan</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -385,14 +394,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/21419/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/detective_conan_movie_18__the_sniper_from_another_dimension/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/21419/">Detective Conan Movie 18 The Sniper from Another Dimension</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/detective_conan_movie_18__the_sniper_from_another_dimension/">Detective Conan Movie 18 The Sniper from Another Dimension</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -408,14 +417,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/18689/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/diamond_no_ace/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/18689/">Diamond no Ace</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/diamond_no_ace/">Diamond no Ace</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -431,14 +440,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/21167/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/escha___logy_no_atelier__tasogare_no_sora_no_renkinjutsushi/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/21167/">Escha  Logy no Atelier Tasogare no Sora no Renkinjutsushi</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/escha___logy_no_atelier__tasogare_no_sora_no_renkinjutsushi/">Escha  Logy no Atelier Tasogare no Sora no Renkinjutsushi</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -454,14 +463,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/22043/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/fairy_tail_2014/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/22043/">Fairy Tail 2014</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/fairy_tail_2014/">Fairy Tail 2014</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -477,14 +486,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/13163/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/furusato_saisei__nihon_no_mukashibanashi/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/13163/">Furusato Saisei Nihon no Mukashibanashi</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/furusato_saisei__nihon_no_mukashibanashi/">Furusato Saisei Nihon no Mukashibanashi</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -500,14 +509,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/21821/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/fuuun_ishin_daishogun/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/21821/">Fuuun Ishin Dai☆Shogun (Dai-Shogun: Great Revolution) </a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/fuuun_ishin_daishogun/">Fuuun Ishin Dai☆Shogun (Dai-Shogun: Great Revolution) </a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -523,14 +532,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/19193/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/ghost_in_the_shell__arise_-_border_3_ghost_tears/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/19193/">Ghost in the Shell Arise - Border 3 Ghost Tears</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/ghost_in_the_shell__arise_-_border_3_ghost_tears/">Ghost in the Shell Arise - Border 3 Ghost Tears</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -546,14 +555,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/21273/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/gokukoku_no_brynhildr/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/21273/">Gochuumon wa Usagi Desu ka</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/gokukoku_no_brynhildr/">Gokukoku no Brynhildr</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -569,14 +578,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/21431/" class="thumbnail">
+            <a href="https://anime.syui.cf/2016/12/07/haikyuu/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/21431/">Gokukoku no Brynhildr</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2016/12/07/haikyuu/">Haikyuu</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2016-12-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2016-12-07</time>
@@ -655,7 +664,7 @@
                 <a class="category-list-link" href="https://anime.syui.cf/categories/myanimelist">
             		<li class="category-list-item">
             		        myanimelist
-            		    <span class="category-list-count">1249</span>
+            		    <span class="category-list-count">1239</span>
             		</li>
                 </a>
             
@@ -1111,21 +1120,21 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2007-fall">
             			<li class="category-list-item">
             			        2007-fall
-            			    <span class="category-list-count">30</span>
+            			    <span class="category-list-count">29</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2007-spring">
             			<li class="category-list-item">
             			        2007-spring
-            			    <span class="category-list-count">43</span>
+            			    <span class="category-list-count">42</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2007-summer">
             			<li class="category-list-item">
             			        2007-summer
-            			    <span class="category-list-count">47</span>
+            			    <span class="category-list-count">46</span>
             			</li>
                 	</a>
             	
@@ -1160,7 +1169,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2008-winter">
             			<li class="category-list-item">
             			        2008-winter
-            			    <span class="category-list-count">26</span>
+            			    <span class="category-list-count">25</span>
             			</li>
                 	</a>
             	
@@ -1195,14 +1204,14 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2010-fall">
             			<li class="category-list-item">
             			        2010-fall
-            			    <span class="category-list-count">27</span>
+            			    <span class="category-list-count">26</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2010-spring">
             			<li class="category-list-item">
             			        2010-spring
-            			    <span class="category-list-count">25</span>
+            			    <span class="category-list-count">24</span>
             			</li>
                 	</a>
             	
@@ -1223,21 +1232,21 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2011-fall">
             			<li class="category-list-item">
             			        2011-fall
-            			    <span class="category-list-count">47</span>
+            			    <span class="category-list-count">44</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2011-spring">
             			<li class="category-list-item">
             			        2011-spring
-            			    <span class="category-list-count">39</span>
+            			    <span class="category-list-count">37</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2011-summer">
             			<li class="category-list-item">
             			        2011-summer
-            			    <span class="category-list-count">52</span>
+            			    <span class="category-list-count">51</span>
             			</li>
                 	</a>
             	
@@ -1265,14 +1274,14 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2012-summer">
             			<li class="category-list-item">
             			        2012-summer
-            			    <span class="category-list-count">63</span>
+            			    <span class="category-list-count">61</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2012-winter">
             			<li class="category-list-item">
             			        2012-winter
-            			    <span class="category-list-count">56</span>
+            			    <span class="category-list-count">55</span>
             			</li>
                 	</a>
             	
@@ -1314,7 +1323,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2014-spring">
             			<li class="category-list-item">
             			        2014-spring
-            			    <span class="category-list-count">62</span>
+            			    <span class="category-list-count">61</span>
             			</li>
                 	</a>
             	
@@ -3491,7 +3500,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/dog-days">
             			<li class="category-list-item">
             			        dog-days
-            			    <span class="category-list-count">3</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -4247,7 +4256,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/gintama">
             			<li class="category-list-item">
             			        gintama
-            			    <span class="category-list-count">4</span>
+            			    <span class="category-list-count">3</span>
             			</li>
                 	</a>
             	
@@ -4352,7 +4361,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/gochuumon-wa-usagi-desu-ka">
             			<li class="category-list-item">
             			        gochuumon-wa-usagi-desu-ka
-            			    <span class="category-list-count">2</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -4779,7 +4788,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/hayate-no-gotoku">
             			<li class="category-list-item">
             			        hayate-no-gotoku
-            			    <span class="category-list-count">2</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -8153,7 +8162,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai">
             			<li class="category-list-item">
             			        ore-no-imouto-ga-konnani-kawaii-wake-ga-nai
-            			    <span class="category-list-count">2</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -9686,7 +9695,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/shinryaku-ika-musume">
             			<li class="category-list-item">
             			        shinryaku-ika-musume
-            			    <span class="category-list-count">3</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -11261,7 +11270,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/working">
             			<li class="category-list-item">
             			        working
-            			    <span class="category-list-count">3</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	

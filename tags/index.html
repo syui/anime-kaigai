@@ -43,12 +43,15 @@
 		<link rel="feed" type="application/rss+xml" title="アニメ海外反応" href="https://anime.syui.cf/index.xml" />
 		<link rel="stylesheet" href="/bower_components/bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="/bower_components/icomoon/css/icomoon.css" />
+    		<link rel="stylesheet" href="/bower_components/talaria/dist/talaria.css" />   
 		<link rel="stylesheet" href="/css/style.css" />
 		<link rel="stylesheet" href="/css/mobile.css" />
 		<link rel="stylesheet" href="/css/origin.css">
 		<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+		
 		<script type="text/javascript" src="/js/search.js"></script>
 		<script type="text/javascript" src="/bower_components/lunr.js/lunr.min.js"></script>
+		
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73617006-12"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -56,7 +59,11 @@
 			gtag('js', new Date());
 			gtag('config', 'UA-73617006-12');
 		</script>
-
+		
+		<script src="/bower_components/async/dist/async.min.js"></script>
+		<script src="/bower_components/bluebird/js/browser/bluebird.js"></script>
+		<script src="/bower_components/talaria/dist/talaria.js"></script>
+		
 		<script type="application/ld+json">
 			{
 				"@context": "http://schema.org",
@@ -69,8 +76,10 @@
 					}
 			}
 		</script>
+
 		
 		
+
 	</head>
 	<body>
  <header id="header">
@@ -150,22 +159,22 @@
                         
                         <li class="category-list-item">
                             <a class="category-list-link" href="2012-summer">2012-summer</a>
-                            <span class="category-list-count">63</span>
+                            <span class="category-list-count">61</span>
                         </li>
                         
                         <li class="category-list-item">
                             <a class="category-list-link" href="2014-spring">2014-spring</a>
-                            <span class="category-list-count">62</span>
-                        </li>
-                        
-                        <li class="category-list-item">
-                            <a class="category-list-link" href="2012-winter">2012-winter</a>
-                            <span class="category-list-count">56</span>
+                            <span class="category-list-count">61</span>
                         </li>
                         
                         <li class="category-list-item">
                             <a class="category-list-link" href="2013-spring">2013-spring</a>
                             <span class="category-list-count">56</span>
+                        </li>
+                        
+                        <li class="category-list-item">
+                            <a class="category-list-link" href="2012-winter">2012-winter</a>
+                            <span class="category-list-count">55</span>
                         </li>
                         
                         <li class="category-list-item">
@@ -175,7 +184,7 @@
                         
                         <li class="category-list-item">
                             <a class="category-list-link" href="2011-summer">2011-summer</a>
-                            <span class="category-list-count">52</span>
+                            <span class="category-list-count">51</span>
                         </li>
                         
                         <li class="category-list-item">
@@ -194,16 +203,6 @@
                         </li>
                         
                         <li class="category-list-item">
-                            <a class="category-list-link" href="2007-summer">2007-summer</a>
-                            <span class="category-list-count">47</span>
-                        </li>
-                        
-                        <li class="category-list-item">
-                            <a class="category-list-link" href="2011-fall">2011-fall</a>
-                            <span class="category-list-count">47</span>
-                        </li>
-                        
-                        <li class="category-list-item">
                             <a class="category-list-link" href="2015-winter">2015-winter</a>
                             <span class="category-list-count">47</span>
                         </li>
@@ -214,13 +213,23 @@
                         </li>
                         
                         <li class="category-list-item">
+                            <a class="category-list-link" href="2007-summer">2007-summer</a>
+                            <span class="category-list-count">46</span>
+                        </li>
+                        
+                        <li class="category-list-item">
                             <a class="category-list-link" href="2015-spring">2015-spring</a>
                             <span class="category-list-count">45</span>
                         </li>
                         
                         <li class="category-list-item">
+                            <a class="category-list-link" href="2011-fall">2011-fall</a>
+                            <span class="category-list-count">44</span>
+                        </li>
+                        
+                        <li class="category-list-item">
                             <a class="category-list-link" href="2007-spring">2007-spring</a>
-                            <span class="category-list-count">43</span>
+                            <span class="category-list-count">42</span>
                         </li>
                         
                         <li class="category-list-item">
@@ -235,7 +244,7 @@
                         
                         <li class="category-list-item">
                             <a class="category-list-link" href="2011-spring">2011-spring</a>
-                            <span class="category-list-count">39</span>
+                            <span class="category-list-count">37</span>
                         </li>
                         
                         <li class="category-list-item">
@@ -254,18 +263,13 @@
                         </li>
                         
                         <li class="category-list-item">
-                            <a class="category-list-link" href="2007-fall">2007-fall</a>
-                            <span class="category-list-count">30</span>
-                        </li>
-                        
-                        <li class="category-list-item">
                             <a class="category-list-link" href="2009-fall">2009-fall</a>
                             <span class="category-list-count">30</span>
                         </li>
                         
                         <li class="category-list-item">
-                            <a class="category-list-link" href="2010-fall">2010-fall</a>
-                            <span class="category-list-count">27</span>
+                            <a class="category-list-link" href="2007-fall">2007-fall</a>
+                            <span class="category-list-count">29</span>
                         </li>
                         
                         <li class="category-list-item">
@@ -284,7 +288,7 @@
                         </li>
                         
                         <li class="category-list-item">
-                            <a class="category-list-link" href="2008-winter">2008-winter</a>
+                            <a class="category-list-link" href="2010-fall">2010-fall</a>
                             <span class="category-list-count">26</span>
                         </li>
                         
@@ -299,8 +303,13 @@
                         </li>
                         
                         <li class="category-list-item">
-                            <a class="category-list-link" href="2010-spring">2010-spring</a>
+                            <a class="category-list-link" href="2008-winter">2008-winter</a>
                             <span class="category-list-count">25</span>
+                        </li>
+                        
+                        <li class="category-list-item">
+                            <a class="category-list-link" href="2010-spring">2010-spring</a>
+                            <span class="category-list-count">24</span>
                         </li>
                         
                         <li class="category-list-item">
@@ -544,11 +553,6 @@
                         </li>
                         
                         <li class="category-list-item">
-                            <a class="category-list-link" href="gintama">gintama</a>
-                            <span class="category-list-count">4</span>
-                        </li>
-                        
-                        <li class="category-list-item">
                             <a class="category-list-link" href="%E3%83%80%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%A4%E3%83%B3%E3%82%B6%E3%83%95%E3%83%A9%E3%83%B3%E3%82%AD%E3%82%B9">ダーリンインザフランキス</a>
                             <span class="category-list-count">4</span>
                         </li>
@@ -594,7 +598,7 @@
                         </li>
                         
                         <li class="category-list-item">
-                            <a class="category-list-link" href="dog-days">dog-days</a>
+                            <a class="category-list-link" href="gintama">gintama</a>
                             <span class="category-list-count">3</span>
                         </li>
                         
@@ -609,17 +613,7 @@
                         </li>
                         
                         <li class="category-list-item">
-                            <a class="category-list-link" href="shinryaku-ika-musume">shinryaku-ika-musume</a>
-                            <span class="category-list-count">3</span>
-                        </li>
-                        
-                        <li class="category-list-item">
                             <a class="category-list-link" href="shirobako">shirobako</a>
-                            <span class="category-list-count">3</span>
-                        </li>
-                        
-                        <li class="category-list-item">
-                            <a class="category-list-link" href="working">working</a>
                             <span class="category-list-count">3</span>
                         </li>
                         
@@ -749,11 +743,6 @@
                         </li>
                         
                         <li class="category-list-item">
-                            <a class="category-list-link" href="gochuumon-wa-usagi-desu-ka">gochuumon-wa-usagi-desu-ka</a>
-                            <span class="category-list-count">2</span>
-                        </li>
-                        
-                        <li class="category-list-item">
                             <a class="category-list-link" href="golden-time">golden-time</a>
                             <span class="category-list-count">2</span>
                         </li>
@@ -770,11 +759,6 @@
                         
                         <li class="category-list-item">
                             <a class="category-list-link" href="gunslinger-girl">gunslinger-girl</a>
-                            <span class="category-list-count">2</span>
-                        </li>
-                        
-                        <li class="category-list-item">
-                            <a class="category-list-link" href="hayate-no-gotoku">hayate-no-gotoku</a>
                             <span class="category-list-count">2</span>
                         </li>
                         
@@ -845,11 +829,6 @@
                         
                         <li class="category-list-item">
                             <a class="category-list-link" href="orange">orange</a>
-                            <span class="category-list-count">2</span>
-                        </li>
-                        
-                        <li class="category-list-item">
-                            <a class="category-list-link" href="ore-no-imouto-ga-konnani-kawaii-wake-ga-nai">ore-no-imouto-ga-konnani-kawaii-wake-ga-nai</a>
                             <span class="category-list-count">2</span>
                         </li>
                         
@@ -2484,6 +2463,11 @@
                         </li>
                         
                         <li class="category-list-item">
+                            <a class="category-list-link" href="dog-days">dog-days</a>
+                            <span class="category-list-count">1</span>
+                        </li>
+                        
+                        <li class="category-list-item">
                             <a class="category-list-link" href="donten-ni-warau">donten-ni-warau</a>
                             <span class="category-list-count">1</span>
                         </li>
@@ -3069,6 +3053,11 @@
                         </li>
                         
                         <li class="category-list-item">
+                            <a class="category-list-link" href="gochuumon-wa-usagi-desu-ka">gochuumon-wa-usagi-desu-ka</a>
+                            <span class="category-list-count">1</span>
+                        </li>
+                        
+                        <li class="category-list-item">
                             <a class="category-list-link" href="god-eater">god-eater</a>
                             <span class="category-list-count">1</span>
                         </li>
@@ -3345,6 +3334,11 @@
                         
                         <li class="category-list-item">
                             <a class="category-list-link" href="haven#039t-you-heard-i%23039m-sakamoto">haven#039t-you-heard-i#039m-sakamoto</a>
+                            <span class="category-list-count">1</span>
+                        </li>
+                        
+                        <li class="category-list-item">
+                            <a class="category-list-link" href="hayate-no-gotoku">hayate-no-gotoku</a>
                             <span class="category-list-count">1</span>
                         </li>
                         
@@ -5684,6 +5678,11 @@
                         </li>
                         
                         <li class="category-list-item">
+                            <a class="category-list-link" href="ore-no-imouto-ga-konnani-kawaii-wake-ga-nai">ore-no-imouto-ga-konnani-kawaii-wake-ga-nai</a>
+                            <span class="category-list-count">1</span>
+                        </li>
+                        
+                        <li class="category-list-item">
                             <a class="category-list-link" href="ore-no-kanojo-to-osananajimi-ga-shuraba-sugiru">ore-no-kanojo-to-osananajimi-ga-shuraba-sugiru</a>
                             <span class="category-list-count">1</span>
                         </li>
@@ -6735,6 +6734,11 @@
                         
                         <li class="category-list-item">
                             <a class="category-list-link" href="shinreigari-ghost-hound">shinreigari-ghost-hound</a>
+                            <span class="category-list-count">1</span>
+                        </li>
+                        
+                        <li class="category-list-item">
+                            <a class="category-list-link" href="shinryaku-ika-musume">shinryaku-ika-musume</a>
                             <span class="category-list-count">1</span>
                         </li>
                         
@@ -7805,6 +7809,11 @@
                         
                         <li class="category-list-item">
                             <a class="category-list-link" href="wooser-no-sono-higurashi-mugen-hen">wooser-no-sono-higurashi-mugen-hen</a>
+                            <span class="category-list-count">1</span>
+                        </li>
+                        
+                        <li class="category-list-item">
+                            <a class="category-list-link" href="working">working</a>
                             <span class="category-list-count">1</span>
                         </li>
                         
@@ -10105,7 +10114,7 @@
                 <a class="category-list-link" href="https://anime.syui.cf/categories/myanimelist">
             		<li class="category-list-item">
             		        myanimelist
-            		    <span class="category-list-count">1249</span>
+            		    <span class="category-list-count">1239</span>
             		</li>
                 </a>
             
@@ -10561,21 +10570,21 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2007-fall">
             			<li class="category-list-item">
             			        2007-fall
-            			    <span class="category-list-count">30</span>
+            			    <span class="category-list-count">29</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2007-spring">
             			<li class="category-list-item">
             			        2007-spring
-            			    <span class="category-list-count">43</span>
+            			    <span class="category-list-count">42</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2007-summer">
             			<li class="category-list-item">
             			        2007-summer
-            			    <span class="category-list-count">47</span>
+            			    <span class="category-list-count">46</span>
             			</li>
                 	</a>
             	
@@ -10610,7 +10619,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2008-winter">
             			<li class="category-list-item">
             			        2008-winter
-            			    <span class="category-list-count">26</span>
+            			    <span class="category-list-count">25</span>
             			</li>
                 	</a>
             	
@@ -10645,14 +10654,14 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2010-fall">
             			<li class="category-list-item">
             			        2010-fall
-            			    <span class="category-list-count">27</span>
+            			    <span class="category-list-count">26</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2010-spring">
             			<li class="category-list-item">
             			        2010-spring
-            			    <span class="category-list-count">25</span>
+            			    <span class="category-list-count">24</span>
             			</li>
                 	</a>
             	
@@ -10673,21 +10682,21 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2011-fall">
             			<li class="category-list-item">
             			        2011-fall
-            			    <span class="category-list-count">47</span>
+            			    <span class="category-list-count">44</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2011-spring">
             			<li class="category-list-item">
             			        2011-spring
-            			    <span class="category-list-count">39</span>
+            			    <span class="category-list-count">37</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2011-summer">
             			<li class="category-list-item">
             			        2011-summer
-            			    <span class="category-list-count">52</span>
+            			    <span class="category-list-count">51</span>
             			</li>
                 	</a>
             	
@@ -10715,14 +10724,14 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2012-summer">
             			<li class="category-list-item">
             			        2012-summer
-            			    <span class="category-list-count">63</span>
+            			    <span class="category-list-count">61</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2012-winter">
             			<li class="category-list-item">
             			        2012-winter
-            			    <span class="category-list-count">56</span>
+            			    <span class="category-list-count">55</span>
             			</li>
                 	</a>
             	
@@ -10764,7 +10773,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2014-spring">
             			<li class="category-list-item">
             			        2014-spring
-            			    <span class="category-list-count">62</span>
+            			    <span class="category-list-count">61</span>
             			</li>
                 	</a>
             	
@@ -12941,7 +12950,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/dog-days">
             			<li class="category-list-item">
             			        dog-days
-            			    <span class="category-list-count">3</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -13697,7 +13706,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/gintama">
             			<li class="category-list-item">
             			        gintama
-            			    <span class="category-list-count">4</span>
+            			    <span class="category-list-count">3</span>
             			</li>
                 	</a>
             	
@@ -13802,7 +13811,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/gochuumon-wa-usagi-desu-ka">
             			<li class="category-list-item">
             			        gochuumon-wa-usagi-desu-ka
-            			    <span class="category-list-count">2</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -14229,7 +14238,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/hayate-no-gotoku">
             			<li class="category-list-item">
             			        hayate-no-gotoku
-            			    <span class="category-list-count">2</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -17603,7 +17612,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai">
             			<li class="category-list-item">
             			        ore-no-imouto-ga-konnani-kawaii-wake-ga-nai
-            			    <span class="category-list-count">2</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -19136,7 +19145,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/shinryaku-ika-musume">
             			<li class="category-list-item">
             			        shinryaku-ika-musume
-            			    <span class="category-list-count">3</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -20711,7 +20720,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/working">
             			<li class="category-list-item">
             			        working
-            			    <span class="category-list-count">3</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	

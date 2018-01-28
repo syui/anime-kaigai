@@ -856,3 +856,13 @@ span.reddit-comment {
 	text-decoration: none;
 	background: #31708f1f;
 }
+
+a span.article-header-categories-button {
+	color: #fff;
+}
+
+span.article-header-categories-button {
+	background-color: #337ab7;
+	padding: 2px 6px;
+	margin: 2px;
+}

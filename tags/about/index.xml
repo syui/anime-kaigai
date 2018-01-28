@@ -18,10 +18,13 @@
       <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://anime.syui.cf/about/about/</guid>
-      <description> 自己紹介 syuiと言います。よろしくお願いします。
+      <description> 自己紹介 syuiと言います。よろしくお願いします。連絡はSNSにてお願いします。
 @syui@syui.cf
 メンテナンス情報  lunr.jsとgrunt.jsで作成している検索フォームですが、現在、日本語入力の検索ができません。また、contentを含めるとすごく遅くなるのでcontentは消しています。したがって、記事内部のキーワードによる検索は不可能で、タイトルやタグ一致のみの検索となっております。
  このサイトは、hugoで構築しているのですが、そのうちタグなどを記事内に明記する予定です。
+ コメントにm2w/talariaを採用しています。テスト中です。
+  その他  このサイトは自動更新されています。一部の記事にGoogle翻訳を使用します。
+ 翻訳の修正などはsyui/anime-kaigaiにて協力してもらえると助かります。近々、編集プログラムのサンプルを公開する予定です。
   </description>
     </item>
     

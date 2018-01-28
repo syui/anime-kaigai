@@ -43,12 +43,15 @@
 		<link rel="feed" type="application/rss+xml" title="アニメ海外反応" href="https://anime.syui.cf/index.xml" />
 		<link rel="stylesheet" href="/bower_components/bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="/bower_components/icomoon/css/icomoon.css" />
+    		<link rel="stylesheet" href="/bower_components/talaria/dist/talaria.css" />   
 		<link rel="stylesheet" href="/css/style.css" />
 		<link rel="stylesheet" href="/css/mobile.css" />
 		<link rel="stylesheet" href="/css/origin.css">
 		<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+		
 		<script type="text/javascript" src="/js/search.js"></script>
 		<script type="text/javascript" src="/bower_components/lunr.js/lunr.min.js"></script>
+		
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73617006-12"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -56,7 +59,11 @@
 			gtag('js', new Date());
 			gtag('config', 'UA-73617006-12');
 		</script>
-
+		
+		<script src="/bower_components/async/dist/async.min.js"></script>
+		<script src="/bower_components/bluebird/js/browser/bluebird.js"></script>
+		<script src="/bower_components/talaria/dist/talaria.js"></script>
+		
 		<script type="application/ld+json">
 			{
 				"@context": "http://schema.org",
@@ -69,8 +76,10 @@
 					}
 			}
 		</script>
+
 		
 		
+
 	</head>
 	<body>
  <header id="header">
@@ -132,14 +141,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-43/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-43/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-43/">UN-GO</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-43/">UN-GO</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -155,14 +164,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-385/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-385/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-385/">WHITE ALBUM</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-385/">WHITE ALBUM</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -178,14 +187,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-234/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-234/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-234/">ZETMAN</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-234/">ZETMAN</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -201,14 +210,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-81/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-81/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-81/">orange</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-81/">orange</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -224,14 +233,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-25/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-25/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-25/">あずまんが大王</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-25/">あずまんが大王</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -247,14 +256,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-30/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-30/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-30/">あの夏で待ってる</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-30/">あの夏で待ってる</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -270,14 +279,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-31/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-31/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-31/">あの日見た花の名前を僕達はまだ知らない</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-31/">あの日見た花の名前を僕達はまだ知らない</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -293,14 +302,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-45/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-45/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-45/">あんハピ♪</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-45/">あんハピ♪</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -316,14 +325,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-51/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-51/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-51/">いなり、こんこん、恋いろは。</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-51/">いなり、こんこん、恋いろは。</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -339,14 +348,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-57/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-57/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-57/">うたの☆プリンスさまっ♪</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-57/">うたの☆プリンスさまっ♪</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -362,14 +371,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-58/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-58/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-58/">うたわれるもの</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-58/">うたわれるもの</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -385,14 +394,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-62/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-62/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-62/">うぽって</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-62/">うぽって</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -408,14 +417,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-72/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-72/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-72/">おしえて！ ギャル子ちゃん</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-72/">おしえて！ ギャル子ちゃん</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -431,14 +440,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-73/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-73/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-73/">おじさんとマシュマロ</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-73/">おじさんとマシュマロ</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -454,14 +463,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-0/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-0/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-0/">おそ松さん</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-0/">おそ松さん</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -477,14 +486,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-75/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-75/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-75/">おとめ妖怪ざくろ</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-75/">おとめ妖怪ざくろ</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -500,14 +509,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-90/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-90/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-90/">がっこうぐらし！</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-90/">がっこうぐらし！</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -523,14 +532,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-163/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-163/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-163/">この美術部には問題がある！</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-163/">この美術部には問題がある！</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -546,14 +555,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-175/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-175/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-175/">さくら荘のペットな彼女</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-175/">さくら荘のペットな彼女</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -569,14 +578,14 @@
         <div class="archive-article-thumbnail">
 
             
-            <a href="https://anime.syui.cf/anime-kaigai-177/" class="thumbnail">
+            <a href="https://anime.syui.cf/2018/01/07/anime-kaigai-177/" class="thumbnail">
                 <span class="thumbnail-image thumbnail-none"></span>
             </a>
             
         </div>
         <header class="archive-article-header">
             <h1 itemprop="name">
-            <a class="archive-article-title" href="https://anime.syui.cf/anime-kaigai-177/">ささみさん＠がんばらない</a>
+            <a class="archive-article-title" href="https://anime.syui.cf/2018/01/07/anime-kaigai-177/">ささみさん＠がんばらない</a>
             </h1>
             <div class="archive-article-date">
                 <time datetime="2018-01-07 00:00:00 &#43;0900 JST" itemprop="datePublished">2018-01-07</time>
@@ -657,7 +666,7 @@
                 <a class="category-list-link" href="https://anime.syui.cf/categories/myanimelist">
             		<li class="category-list-item">
             		        myanimelist
-            		    <span class="category-list-count">1249</span>
+            		    <span class="category-list-count">1239</span>
             		</li>
                 </a>
             
@@ -1113,21 +1122,21 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2007-fall">
             			<li class="category-list-item">
             			        2007-fall
-            			    <span class="category-list-count">30</span>
+            			    <span class="category-list-count">29</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2007-spring">
             			<li class="category-list-item">
             			        2007-spring
-            			    <span class="category-list-count">43</span>
+            			    <span class="category-list-count">42</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2007-summer">
             			<li class="category-list-item">
             			        2007-summer
-            			    <span class="category-list-count">47</span>
+            			    <span class="category-list-count">46</span>
             			</li>
                 	</a>
             	
@@ -1162,7 +1171,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2008-winter">
             			<li class="category-list-item">
             			        2008-winter
-            			    <span class="category-list-count">26</span>
+            			    <span class="category-list-count">25</span>
             			</li>
                 	</a>
             	
@@ -1197,14 +1206,14 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2010-fall">
             			<li class="category-list-item">
             			        2010-fall
-            			    <span class="category-list-count">27</span>
+            			    <span class="category-list-count">26</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2010-spring">
             			<li class="category-list-item">
             			        2010-spring
-            			    <span class="category-list-count">25</span>
+            			    <span class="category-list-count">24</span>
             			</li>
                 	</a>
             	
@@ -1225,21 +1234,21 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2011-fall">
             			<li class="category-list-item">
             			        2011-fall
-            			    <span class="category-list-count">47</span>
+            			    <span class="category-list-count">44</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2011-spring">
             			<li class="category-list-item">
             			        2011-spring
-            			    <span class="category-list-count">39</span>
+            			    <span class="category-list-count">37</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2011-summer">
             			<li class="category-list-item">
             			        2011-summer
-            			    <span class="category-list-count">52</span>
+            			    <span class="category-list-count">51</span>
             			</li>
                 	</a>
             	
@@ -1267,14 +1276,14 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2012-summer">
             			<li class="category-list-item">
             			        2012-summer
-            			    <span class="category-list-count">63</span>
+            			    <span class="category-list-count">61</span>
             			</li>
                 	</a>
             	
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2012-winter">
             			<li class="category-list-item">
             			        2012-winter
-            			    <span class="category-list-count">56</span>
+            			    <span class="category-list-count">55</span>
             			</li>
                 	</a>
             	
@@ -1316,7 +1325,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/2014-spring">
             			<li class="category-list-item">
             			        2014-spring
-            			    <span class="category-list-count">62</span>
+            			    <span class="category-list-count">61</span>
             			</li>
                 	</a>
             	
@@ -3493,7 +3502,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/dog-days">
             			<li class="category-list-item">
             			        dog-days
-            			    <span class="category-list-count">3</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -4249,7 +4258,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/gintama">
             			<li class="category-list-item">
             			        gintama
-            			    <span class="category-list-count">4</span>
+            			    <span class="category-list-count">3</span>
             			</li>
                 	</a>
             	
@@ -4354,7 +4363,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/gochuumon-wa-usagi-desu-ka">
             			<li class="category-list-item">
             			        gochuumon-wa-usagi-desu-ka
-            			    <span class="category-list-count">2</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -4781,7 +4790,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/hayate-no-gotoku">
             			<li class="category-list-item">
             			        hayate-no-gotoku
-            			    <span class="category-list-count">2</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -8155,7 +8164,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/ore-no-imouto-ga-konnani-kawaii-wake-ga-nai">
             			<li class="category-list-item">
             			        ore-no-imouto-ga-konnani-kawaii-wake-ga-nai
-            			    <span class="category-list-count">2</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -9688,7 +9697,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/shinryaku-ika-musume">
             			<li class="category-list-item">
             			        shinryaku-ika-musume
-            			    <span class="category-list-count">3</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	
@@ -11263,7 +11272,7 @@
                 	<a class="category-list-link" href="https://anime.syui.cf/tags/working">
             			<li class="category-list-item">
             			        working
-            			    <span class="category-list-count">3</span>
+            			    <span class="category-list-count">1</span>
             			</li>
                 	</a>
             	

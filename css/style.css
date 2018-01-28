@@ -866,3 +866,7 @@ span.article-header-categories-button {
 	padding: 2px 6px;
 	margin: 2px;
 }
+
+.article-header-categories {
+	margin: 3px;
+}

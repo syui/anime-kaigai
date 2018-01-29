@@ -11,7 +11,7 @@ var talaria = (function (P) {
             CONTENT_SUFFIX: '.md',
             CACHE_TIMEOUT: 60 * 60 * 1000, // cache github data for 1 hour
             PAGINATION_SCHEME: /\/post\d+\//,
-            LOCAL_STORAGE_SUPPORTED: false,
+            LOCAL_STORAGE_SUPPORTED: true,
             PERMALINK_IDENTIFIER: 'a.permalink',
             PERMALINK_STYLE: /[\.\w\-_:\/]+\/(\d+)\/(\d+)\/(\d+)\/([\w\-\.]+)$/
         };

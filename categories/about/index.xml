@@ -2,15 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on アニメ海外反応</title>
-    <link>https://anime.syui.cf/categories/about/</link>
+    <link>https://anime.syui.cf/categories/about/index.xml</link>
     <description>Recent content in About on アニメ海外反応</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [term](https://gitlab.com/syui/hugo-theme-term).</copyright>
-    <lastBuildDate>Sun, 07 Jan 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://anime.syui.cf/categories/about/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://anime.syui.cf/categories/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>about</title>
@@ -18,14 +15,32 @@
       <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://anime.syui.cf/about/about/</guid>
-      <description> 自己紹介 syuiと言います。よろしくお願いします。連絡はSNSにてお願いします。
-@syui@syui.cf
-メンテナンス情報  lunr.jsとgrunt.jsで作成している検索フォームですが、現在、日本語入力の検索ができません。また、contentを含めるとすごく遅くなるのでcontentは消しています。したがって、記事内部のキーワードによる検索は不可能で、タイトルやタグ一致のみの検索となっております。
- このサイトは、hugoで構築しているのですが、そのうちタグなどを記事内に明記する予定です。
- コメントにm2w/talariaを採用しています。テスト中です。
-  その他  このサイトは自動更新されています。一部の記事にGoogle翻訳を使用します。
- 翻訳の修正などはsyui/anime-kaigaiにて協力してもらえると助かります。近々、編集プログラムのサンプルを公開する予定です。
-  </description>
+      <description>
+
+&lt;h2 id=&#34;自己紹介&#34;&gt;自己紹介&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;syui&lt;/code&gt;と言います。よろしくお願いします。連絡はSNSにてお願いします。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mstdn.syui.cf&#34;&gt;@syui@syui.cf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;メンテナンス情報&#34;&gt;メンテナンス情報&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;lunr.jsとgrunt.jsで作成している検索フォームですが、現在、日本語入力の検索ができません。また、&lt;code&gt;content&lt;/code&gt;を含めるとすごく遅くなるので&lt;code&gt;content&lt;/code&gt;は消しています。したがって、記事内部のキーワードによる検索は不可能で、タイトルやタグ一致のみの検索となっております。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;このサイトは、hugoで構築しているのですが、そのうちタグなどを記事内に明記する予定です。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;コメントに&lt;a href=&#34;https://github.com/m2w/talaria&#34;&gt;m2w/talaria&lt;/a&gt;を採用しています。テスト中です。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;その他&#34;&gt;その他&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;このサイトは自動更新されています。一部の記事にGoogle翻訳を使用します。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;翻訳の修正などは&lt;a href=&#34;https://github.com/syui/anime-kaigai&#34;&gt;syui/anime-kaigai&lt;/a&gt;にて協力してもらえると助かります。近々、編集プログラムのサンプルを公開する予定です。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

@@ -9815,13 +9815,13 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/categories/about/</loc>
+    <loc>https://anime.syui.cf/tags/about/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/about/</loc>
+    <loc>https://anime.syui.cf/categories/about/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -15620,13 +15620,13 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/categories/new/</loc>
+    <loc>https://anime.syui.cf/tags/new/</loc>
     <lastmod>2018-02-05T00:01:01+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/new/</loc>
+    <loc>https://anime.syui.cf/categories/new/</loc>
     <lastmod>2018-02-05T00:01:01+09:00</lastmod>
     <priority>0</priority>
   </url>

@@ -3,7 +3,42 @@
   
   <url>
     <loc>https://anime.syui.cf/new/new/</loc>
-    <lastmod>2018-02-13T08:00:23+09:00</lastmod>
+    <lastmod>2018-02-13T08:33:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/2018/02/13/spoilers_osomatsusan_2_episode_19_discussion</loc>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/2018/02/13/spoilers_karakai_jouzu_no_takagisan_episode_6</loc>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/2018/02/13/spoilers_ryuuou_no_oshigoto_episode_6_discussion</loc>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/2018/02/13/spoilersrewatch_full_metal_panic_episode_9</loc>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/2018/02/13/macross_rewatch_macross_frontier_episode_12</loc>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/2018/02/13/spoilers_yowamushi_pedal_glory_line_episode_6</loc>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/2018/02/13/spoilersrewatch_fma_brotherhood_episode_12</loc>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
   </url>
   
   <url>
@@ -10105,13 +10140,13 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/categories/about/</loc>
+    <loc>https://anime.syui.cf/tags/about/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/about/</loc>
+    <loc>https://anime.syui.cf/categories/about/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -12347,7 +12382,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/full-metal-panic/</loc>
-    <lastmod>2018-02-12T12:13:28+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12365,7 +12400,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/fullmetal-alchemist-brotherhood/</loc>
-    <lastmod>2018-02-12T12:13:28+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14206,8 +14241,14 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/karakai-jouzu-no-takagi-san---episode-6-discussion/</loc>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/karakai-jozu-no-takagi-san/</loc>
-    <lastmod>2018-02-05T22:56:51+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14993,7 +15034,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/macross-frontier/</loc>
-    <lastmod>2018-02-12T12:13:28+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15042,6 +15083,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/macross-rewatch---macross-frontier---episode-11-discussion-spoilers/</loc>
     <lastmod>2018-02-12T12:13:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/macross-rewatch---macross-frontier---episode-12-discussion-spoilers/</loc>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15815,7 +15862,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/mr/index.-osomatsu-2/</loc>
-    <lastmod>2018-02-05T22:56:51+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16084,14 +16131,14 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/categories/new/</loc>
-    <lastmod>2018-02-13T08:00:23+09:00</lastmod>
+    <loc>https://anime.syui.cf/tags/new/</loc>
+    <lastmod>2018-02-13T08:33:07+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/new/</loc>
-    <lastmod>2018-02-13T08:00:23+09:00</lastmod>
+    <loc>https://anime.syui.cf/categories/new/</loc>
+    <lastmod>2018-02-13T08:33:07+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16125,7 +16172,7 @@
   
   <url>
     <loc>https://anime.syui.cf/new/</loc>
-    <lastmod>2018-02-13T08:00:23+09:00</lastmod>
+    <lastmod>2018-02-13T08:33:07+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -16462,6 +16509,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/osomatsu-san-2---episode-18-discussion/</loc>
     <lastmod>2018-02-05T22:56:51+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/osomatsu-san-2---episode-19-discussion/</loc>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -17019,7 +17072,7 @@
   
   <url>
     <loc>https://anime.syui.cf/categories/reddit/</loc>
-    <lastmod>2018-02-12T12:13:28+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -17194,6 +17247,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/ryuuou-no-oshigoto---episode-5-discussion/</loc>
     <lastmod>2018-02-05T22:56:51+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/ryuuou-no-oshigoto---episode-6-discussion/</loc>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18180,6 +18239,12 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/spoilersrewatch-fma-brotherhood-episode-12-discussion/</loc>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/spoilersrewatch-fma-brotherhood-episode-2-discussion/</loc>
     <lastmod>2018-02-03T00:37:30+09:00</lastmod>
     <priority>0</priority>
@@ -18272,6 +18337,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/spoilersrewatch-full-metal-panic---episode-8-discussion/</loc>
     <lastmod>2018-02-12T12:13:28+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/spoilersrewatch-full-metal-panic---episode-9-discussion/</loc>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18762,7 +18833,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/the-ryuo/</loc>
-    <lastmod>2018-02-05T22:56:51+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -19524,7 +19595,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/yowamushi-pedal-4th-season-yowapeda-4th-season/</loc>
-    <lastmod>2018-02-05T22:56:51+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -19543,6 +19614,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/yowamushi-pedal-glory-line---episode-5-discussion/</loc>
     <lastmod>2018-02-05T22:56:51+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/yowamushi-pedal-glory-line---episode-6-discussion/</loc>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -19842,7 +19919,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%81%8A%E3%81%9D%E6%9D%BE%E3%81%95%E3%82%93-%E7%AC%AC2%E6%9C%9F/</loc>
-    <lastmod>2018-02-05T22:56:51+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -19854,7 +19931,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%81%8B%E3%82%89%E3%81%8B%E3%81%84%E4%B8%8A%E6%89%8B%E3%81%AE%E9%AB%98%E6%9C%A8%E3%81%95%E3%82%93/</loc>
-    <lastmod>2018-02-05T22:56:51+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -20166,7 +20243,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%82%8A%E3%82%85%E3%81%86%E3%81%8A%E3%81%86%E3%81%AE%E3%81%8A%E3%81%97%E3%81%94%E3%81%A8/</loc>
-    <lastmod>2018-02-05T22:56:51+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -20256,7 +20333,7 @@
   
   <url>
     <loc>https://anime.syui.cf/</loc>
-    <lastmod>2018-02-13T08:00:23+09:00</lastmod>
+    <lastmod>2018-02-13T08:33:07+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -20976,7 +21053,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%83%95%E3%83%AB%E3%83%A1%E3%82%BF%E3%83%AB%E3%83%91%E3%83%8B%E3%83%83%E3%82%AF/</loc>
-    <lastmod>2018-02-12T12:13:28+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -21108,7 +21185,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%83%9E%E3%82%AF%E3%83%AD%E3%82%B9%EF%BD%86%E3%83%AD%E3%83%B3%E3%83%86%E3%82%A3%E3%82%A2/</loc>
-    <lastmod>2018-02-12T12:13:28+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -21600,7 +21677,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E5%BC%B1%E8%99%AB%E3%83%9A%E3%83%80%E3%83%AB-glory-line/</loc>
-    <lastmod>2018-02-05T22:56:51+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -22092,7 +22169,7 @@
   
   <url>
     <loc>https://anime.syui.cf/categories/%E7%BF%BB%E8%A8%B3/</loc>
-    <lastmod>2018-02-12T12:13:28+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -22272,7 +22349,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E9%8B%BC%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB-fullmetal-alchemist/</loc>
-    <lastmod>2018-02-12T12:13:28+09:00</lastmod>
+    <lastmod>2018-02-13T08:24:56+09:00</lastmod>
     <priority>0</priority>
   </url>
   

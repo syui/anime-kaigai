@@ -3,7 +3,17 @@
   
   <url>
     <loc>https://anime.syui.cf/new/new/</loc>
-    <lastmod>2018-03-06T12:01:38+09:00</lastmod>
+    <lastmod>2018-03-06T14:01:12+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/2018/03/06/spoilers_fateextra_last_encore_episode_06</loc>
+    <lastmod>2018-03-06T12:06:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/2018/03/06/spoilers_karakai_jouzu_no_takagisan_episode_9</loc>
+    <lastmod>2018-03-06T12:06:06+09:00</lastmod>
   </url>
   
   <url>
@@ -10821,13 +10831,13 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/categories/about/</loc>
+    <loc>https://anime.syui.cf/tags/about/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/about/</loc>
+    <loc>https://anime.syui.cf/categories/about/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -13027,7 +13037,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/fate/extra-last-encore/</loc>
-    <lastmod>2018-02-26T12:11:48+09:00</lastmod>
+    <lastmod>2018-03-06T12:06:06+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -13052,6 +13062,12 @@
   <url>
     <loc>https://anime.syui.cf/tags/fate/extra-last-encore--episode-05-discussion/</loc>
     <lastmod>2018-02-26T12:11:48+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anime.syui.cf/tags/fate/extra-last-encore--episode-06-discussion/</loc>
+    <lastmod>2018-03-06T12:06:06+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -15156,8 +15172,14 @@
   </url>
   
   <url>
+    <loc>https://anime.syui.cf/tags/karakai-jouzu-no-takagi-san---episode-9-discussion/</loc>
+    <lastmod>2018-03-06T12:06:06+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://anime.syui.cf/tags/karakai-jozu-no-takagi-san/</loc>
-    <lastmod>2018-02-27T12:09:34+09:00</lastmod>
+    <lastmod>2018-03-06T12:06:06+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -17184,14 +17206,14 @@
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/categories/new/</loc>
-    <lastmod>2018-03-06T12:01:38+09:00</lastmod>
+    <loc>https://anime.syui.cf/tags/new/</loc>
+    <lastmod>2018-03-06T14:01:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://anime.syui.cf/tags/new/</loc>
-    <lastmod>2018-03-06T12:01:38+09:00</lastmod>
+    <loc>https://anime.syui.cf/categories/new/</loc>
+    <lastmod>2018-03-06T14:01:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -17225,7 +17247,7 @@
   
   <url>
     <loc>https://anime.syui.cf/new/</loc>
-    <lastmod>2018-03-06T12:01:38+09:00</lastmod>
+    <lastmod>2018-03-06T14:01:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -18173,7 +18195,7 @@
   
   <url>
     <loc>https://anime.syui.cf/categories/reddit/</loc>
-    <lastmod>2018-03-05T12:11:44+09:00</lastmod>
+    <lastmod>2018-03-06T12:06:06+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -21386,7 +21408,7 @@
   
   <url>
     <loc>https://anime.syui.cf/tags/%E3%81%8B%E3%82%89%E3%81%8B%E3%81%84%E4%B8%8A%E6%89%8B%E3%81%AE%E9%AB%98%E6%9C%A8%E3%81%95%E3%82%93/</loc>
-    <lastmod>2018-02-27T12:09:34+09:00</lastmod>
+    <lastmod>2018-03-06T12:06:06+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -21788,7 +21810,7 @@
   
   <url>
     <loc>https://anime.syui.cf/</loc>
-    <lastmod>2018-03-06T12:01:38+09:00</lastmod>
+    <lastmod>2018-03-06T14:01:12+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -23636,7 +23658,7 @@
   
   <url>
     <loc>https://anime.syui.cf/categories/%E7%BF%BB%E8%A8%B3/</loc>
-    <lastmod>2018-03-05T12:11:44+09:00</lastmod>
+    <lastmod>2018-03-06T12:06:06+09:00</lastmod>
     <priority>0</priority>
   </url>
   
